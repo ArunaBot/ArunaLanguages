@@ -1,0 +1,3 @@
+files:
+  - source: /bot/br/*.json
+    translation: /bot/%two_letters_code%/%original_file_name%
