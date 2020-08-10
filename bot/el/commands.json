@@ -15,7 +15,9 @@
                 "description2": "Desculpe, mas não consegui efetuar o cálculo. Tente inserir outra conta."
             },
             "sucess": {
-                "title": "Calculadora V2"
+                "title": "Calculadora",
+                "field1": "[emoji] Entrada",
+                "field2": "[emoji] Saida"
             }
         },
         "config": {
