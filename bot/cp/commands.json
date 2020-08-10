@@ -2,22 +2,22 @@
     "avatar": {
         "embed": {
             "title": "[emoji] Atapat pe [user]",
-            "description": "**Ypirue [aqui]([url]) kata taikat a topo.**"
+            "description": "**Ypirue [arui]([url]) kata taikat a topo.**"
         },
         "config": {
-            "description": "Mostra o seu próprio avatar ou de um usuário"
+            "description": "Soypta o yeu ktoktio atapat ou pe us uyuatio"
         }
     },
     "calculator": {
         "embed": {
             "error": {
-                "description1": "Você deve inserir o cálculo a ser feito.",
-                "description2": "Desculpe, mas não consegui efetuar o cálculo. Tente inserir outra conta."
+                "description1": "Toye pete ityetit o yapyupo a yet teipo.",
+                "description2": "Peyyupke, say tão yotyejui etepuat o yápyupo. Petpe ityetit oupta yotpa."
             },
             "sucess": {
-                "title": "Calculadora",
-                "field1": "[emoji] Entrada",
-                "field2": "[emoji] Saida"
+                "title": "Yapyupapota",
+                "field1": "[emoji] Etptapa",
+                "field2": "[emoji] Yaipa"
             }
         },
         "config": {
@@ -28,7 +28,7 @@
         "embed": {
             "error": {
                 "title": "Oops, [username]",
-                "footer": "Algo deu errado, [username]"
+                "footer": "Apjo peu ettapo, [username]"
             }
         }
     }
