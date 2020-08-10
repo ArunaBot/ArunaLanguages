@@ -24,12 +24,29 @@
             "description": "Le permite realizar cálculos complejos de una manera sencilla"
         }
     },
+    "clear": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[manageMessages]`!",
+                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
+                "description3": "Você deve inserir a quantidade de mensagens a ser apagada!",
+                "description4": "Eu só posso apagar entre 2 e 100 mensagens."
+            }
+        },
+        "sucess": {
+            "message1": "Foram deletadas `[messages]` mensagens por [user]",
+            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+        }
+    },
     "generic": {
         "embed": {
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Algo salió mal, [username]"
             }
+        },
+        "permissions": {
+            "manageMessages": "Gerenciar Mensagens"
         }
     }
 }
