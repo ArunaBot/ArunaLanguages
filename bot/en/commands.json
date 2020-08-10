@@ -34,11 +34,11 @@
             }
         },
         "sucess": {
-            "message1": "Foram deletadas `[messages]` mensagens por [user]",
-            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+            "message1": "Was deleted `[messages]` messages by [user]",
+            "message2": "[user] deleted only `[messages]` messages of `[request] requests` for not existing or being older than 2 weeks."
         },
         "config": {
-            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+            "description": "Allows you to delete massively until 100 messages with equal or less than 2 weeks of age"
         }
     },
     "generic": {
@@ -49,7 +49,7 @@
             }
         },
         "permissions": {
-            "manageMessages": "Gerenciar Mensagens"
+            "manageMessages": "Manage Messages"
         }
     }
 }
