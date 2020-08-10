@@ -4,6 +4,12 @@
         "linkError": "I need the `Send Links` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
         "dmError": "Sorry, but I can't send direct messages yet :("
     },
+    "main": {
+        "error": "ERRO",
+        "event": "EVENTO",
+        "command": "COMANDO",
+        "commands": "COMANDOS"
+    },
     "shard": {
         "launch": "[shard] Were initialized",
         "exit": "A process was forced to close.",
