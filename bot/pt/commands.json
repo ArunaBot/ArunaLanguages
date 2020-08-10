@@ -2,10 +2,10 @@
     "avatar": {
         "embed": {
             "title": "[emoji] Avatar de [user]",
-            "description": "**Clique [aqui]([url]) para baixar a fotografia.**"
+            "description": "**Clique [aqui]([url]) para descarregar a fotografia.**"
         },
         "config": {
-            "description": "Mostra o seu próprio avatar ou de um usuário"
+            "description": "Mostra o seu próprio avatar ou de um utilizador"
         }
     },
     "calculator": {
@@ -27,7 +27,7 @@
     "generic": {
         "embed": {
             "error": {
-                "title": "Oops, [username]",
+                "title": "Ups, [username]",
                 "footer": "Algo deu errado, [username]"
             }
         }
