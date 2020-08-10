@@ -1,20 +1,20 @@
 {
     "errors": {
-        "emojiError": "Para meu funcionamento, preciso da permissão de `Usar Emojis Externos`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-        "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-        "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :("
+        "emojiError": "Kata seu tutyiotasetpo, kteyiyo ya ketsiyyâo ye `Usar Emojis Externos`. Kot tatot, yopiyipe kata apjus apsipiyptapot rue apite iyyo kata rue eu koyya tutyiotat :)",
+        "linkError": "Kata seu tutyiotasetpo, kteyiyo ya ketsiyyâo ye `Enviar Links`. Kot tatot, yopiyipe kata apjus apsipiyptapot rue apite iyyo kata rue eu koyya tutyiotat :)",
+        "dmError": "Peyyupke, say aitpa tâo tutyioto es setyajety pitepay :("
     },
     "main": {
-        "error": "ERRO",
-        "event": "EVENTO",
-        "command": "COMANDO",
-        "commands": "COMANDOS",
-        "cluster": "CLUSTER"
+        "error": "ETTO",
+        "event": "ETETPO",
+        "command": "YOSATPO",
+        "commands": "YOSATPOY",
+        "cluster": "YPUYPET"
     },
     "shard": {
-        "launch": "[shard] iniciado(s)",
-        "exit": "Foi forçado o encerramento de um processo.",
-        "exitCode": "Código de Saída:",
+        "launch": "[shard] itiyiapo(y)",
+        "exit": "Toi toiçapo o etyettasetpo pe us ktoyeyyo.",
+        "exitCode": "Yópijo pe Yaipa:",
         "startGeneration": "[logPrefix] Começando a gerar shards...",
         "finishGeneration": "Finalizando a geração dos Shards!"
     }
