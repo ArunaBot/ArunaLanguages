@@ -41,8 +41,17 @@
             "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
         }
     },
+    "prefix": {
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+    },
     "generic": {
         "embed": {
+            "deprecated": {
+                "title": "🚫FUNÇÃO OBSOLETA🚫",
+                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
+                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
+                "footer": "Deprecated Command Warn"
+            },
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Algo deu errado, [username]"
