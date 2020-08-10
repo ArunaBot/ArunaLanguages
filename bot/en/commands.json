@@ -7,5 +7,13 @@
         "config": {
             "description": "Show your own or another user's avatar"
         }
+    },
+    "generic": {
+        "embed": {
+            "error": {
+                "title": "Oops, [username]",
+                "footer": "Algo deu errado, [username]"
+            }
+        }
     }
 }
