@@ -1,11 +1,11 @@
 {
     "avatar": {
         "embed": {
-            "title": "[emoji]Avatar de [user]",
+            "title": "[emoji] Avatar de [user]",
             "description": "**Clique [aqui]([url]) para baixar a foto.**"
         },
         "config": {
-            "description": "Mostra o avatar próprio ou de um usuário"
+            "description": "Mostra o seu próprio avatar ou de um usuário"
         }
     }
 }
