@@ -2,7 +2,7 @@
     "avatar": {
         "embed": {
             "title": "[emoji] Avatar de [user]",
-            "description": "**Hace click [aquí]([url]) para descargar a fotografía"
+            "description": "**Hace click [aquí]([url]) para descargar a fotografía**"
         },
         "config": {
             "description": "Muestra tu próprio avatar o de uno usuario"
