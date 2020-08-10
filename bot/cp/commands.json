@@ -35,7 +35,7 @@
         },
         "sucess": {
             "message1": "Totas pepepapay `[messages]` setyajety kot [user]",
-            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+            "message2": "[user] pepepou aketay `[messages]` setyajety pay `[request] teruiyipapay` kot tão ekiypites ou yetes atpetiotey a 2 yesatay."
         },
         "config": {
             "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
