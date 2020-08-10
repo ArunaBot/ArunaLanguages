@@ -48,7 +48,7 @@
         "embed": {
             "deprecated": {
                 "title": "🚫OBSOLETE FUNCTION🚫",
-                "description1": "**WARNING? THIS IS AN OLD FUNCTION AND IT WILL BE REMOVED SOON.**",
+                "description1": "**WARNING: THIS IS AN OLD FUNCTION AND IT WILL BE REMOVED SOON.**",
                 "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
                 "footer": "Obsolete Command Warning"
             },
@@ -58,9 +58,9 @@
             }
         },
         "permissions": {
-            "embedLinks": "Enviar Links",
+            "embedLinks": "Send Links",
             "manageMessages": "Manage Messages",
-            "useExternalEmojis": "Usar Emojis Externos"
+            "useExternalEmojis": "Use External Emojis"
         }
     }
 }
