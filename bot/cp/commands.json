@@ -58,7 +58,9 @@
             }
         },
         "permissions": {
-            "manageMessages": "Jetetyiat Setyajety"
+            "embedLinks": "Enviar Links",
+            "manageMessages": "Jetetyiat Setyajety",
+            "useExternalEmojis": "Usar Emojis Externos"
         }
     }
 }
