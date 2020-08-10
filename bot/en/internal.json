@@ -1,14 +1,14 @@
 {
     "errors": {
-        "emojiError": "Para meu funcionamento, preciso da permissão de `Usar Emojis Externos`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-        "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-        "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :("
+        "emojiError": "I need the `Use External Emojis` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
+        "linkError": "I need the `Send Links` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
+        "dmError": "Sorry, but I can't send direct messages yet :("
     },
     "shard": {
-        "launch": "[shard] iniciado(s)",
-        "exit": "Foi forçado o encerramento de um processo.",
-        "exitCode": "Código de Saída:",
-        "startGeneration": "[logPrefix] Começando a gerar shards...",
-        "finishGeneration": "Finalizando a geração dos Shards!"
+        "launch": "[shard] Were initiated",
+        "exit": "A process was forced to close.",
+        "exitCode": "Exit Code:",
+        "startGeneration": "[logPrefix] Beginning to generate shards...",
+        "finishGeneration": "Finalizing the generation of Shards!"
     }
 }
