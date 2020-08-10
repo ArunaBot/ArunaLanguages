@@ -50,7 +50,7 @@
                 "title": "🚫FUNÇÃO OBSOLETA🚫",
                 "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
                 "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
-                "footer": "Deprecated Command Warn"
+                "footer": "Aviso de Comando Obsoleto"
             },
             "error": {
                 "title": "Oops, [username]",
