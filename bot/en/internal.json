@@ -5,10 +5,10 @@
         "dmError": "Sorry, but I can't send direct messages yet :("
     },
     "main": {
-        "error": "ERRO",
-        "event": "EVENTO",
-        "command": "COMANDO",
-        "commands": "COMANDOS",
+        "error": "ERROR",
+        "event": "EVENT",
+        "command": "COMMAND",
+        "commands": "COMMANDS",
         "cluster": "CLUSTER"
     },
     "shard": {
