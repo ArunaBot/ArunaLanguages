@@ -4,6 +4,12 @@
         "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
         "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :("
     },
+    "main": {
+        "error": "ERRO",
+        "event": "EVENTO",
+        "command": "COMANDO",
+        "commands": "COMANDOS"
+    },
     "shard": {
         "launch": "[shard] iniciado(s)",
         "exit": "Foi forçado o encerramento de um processo.",
