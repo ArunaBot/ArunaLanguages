@@ -1,0 +1,35 @@
+{
+    "avatar": {
+        "embed": {
+            "title": "[emoji] Avatar de [user]",
+            "description": "**Clique [aqui]([url]) para baixar a foto.**"
+        },
+        "config": {
+            "description": "Mostra o seu próprio avatar ou de um usuário"
+        }
+    },
+    "calculator": {
+        "embed": {
+            "error": {
+                "description1": "Você deve inserir o cálculo a ser feito.",
+                "description2": "Desculpe, mas não consegui efetuar o cálculo. Tente inserir outra conta."
+            },
+            "sucess": {
+                "title": "Calculadora",
+                "field1": "[emoji] Entrada",
+                "field2": "[emoji] Saida"
+            }
+        },
+        "config": {
+            "description": "Permite efetuar cálculos complexos de maneira simples"
+        }
+    },
+    "generic": {
+        "embed": {
+            "error": {
+                "title": "Oops, [username]",
+                "footer": "Algo deu errado, [username]"
+            }
+        }
+    }
+}
