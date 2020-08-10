@@ -58,7 +58,9 @@
             }
         },
         "permissions": {
-            "manageMessages": "Gerenciar Mensagens"
+            "embedLinks": "Enviar Links",
+            "manageMessages": "Gerenciar Mensagens",
+            "useExternalEmojis": "Usar Emojis Externos"
         }
     }
 }
