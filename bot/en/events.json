@@ -1,5 +1,18 @@
 {
     "message": {
-        "commandNotFound": "Oops, I couldn't find the command `[command]`. Did you mean something like `[alt]`?"
+        "errors": {
+            "emojiError": "I need the `Use External Emojis` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
+            "linkError": "I need the `Send Links` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
+            "dmError": "Sorry, but I can't send direct messages yet :(",
+            "commandNotFound": "Oops, não encontrei o comando `[command]`. Você quis dizer algo como `[alt]`?"
+        },
+        "mention": {
+            "line1": "Ah, olá [username], como está? Eu sou a [me].",
+            "line2": "Bom, caso queira saber minha função, ela é ajudar seu guild de várias formas criativas e diferentes!",
+            "line3": "Talvez você não saiba meu prefixo neste guild e por isso me chamou. Se essa for sua dúvida, ele é `[prefix]`.",
+            "line4": "Se você tiver alguma sugestão ou tiver encontrado algum parafuso meu perdido por aí, entre no meu [servidor de suporte]([url]) para falar com meu criador.",
+            "line5": "Se quiser me adicionar em seu guild, basta clicar [aqui]([url])!",
+            "line6": "E por fim, obrigada por me chamar. Foi ótimo te explicar quem sou <3"
+        }
     }
 }
