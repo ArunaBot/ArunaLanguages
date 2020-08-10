@@ -5,7 +5,7 @@
         "dmError": "Sorry, but I can't send direct messages yet :("
     },
     "shard": {
-        "launch": "[shard] Were initiated",
+        "launch": "[shard] Were initialized",
         "exit": "A process was forced to close.",
         "exitCode": "Exit Code:",
         "startGeneration": "[logPrefix] Beginning to generate shards...",
