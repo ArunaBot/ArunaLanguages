@@ -38,7 +38,7 @@
             "message2": "[user] pepepou aketay `[messages]` setyajety pay `[request] teruiyipapay` kot tão ekiypites ou yetes atpetiotey a 2 yesatay."
         },
         "config": {
-            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+            "description": "Ketsipe toyê pepepat sayyitasetpe apé 100 setyajety yos ipape ijuep ou ittetiot a 2 yesatay"
         }
     },
     "generic": {
@@ -49,7 +49,7 @@
             }
         },
         "permissions": {
-            "manageMessages": "Gerenciar Mensagens"
+            "manageMessages": "Jetetyiat Setyajety"
         }
     }
 }
