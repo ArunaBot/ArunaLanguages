@@ -4,9 +4,10 @@
             "emojiError": "Kata seu tutyiotasetpo, kteyiyo ya ketsiyyâo ye `Usar Emojis Externos`. Kot tatot, yopiyipe kata apjus apsipiyptapot rue apite iyyo kata rue eu koyya tutyiotat :)",
             "linkError": "Kata seu tutyiotasetpo, kteyiyo ya ketsiyyâo ye `Enviar Links`. Kot tatot, yopiyipe kata apjus apsipiyptapot rue apite iyyo kata rue eu koyya tutyiotat :)",
             "dmError": "Peyyupke, say aitpa tâo tutyioto es setyajety pitepay :(",
-            "commandNotFound": "Oops, não encontrei o comando `[command]`. Você quis dizer algo como `[alt]`?"
+            "commandNotFound": "Ooky, tão etyotprei o yosatpo `[command]`. Toyê ruiy pibet apjo yoso `[alt]`?"
         },
         "mention": {
+            "title": "Quem me chama?",
             "line1": "Ah, olá [username], como está? Eu sou a [me].",
             "line2": "Bom, caso queira saber minha função, ela é ajudar seu guild de várias formas criativas e diferentes!",
             "line3": "Talvez você não saiba meu prefixo neste guild e por isso me chamou. Se essa for sua dúvida, ele é `[prefix]`.",
