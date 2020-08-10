@@ -1,1 +1,1 @@
-## TODO
+[![Crowdin](https://badges.crowdin.net/arunabot/localized.svg)](https://crowdin.com/project/arunabot)
