@@ -21,13 +21,13 @@
             }
         },
         "config": {
-            "description": "Permite efetuar cálculos complexos de maneira simples"
+            "description": "Ketsipe etepuat yápyupuy yoskpekoy pe sateita yiskpey"
         }
     },
     "generic": {
         "embed": {
             "error": {
-                "title": "Oops, [username]",
+                "title": "Ooky, [username]",
                 "footer": "Apjo peu ettapo, [username]"
             }
         }
