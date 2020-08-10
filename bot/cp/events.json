@@ -1,8 +1,8 @@
 {
     "message": {
         "errors": {
-            "emojiError": "Kata seu tutyiotasetpo, kteyiyo ya ketsiyyâo ye `Usar Emojis Externos`. Kot tatot, yopiyipe kata apjus apsipiyptapot rue apite iyyo kata rue eu koyya tutyiotat :)",
-            "linkError": "Kata seu tutyiotasetpo, kteyiyo ya ketsiyyâo ye `Enviar Links`. Kot tatot, yopiyipe kata apjus apsipiyptapot rue apite iyyo kata rue eu koyya tutyiotat :)",
+            "emojiError": "Para meu funcionamento, preciso da permissão de `[externalEmojis]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+            "linkError": "Para meu funcionamento, preciso da permissão de `[sendLinks]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
             "dmError": "Peyyupke, say aitpa tâo tutyioto es setyajety pitepay :(",
             "commandNotFound": "Ooky, tão etyotprei o yosatpo `[command]`. Toyê ruiy pibet apjo yoso `[alt]`?"
         },
