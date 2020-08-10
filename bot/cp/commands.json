@@ -41,8 +41,17 @@
             "description": "Ketsipe toyê pepepat sayyitasetpe apé 100 setyajety yos ipape ijuep ou ittetiot a 2 yesatay"
         }
     },
+    "prefix": {
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+    },
     "generic": {
         "embed": {
+            "deprecated": {
+                "title": "🚫FUNÇÃO OBSOLETA🚫",
+                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
+                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
+                "footer": "Aviso de Comando Obsoleto"
+            },
             "error": {
                 "title": "Ooky, [username]",
                 "footer": "Apjo peu ettapo, [username]"
