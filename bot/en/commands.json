@@ -47,10 +47,10 @@
     "generic": {
         "embed": {
             "deprecated": {
-                "title": "🚫FUNÇÃO OBSOLETA🚫",
-                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
-                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
-                "footer": "Aviso de Comando Obsoleto"
+                "title": "🚫OBSOLETE FUNCTION🚫",
+                "description1": "**WARNING? THIS IS AN OLD FUNCTION AND IT WILL BE REMOVED SOON.**",
+                "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
+                "footer": "Obsolete Command Warning"
             },
             "error": {
                 "title": "Oops, [username]",
