@@ -36,6 +36,9 @@
         "sucess": {
             "message1": "Foram deletadas `[messages]` mensagens por [user]",
             "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+        },
+        "config": {
+            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
         }
     },
     "generic": {
