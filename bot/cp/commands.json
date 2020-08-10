@@ -1,0 +1,55 @@
+{
+    "avatar": {
+        "embed": {
+            "title": "[emoji] Atapat pe [user]",
+            "description": "**Ypirue [arui]([url]) kata taikat a topo.**"
+        },
+        "config": {
+            "description": "Soypta o yeu ktoktio atapat ou pe us uyuatio"
+        }
+    },
+    "calculator": {
+        "embed": {
+            "error": {
+                "description1": "Toye pete ityetit o yapyupo a yet teipo.",
+                "description2": "Peyyupke, say tão yotyejui etepuat o yápyupo. Petpe ityetit oupta yotpa."
+            },
+            "sucess": {
+                "title": "Yapyupapota",
+                "field1": "[emoji] Etptapa",
+                "field2": "[emoji] Yaipa"
+            }
+        },
+        "config": {
+            "description": "Ketsipe etepuat yápyupuy yoskpekoy pe sateita yiskpey"
+        }
+    },
+    "clear": {
+        "embed": {
+            "error": {
+                "description1": "Toyê tão koyyui a ketsiyyão pe `[manageMessages]`!",
+                "description2": "Eu não koyyuo a kersiyyão pe `[manageMessages]`!",
+                "description3": "Toyê pete ityetit a ruatpipape pe setyajety a yet akajapa!",
+                "description4": "Eu yó koyyo akajat etpte 2 e 100 setyajety."
+            }
+        },
+        "sucess": {
+            "message1": "Totas pepepapay `[messages]` setyajety kot [user]",
+            "message2": "[user] pepepou aketay `[messages]` setyajety pay `[request] teruiyipapay` kot tão ekiypites ou yetes atpetiotey a 2 yesatay."
+        },
+        "config": {
+            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+        }
+    },
+    "generic": {
+        "embed": {
+            "error": {
+                "title": "Ooky, [username]",
+                "footer": "Apjo peu ettapo, [username]"
+            }
+        },
+        "permissions": {
+            "manageMessages": "Gerenciar Mensagens"
+        }
+    }
+}

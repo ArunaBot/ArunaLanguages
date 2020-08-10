@@ -1,5 +1,21 @@
 {
-    "emojiError": "Para meu funcionamento, preciso da permissão de `Usar Emojis Externos`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-    "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-    "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :("
+    "errors": {
+        "emojiError": "Para meu funcionamento, preciso da permissão de `Usar Emojis Externos`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+        "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+        "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :("
+    },
+    "main": {
+        "error": "ERRO",
+        "event": "EVENTO",
+        "command": "COMANDO",
+        "commands": "COMANDOS",
+        "cluster": "CLUSTER"
+    },
+    "shard": {
+        "launch": "[shard] iniciado(s)",
+        "exit": "Foi forçado o encerramento de um processo.",
+        "exitCode": "Código de Saída:",
+        "startGeneration": "[logPrefix] Começando a gerar shards...",
+        "finishGeneration": "Finalizando a geração dos Shards!"
+    }
 }
