@@ -8,6 +8,20 @@
             "description": "Show your own or another user's avatar"
         }
     },
+    "calculator": {
+        "embed": {
+            "error": {
+                "description1": "Você deve inserir o cálculo a ser feito.",
+                "description2": "Desculpe, mas não consegui efetuar o cálculo. Tente inserir outra conta."
+            },
+            "sucess": {
+                "title": "Calculadora V2"
+            }
+        },
+        "config": {
+            "description": "Permite efetuar cálculos complexos de maneira simples"
+        }
+    },
     "generic": {
         "embed": {
             "error": {
