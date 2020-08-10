@@ -1,8 +1,8 @@
 {
     "message": {
         "errors": {
-            "emojiError": "Para meu funcionamento, preciso da permissão de `Usar Emojis Externos`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-            "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+            "emojiError": "Para meu funcionamento, preciso da permissão de `[externalEmojis]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+            "linkError": "Para meu funcionamento, preciso da permissão de `[sendLinks]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
             "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :(",
             "commandNotFound": "Oops, não encontrei o comando `[command]`. Você quis dizer algo como `[alt]`?"
         },
