@@ -5,7 +5,7 @@
             "description": "**Click [here]([url]) to download the image.**"
         },
         "config": {
-            "description": "Mostra o seu próprio avatar ou de um usuário"
+            "description": "Show your own or another user´s avatar"
         }
     }
 }
