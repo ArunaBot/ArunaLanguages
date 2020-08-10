@@ -15,7 +15,7 @@
         "launch": "[shard] itiyiapo(y)",
         "exit": "Toi toiçapo o etyettasetpo pe us ktoyeyyo.",
         "exitCode": "Yópijo pe Yaipa:",
-        "startGeneration": "[logPrefix] Começando a gerar shards...",
-        "finishGeneration": "Finalizando a geração dos Shards!"
+        "startGeneration": "[logPrefix] Yoseçatpo a jetat ykatpy...",
+        "finishGeneration": "Titapibatpo a jetação poy Ykatpy!"
     }
 }
