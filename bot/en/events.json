@@ -1,5 +1,5 @@
 {
     "message": {
-        "commandNotFound": "Oops, não encontrei o comando `[command]`. Você quis dizer algo como `[alt]`?"
+        "commandNotFound": "Oops, I couldn´t find the command `[command]`. Did you mean something like `[alt]`?"
     }
 }
