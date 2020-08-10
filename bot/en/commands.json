@@ -11,24 +11,24 @@
     "calculator": {
         "embed": {
             "error": {
-                "description1": "Você deve inserir o cálculo a ser feito.",
-                "description2": "Desculpe, mas não consegui efetuar o cálculo. Tente inserir outra conta."
+                "description1": "You must enter the calculation to be done.",
+                "description2": "Sorry, but I was unable to perform the calculation. Try entering another calculation."
             },
             "sucess": {
-                "title": "Calculadora",
-                "field1": "[emoji] Entrada",
-                "field2": "[emoji] Saida"
+                "title": "Calculator",
+                "field1": "[emoji] Input",
+                "field2": "[emoji] Output"
             }
         },
         "config": {
-            "description": "Permite efetuar cálculos complexos de maneira simples"
+            "description": "Allows you to perform complex calculations in a simple way"
         }
     },
     "generic": {
         "embed": {
             "error": {
                 "title": "Oops, [username]",
-                "footer": "Algo deu errado, [username]"
+                "footer": "Something went wrong, [username]"
             }
         }
     }
