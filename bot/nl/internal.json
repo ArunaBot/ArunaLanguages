@@ -7,6 +7,7 @@
         "cluster": "CLUSTER"
     },
     "shard": {
+        "master": "SHARD MASTER",
         "launch": "[shard] iniciado(s)",
         "exit": "Foi forçado o encerramento de um processo.",
         "exitCode": "Código de Saída:",
