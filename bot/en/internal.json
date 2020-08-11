@@ -7,6 +7,7 @@
         "cluster": "CLUSTER"
     },
     "shard": {
+        "master": "SHARD MASTER",
         "launch": "[shard] Were initialized",
         "exit": "A process was forced to close.",
         "exitCode": "Exit Code:",
