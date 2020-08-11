@@ -90,7 +90,7 @@
         },
         "permissions": {
             "embedLinks": "Embed Links",
-            "manageGuild": "Manage Server",
+            "manageGuild": "Manage Guild",
             "manageMessages": "Manage Messages",
             "useExternalEmojis": "Use External Emojis"
         }
