@@ -15,6 +15,7 @@
         "finishGeneration": "Finalizando a geração dos Shards!"
     },
     "generic": {
+        "languageName": "Português Brasil",
         "notFound": "Não Encontrado!",
         "shard": "Shard"
     }
