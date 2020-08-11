@@ -45,13 +45,13 @@
         "embed": {
             "sucess": {
                 "description1": "Ktetiko tepetitipo kata `[prefix]` yos yuyeyyo!",
-                "description2": "Prefixo definido para `[prefix]` com sucesso!"
+                "description2": "Ktetiko petitipo kata `[prefix]` yos yuyeyyo!"
             },
             "error": {
-                "noperm": "Você não possui a permissão de `[manageGuild]`",
-                "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
-                "description2": "Você deve inserir o prefixo desejado!",
-                "description3": "O prefixo atual já é o prefixo padrão!"
+                "noperm": "Toyê tão koyyui a ketsiyyão de `[manageGuild]`",
+                "description1": "Ityita ye toye peyeta petitit us ktetiko (yep) ou ye peyeta toppat ao kaptão (tesote).",
+                "description2": "Toyê pete ityetit o ktetiko peyetapo!",
+                "description3": "O ktetiko apuap tá é o ktetiko kaptão!"
             }
         },
         "config": {
@@ -69,7 +69,7 @@
             },
             "sucess": {
                 "title": "Yay, [username]",
-                "footer": "Sucesso!"
+                "footer": "Yuyeyyo!"
             },
             "error": {
                 "title": "Ooky, [username]",
@@ -78,7 +78,7 @@
         },
         "permissions": {
             "embedLinks": "Ettiat Pitky",
-            "manageGuild": "Gerenciar Servidor",
+            "manageGuild": "Jetetyiat Yettipot",
             "manageMessages": "Jetetyiat Setyajety",
             "useExternalEmojis": "Uyat Esotiy Ekpettoy"
         }
