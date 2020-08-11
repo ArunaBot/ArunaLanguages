@@ -42,6 +42,21 @@
         }
     },
     "prefix": {
+        "embed": {
+            "sucess": {
+                "description1": "Prefixo redefinido para `[prefix]` com sucesso!",
+                "description2": "Prefixo definido para `[prefix]` com sucesso!"
+            },
+            "error": {
+                "noperm": "Você não possui a permissão de `[manageGuild]`",
+                "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
+                "description2": "Você deve inserir o prefixo desejado!",
+                "description3": "O prefixo atual já é o prefixo padrão!"
+            }
+        },
+        "config": {
+            "description": "Permite alterar o prefixo neste servidor"
+        },
         "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
     },
     "generic": {
@@ -52,6 +67,10 @@
                 "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
                 "footer": "Deprecated Command Warning"
             },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Sucesso!"
+            },
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Something went wrong, [username]"
@@ -59,6 +78,7 @@
         },
         "permissions": {
             "embedLinks": "Embed Links",
+            "manageGuild": "Gerenciar Servidor",
             "manageMessages": "Manage Messages",
             "useExternalEmojis": "Use External Emojis"
         }
