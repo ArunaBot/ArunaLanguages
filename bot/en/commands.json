@@ -47,10 +47,10 @@
     "generic": {
         "embed": {
             "deprecated": {
-                "title": "🚫OBSOLETE FUNCTION🚫",
+                "title": "🚫DEPRECATED FUNCTION🚫",
                 "description1": "**WARNING: THIS IS AN OLD FUNCTION AND IT WILL BE REMOVED SOON.**",
                 "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
-                "footer": "Obsolete Command Warning"
+                "footer": "Deprecated Command Warning"
             },
             "error": {
                 "title": "Oops, [username]",
@@ -58,7 +58,7 @@
             }
         },
         "permissions": {
-            "embedLinks": "Send Links",
+            "embedLinks": "Embed Links",
             "manageMessages": "Manage Messages",
             "useExternalEmojis": "Use External Emojis"
         }
