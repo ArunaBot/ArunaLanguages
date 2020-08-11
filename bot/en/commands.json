@@ -59,6 +59,18 @@
         },
         "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
     },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the `[manageMessages]` permission!",
+                "description2": "I don't have the `[manageMessages]` permission!",
+                "description3": "Insira ao menos uma letra para que o bot possa falar!"
+            }
+        },
+        "config": {
+            "description": "Faz o bot falar uma frase ao invés de você"
+        }
+    },
     "generic": {
         "embed": {
             "deprecated": {
