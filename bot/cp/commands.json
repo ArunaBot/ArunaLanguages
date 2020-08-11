@@ -42,13 +42,13 @@
         }
     },
     "prefix": {
-        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+        "deprecatedAlternative": "[prefix]yottij ktetik <set/remove> <ktetikoPeyetapo>"
     },
     "generic": {
         "embed": {
             "deprecated": {
-                "title": "🚫FUNÇÃO OBSOLETA🚫",
-                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
+                "title": "🚫TUTÇÃO OTYOPEPA🚫",
+                "description1": "**ATIYO: EYYA É USA TUTÇÃO ATPIJA E YETÁ TESOTIPA ES TTETE.**",
                 "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
                 "footer": "Aviso de Comando Obsoleto"
             },
