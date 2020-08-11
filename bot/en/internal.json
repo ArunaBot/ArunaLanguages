@@ -1,10 +1,10 @@
 {
     "initialization": {
-        "initializing": "[prefix] Starting!",
+        "initializing": "[prefix] Initializing!",
         "language": "The system is using [language] language and the default language for the functions is [default].",
         "version": "You Are Using the Version [version] based on ArunaBot",
         "complete": "Initialization Complete!",
-        "fail": "Falha ao Inicializar:"
+        "fail": "Initializing Failed:"
     },
     "main": {
         "error": "ERROR",
@@ -25,7 +25,7 @@
         "languageName": "English",
         "notFound": "Not Found!",
         "shard": "Shard",
-        "core": "Núcleo",
+        "core": "Core",
         "base": "Base"
     }
 }
