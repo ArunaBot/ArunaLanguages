@@ -59,6 +59,18 @@
         },
         "deprecatedAlternative": "[prefix]yottij ktetik <set/remove> <ktetikoPeyetapo>"
     },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "Toyê tão koyyui a ketsiyyão pe `[manageMessages]`!",
+                "description2": "Eu não koyyuo a kersiyyão pe `[manageMessages]`!",
+                "description3": "Insira ao menos uma letra para que o bot possa falar!"
+            }
+        },
+        "config": {
+            "description": "Faz o bot falar uma frase ao invés de você"
+        }
+    },
     "generic": {
         "embed": {
             "deprecated": {
