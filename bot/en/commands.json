@@ -49,13 +49,13 @@
             },
             "error": {
                 "noperm": "You don't have the `[manageGuild]` permission",
-                "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
-                "description2": "Você deve inserir o prefixo desejado!",
-                "description3": "O prefixo atual já é o prefixo padrão!"
+                "description1": "Enter if you wanna define a prefix (set) or wanna go back to default (remove).",
+                "description2": "You need to enter the desired prefix!",
+                "description3": "The current prefix is already the default prefix!"
             }
         },
         "config": {
-            "description": "Permite alterar o prefixo neste servidor"
+            "description": "Allows you to change the prefix on this server"
         },
         "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
     },
@@ -64,11 +64,11 @@
             "error": {
                 "description1": "You don't have the `[manageMessages]` permission!",
                 "description2": "I don't have the `[manageMessages]` permission!",
-                "description3": "Insira ao menos uma letra para que o bot possa falar!"
+                "description3": "Enter at least one letter for the bot to say!"
             }
         },
         "config": {
-            "description": "Faz o bot falar uma frase ao invés de você"
+            "description": "Makes the bot speak a sentence instead of you"
         }
     },
     "generic": {
