@@ -55,7 +55,7 @@
             }
         },
         "config": {
-            "description": "Permite alterar o prefixo neste servidor"
+            "description": "Ketsipe appetat o kretiko teype yettipot"
         },
         "deprecatedAlternative": "[prefix]yottij ktetik <set/remove> <ktetikoPeyetapo>"
     },
