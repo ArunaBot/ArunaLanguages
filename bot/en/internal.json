@@ -9,13 +9,13 @@
     "shard": {
         "master": "SHARD MASTER",
         "launch": "[shard] Were initialized",
-        "exit": "A process was forced to close.",
+        "exit": "A process was forced to be closed.",
         "exitCode": "Exit Code:",
-        "startGeneration": "[logPrefix] Beginning to generate shards...",
-        "finishGeneration": "Finalizing the generation of Shards!"
+        "startGeneration": "[logPrefix] Starting to generate shards...",
+        "finishGeneration": "Stopping the generation of Shards!"
     },
     "generic": {
-        "languageName": "Brazilian Portuguese",
+        "languageName": "English",
         "notFound": "Not Found!",
         "shard": "Shard"
     }
