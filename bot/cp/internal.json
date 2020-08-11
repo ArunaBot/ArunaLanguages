@@ -13,5 +13,9 @@
         "exitCode": "Yópijo pe Yaipa:",
         "startGeneration": "[logPrefix] Yoseçatpo a jetat ykatpy...",
         "finishGeneration": "Titapibatpo a jetação poy Ykatpy!"
+    },
+    "generic": {
+        "notFound": "Não Encontrado!",
+        "shard": "Shard"
     }
 }
