@@ -10,10 +10,10 @@
             "title": "Who´s calling me?",
             "line1": "Oh, hello [username], how are you? My name is [me].",
             "line2": "Well, if you wanna know my job, it is to help your server in many creative and different ways!",
-            "line3": "Maybe you don't know my prefix on this server and that's why you called me. If that is your question, it is `[prefix]`.",
-            "line4": "If you have any suggestion or found any issue, join to my [support server]([url]) to talk with my creator.",
+            "line3": "Maybe you don't know my prefix on this server and that's why you pinged me. If that´s your question, it´s `[prefix]`.",
+            "line4": "If you have any suggestions or found any loose ends, join my [support server]([url]) to talk with my creator.",
             "line5": "If you wanna add me to your server, just click [aqui]([url])!",
-            "line6": "And finally, thanks for calling me. It was great to explain who I am <3"
+            "line6": "And finally, thanks for messaging me. It was great to explain who I am <3"
         }
     }
 }
