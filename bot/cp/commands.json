@@ -64,8 +64,8 @@
             "deprecated": {
                 "title": "🚫TUTÇÃO OTYOPEPA🚫",
                 "description1": "**ATIYO: EYYA É USA TUTÇÃO ATPIJA E YETÁ TESOTIPA ES TTETE.**",
-                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
-                "footer": "Aviso de Comando Obsoleto"
+                "description2": "Kata etipat ptatypottoy, é teyosetpapo utat `[alternative]`.",
+                "footer": "Atiyo pe Yosatpo Opyopepo"
             },
             "sucess": {
                 "title": "Yay, [username]",
@@ -77,10 +77,10 @@
             }
         },
         "permissions": {
-            "embedLinks": "Enviar Links",
+            "embedLinks": "Ettiat Pitky",
             "manageGuild": "Gerenciar Servidor",
             "manageMessages": "Jetetyiat Setyajety",
-            "useExternalEmojis": "Usar Emojis Externos"
+            "useExternalEmojis": "Uyat Esotiy Ekpettoy"
         }
     }
 }
