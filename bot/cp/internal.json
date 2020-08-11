@@ -7,6 +7,7 @@
         "cluster": "YPUYPET"
     },
     "shard": {
+        "master": "SHARD MASTER",
         "launch": "[shard] itiyiapo(y)",
         "exit": "Toi toiçapo o etyettasetpo pe us ktoyeyyo.",
         "exitCode": "Yópijo pe Yaipa:",
