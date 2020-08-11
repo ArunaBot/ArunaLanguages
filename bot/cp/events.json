@@ -1,8 +1,8 @@
 {
     "message": {
         "errors": {
-            "emojiError": "Para meu funcionamento, preciso da permissão de `[externalEmojis]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-            "linkError": "Para meu funcionamento, preciso da permissão de `[sendLinks]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+            "emojiError": "Kata seu tutyiotasetpo, kteyiyo pa ketsuyyão pe `[externalEmojis]`. Kot patot, yopiyipe kata apjus apsitiyptapot rue apite iyyo kata rue eu koyya putyiotat :)",
+            "linkError": "Kata seu putyiotasetpo, kteyiyo pa ketsiyyão pe `[sendLinks]`. Kot patot, yopiyipe kata apjus apsitiyptapot rue apite iyyo kata rue eu koyya putyiotat :)",
             "dmError": "Peyyupke, say aitpa tâo tutyioto es setyajety pitepay :(",
             "commandNotFound": "Ooky, tão etyotprei o yosatpo `[command]`. Toyê ruiy pibet apjo yoso `[alt]`?"
         },
