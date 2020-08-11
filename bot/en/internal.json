@@ -15,7 +15,7 @@
         "finishGeneration": "Finalizing the generation of Shards!"
     },
     "generic": {
-        "notFound": "Não Encontrado!",
+        "notFound": "Not Found!",
         "shard": "Shard"
     }
 }
