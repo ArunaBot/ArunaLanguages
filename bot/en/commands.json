@@ -45,7 +45,7 @@
         "embed": {
             "sucess": {
                 "description1": "Prefix redefined to `[prefix]` with success!",
-                "description2": "Prefixo definido para `[prefix]` com sucesso!"
+                "description2": "Prefix defined to `[prefix]` with success!"
             },
             "error": {
                 "noperm": "You don't have the `[manageGuild]` permission",
