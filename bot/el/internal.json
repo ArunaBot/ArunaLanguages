@@ -13,5 +13,9 @@
         "exitCode": "Código de Saída:",
         "startGeneration": "[logPrefix] Começando a gerar shards...",
         "finishGeneration": "Finalizando a geração dos Shards!"
+    },
+    "generic": {
+        "notFound": "Não Encontrado!",
+        "shard": "Shard"
     }
 }
