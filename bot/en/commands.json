@@ -48,7 +48,7 @@
                 "description2": "Prefixo definido para `[prefix]` com sucesso!"
             },
             "error": {
-                "noperm": "Você não possui a permissão de `[manageGuild]`",
+                "noperm": "You don't have the `[manageGuild]` permission",
                 "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
                 "description2": "Você deve inserir o prefixo desejado!",
                 "description3": "O prefixo atual já é o prefixo padrão!"
@@ -81,7 +81,7 @@
             },
             "sucess": {
                 "title": "Yay, [username]",
-                "footer": "Sucesso!"
+                "footer": "Success!"
             },
             "error": {
                 "title": "Oops, [username]",
@@ -90,7 +90,7 @@
         },
         "permissions": {
             "embedLinks": "Embed Links",
-            "manageGuild": "Gerenciar Servidor",
+            "manageGuild": "Manage Guild",
             "manageMessages": "Manage Messages",
             "useExternalEmojis": "Use External Emojis"
         }
