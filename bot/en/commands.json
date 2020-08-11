@@ -12,7 +12,7 @@
         "embed": {
             "error": {
                 "description1": "You must enter the calculation to be done.",
-                "description2": "Sorry, but I was unable to perform the calculation. Try entering another calculation."
+                "description2": "Sorry, but I was unable to perform the calculation. Try entering another one."
             },
             "sucess": {
                 "title": "Calculator",
@@ -30,11 +30,11 @@
                 "description1": "You don't have the `[manageMessages]` permission!",
                 "description2": "I don't have the `[manageMessages]` permission!",
                 "description3": "You must insert the quantity of messages to be deleted!",
-                "description4": "I just can delete between 2 and 100 messages."
+                "description4": "I can only delete between 2 and 100 messages."
             }
         },
         "sucess": {
-            "message1": "Was deleted `[messages]` messages by [user]",
+            "message1": " `[messages]` messages were deleted by [user]",
             "message2": "[user] deleted only `[messages]` messages of `[request] requests` for not existing or being older than 2 weeks."
         },
         "config": {
