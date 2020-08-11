@@ -1,4 +1,11 @@
 {
+    "initialization": {
+        "initializing": "[prefix] Inicializando!",
+        "language": "O sistema está usando o idioma [language] e o idioma padrão para as funções é [default].",
+        "version": "Você Está Usando a Versão [version] com base na ArunaBot",
+        "complete": "Inicialização Completa!",
+        "fail": "Falha ao Inicializar:"
+    },
     "main": {
         "error": "ERROR",
         "event": "EVENT",
@@ -17,6 +24,8 @@
     "generic": {
         "languageName": "English",
         "notFound": "Not Found!",
-        "shard": "Shard"
+        "shard": "Shard",
+        "core": "Núcleo",
+        "base": "Base"
     }
 }
