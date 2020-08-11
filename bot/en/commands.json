@@ -12,7 +12,7 @@
         "embed": {
             "error": {
                 "description1": "You must enter the calculation to be done.",
-                "description2": "Sorry, but I was unable to perform the calculation. Try entering another one."
+                "description2": "Sorry, but I was unable to perform the calculation. Try inserting another one."
             },
             "sucess": {
                 "title": "Calculator",
@@ -38,7 +38,7 @@
             "message2": "[user] deleted only `[messages]` messages of `[request] requests` for not existing or being older than 2 weeks."
         },
         "config": {
-            "description": "Allows you to delete massively until 100 messages with equal or less than 2 weeks of age"
+            "description": "Allows you to delete massively until 100 messages with age equal to or less than 2 weeks"
         }
     },
     "prefix": {
@@ -49,22 +49,22 @@
             },
             "error": {
                 "noperm": "You don't have the `[manageGuild]` permission",
-                "description1": "Enter if you wanna define a prefix (set) or wanna go back to default (remove).",
-                "description2": "You need to enter the desired prefix!",
+                "description1": "Enter if you wanna define a prefix (set) or if you wanna go back to default (remove).",
+                "description2": "You must insert the desired prefix!",
                 "description3": "The current prefix is already the default prefix!"
             }
         },
         "config": {
             "description": "Allows you to change the prefix on this server"
         },
-        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <desiredPrefix>"
     },
     "say": {
         "embed": {
             "error": {
                 "description1": "You don't have the `[manageMessages]` permission!",
                 "description2": "I don't have the `[manageMessages]` permission!",
-                "description3": "Enter at least one letter for the bot to say!"
+                "description3": "Insert at least one letter so that the bot can write!"
             }
         },
         "config": {
@@ -90,7 +90,7 @@
         },
         "permissions": {
             "embedLinks": "Embed Links",
-            "manageGuild": "Manage Guild",
+            "manageGuild": "Manage Server",
             "manageMessages": "Manage Messages",
             "useExternalEmojis": "Use External Emojis"
         }
