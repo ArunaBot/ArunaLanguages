@@ -1,9 +1,9 @@
 {
     "initialization": {
-        "initializing": "[prefix] Inicializando!",
-        "language": "O sistema está usando o idioma [language] e o idioma padrão para as funções é [default].",
-        "version": "Você Está Usando a Versão [version] com base na ArunaBot",
-        "complete": "Inicialização Completa!",
+        "initializing": "[prefix] Starting!",
+        "language": "The system is using [language] language and the default language for the functions is [default].",
+        "version": "You Are Using the Version [version] based on ArunaBot",
+        "complete": "Initialization Complete!",
         "fail": "Falha ao Inicializar:"
     },
     "main": {
