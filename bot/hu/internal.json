@@ -22,10 +22,11 @@
         "finishGeneration": "Finalizando a geração dos Shards!"
     },
     "generic": {
+        "base": "Base",
+        "connected": "Conectado!",
+        "core": "Núcleo",
         "languageName": "Português Brasil",
         "notFound": "Não Encontrado!",
-        "shard": "Shard",
-        "core": "Núcleo",
-        "base": "Base"
+        "shard": "Shard"
     }
 }
