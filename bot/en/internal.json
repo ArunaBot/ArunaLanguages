@@ -22,10 +22,11 @@
         "finishGeneration": "Stopping the generation of Shards!"
     },
     "generic": {
+        "base": "Base",
+        "connected": "Conectado!",
+        "core": "Core",
         "languageName": "English",
         "notFound": "Not Found!",
-        "shard": "Shard",
-        "core": "Core",
-        "base": "Base"
+        "shard": "Shard"
     }
 }
