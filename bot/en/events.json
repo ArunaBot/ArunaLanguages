@@ -15,5 +15,25 @@
             "line5": "If you wanna add me to your server, just click [aqui]([url])!",
             "line6": "And finally, thanks for messaging me. It was great to explain who I am <3"
         }
+    },
+    "rank": {
+        "embed": {
+            "newLevel": {
+                "title": "Novo Nível!",
+                "description": "Parabéns [user], agora você está no Nível **[level]**!"
+            }
+        }
+    },
+    "ready": {
+        "status": {
+            "1": "O canal do LoboMetalurgico",
+            "2": "M83 - Midnight City",
+            "3": "Faz [time]",
+            "4": "Alguma coisa Divertida!",
+            "5": "Versão [version]",
+            "6": "Seu Shard é o [shard]",
+            "7": "Sabia que sou OpenSource? Não? Então use o comando \"git\" e ajude meu criador a me deixar melhor ;)"
+        },
+        "maintenance": "🚫AVISO: MANUTENÇÃO PROGRAMADA PARA [date]! FICAREI INDISPONÍVEL POR [time]!🚫"
     }
 }
