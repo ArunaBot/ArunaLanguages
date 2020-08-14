@@ -43,7 +43,7 @@
     },
     "flip": {
         "heads": "Cara!",
-        "tails": "Corôa!",
+        "tails": "Cruz!",
         "config": {
             "description": "Gire uma moeda! O que vai sair?"
         }
@@ -88,7 +88,7 @@
             },
             "sucess": {
                 "title": "Yay, [username]",
-                "footer": "Sucesso!"
+                "footer": "¡Éxito!"
             },
             "error": {
                 "title": "Oops, [username]",
@@ -97,8 +97,8 @@
         },
         "permissions": {
             "embedLinks": "Insertar Enlaces",
-            "manageGuild": "Gerenciar Servidor",
-            "manageMessages": "Gerenciar Mensagens",
+            "manageGuild": "Gestionar Servidor",
+            "manageMessages": "Gestionar Mensajes",
             "useExternalEmojis": "Usar Emojis Externos"
         },
         "strings": {
