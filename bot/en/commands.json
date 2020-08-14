@@ -41,6 +41,13 @@
             "description": "Allows you to delete massively until 100 messages with age equal to or less than 2 weeks"
         }
     },
+    "flip": {
+        "heads": "Cara!",
+        "tails": "Corôa!",
+        "config": {
+            "description": "Permite você girar uma moeda e descobrir se virá Cara ou Corôa"
+        }
+    },
     "prefix": {
         "embed": {
             "sucess": {
@@ -93,6 +100,9 @@
             "manageGuild": "Manage Guild",
             "manageMessages": "Manage Messages",
             "useExternalEmojis": "Use External Emojis"
+        },
+        "strings": {
+            "error": "Erro!"
         }
     }
 }
