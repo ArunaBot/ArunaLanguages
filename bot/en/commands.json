@@ -45,7 +45,7 @@
         "heads": "Heads!",
         "tails": "Tails!",
         "config": {
-            "description": "Allows you to flip a coin and find out whether it will come Heads or Tails"
+            "description": "Gire uma moeda! O que vai sair?"
         }
     },
     "prefix": {
