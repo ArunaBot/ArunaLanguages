@@ -42,10 +42,10 @@
         }
     },
     "flip": {
-        "heads": "Cara!",
-        "tails": "Corôa!",
+        "heads": "Heads!",
+        "tails": "Tails!",
         "config": {
-            "description": "Permite você girar uma moeda e descobrir se virá Cara ou Corôa"
+            "description": "Allows you to flip a coin and find out whether it will come Heads or Tails"
         }
     },
     "prefix": {
@@ -102,7 +102,7 @@
             "useExternalEmojis": "Use External Emojis"
         },
         "strings": {
-            "error": "Erro!"
+            "error": "Error!"
         }
     }
 }
