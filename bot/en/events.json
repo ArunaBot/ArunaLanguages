@@ -19,16 +19,16 @@
     "rank": {
         "embed": {
             "newLevel": {
-                "title": "Novo Nível!",
-                "description": "Parabéns [user], agora você está no Nível **[level]**!"
+                "title": "Level up!",
+                "description": "Congratulations [user], now you´re level **[level]**!"
             }
         }
     },
     "ready": {
         "status": {
-            "1": "O canal do LoboMetalurgico",
+            "1": "LoboMetalurgico´s channel",
             "2": "M83 - Midnight City",
-            "3": "It´s been [time]",
+            "3": "For [time]",
             "4": "Something fun!",
             "5": "Version [version]",
             "6": "Your Shard is [shard]",
