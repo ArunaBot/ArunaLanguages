@@ -41,6 +41,13 @@
             "description": "Ketsipe toyê pepepat sayyitasetpe apé 100 setyajety yos ipape ijuep ou ittetiot a 2 yesatay"
         }
     },
+    "flip": {
+        "heads": "Cara!",
+        "tails": "Corôa!",
+        "config": {
+            "description": "Permite você girar uma moeda e descobrir se virá Cara ou Corôa"
+        }
+    },
     "prefix": {
         "embed": {
             "sucess": {
@@ -93,6 +100,9 @@
             "manageGuild": "Jetetyiat Yettipot",
             "manageMessages": "Jetetyiat Setyajety",
             "useExternalEmojis": "Uyat Esotiy Ekpettoy"
+        },
+        "strings": {
+            "error": "Erro!"
         }
     }
 }
