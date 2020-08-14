@@ -22,10 +22,11 @@
         "finishGeneration": "Titapibatpo a jetação poy Ykatpy!"
     },
     "generic": {
+        "base": "Base",
+        "connected": "Conectado!",
+        "core": "Núcleo",
         "languageName": "Português Brasil",
         "notFound": "Não Encontrado!",
-        "shard": "Shard",
-        "core": "Núcleo",
-        "base": "Base"
+        "shard": "Shard"
     }
 }
