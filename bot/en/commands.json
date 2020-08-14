@@ -45,7 +45,7 @@
         "heads": "Heads!",
         "tails": "Tails!",
         "config": {
-            "description": "Gire uma moeda! O que vai sair?"
+            "description": "Flip a coin! What will it be?"
         }
     },
     "prefix": {
