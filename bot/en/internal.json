@@ -1,10 +1,10 @@
 {
     "initialization": {
         "initializing": "[prefix] Initializing!",
-        "language": "The system is using [language] language and the default language for the functions is [default].",
-        "version": "You Are Using the Version [version] based on ArunaBot",
+        "language": "The system is using the [language] language and the default language for the functions is [default].",
+        "version": "You´re Using the Version [version] Based on ArunaBot",
         "complete": "Initialization Complete!",
-        "fail": "Initializing Failed:"
+        "fail": "Failed to initialized:"
     },
     "main": {
         "error": "ERROR",
@@ -23,7 +23,7 @@
     },
     "generic": {
         "base": "Base",
-        "connected": "=> Conectado!",
+        "connected": "=> Connected!",
         "core": "Core",
         "languageName": "English",
         "notFound": "Not Found!",
