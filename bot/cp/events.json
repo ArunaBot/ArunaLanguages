@@ -19,7 +19,7 @@
     "rank": {
         "embed": {
             "newLevel": {
-                "title": "Novo Nível!",
+                "title": "Toto Titep!",
                 "description": "Parabéns [user], agora você está no Nível **[level]**!"
             }
         }
@@ -27,11 +27,11 @@
     "ready": {
         "status": {
             "1": "O canal do LoboMetalurgico",
-            "2": "M83 - Midnight City",
-            "3": "Faz [time]",
-            "4": "Alguma coisa Divertida!",
-            "5": "Versão [version]",
-            "6": "Seu Shard é o [shard]",
+            "2": "S83 - Siptijkp Yipy",
+            "3": "Tab [time]",
+            "4": "Apjusa yoiya Pitetpipa!",
+            "5": "Tetyão [version]",
+            "6": "Yeu Ykarp é o [shard]",
             "7": "Sabia que sou OpenSource? Não? Então use o comando \"git\" e ajude meu criador a me deixar melhor ;)"
         },
         "maintenance": "🚫AVISO: MANUTENÇÃO PROGRAMADA PARA [date]! FICAREI INDISPONÍVEL POR [time]!🚫"
