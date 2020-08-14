@@ -23,7 +23,7 @@
     },
     "generic": {
         "base": "Base",
-        "connected": "Conectado!",
+        "connected": "=> Conectado!",
         "core": "Core",
         "languageName": "English",
         "notFound": "Not Found!",
