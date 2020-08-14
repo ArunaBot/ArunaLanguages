@@ -96,13 +96,13 @@
             }
         },
         "permissions": {
-            "embedLinks": "Enviar Links",
+            "embedLinks": "Insertar Enlaces",
             "manageGuild": "Gerenciar Servidor",
             "manageMessages": "Gerenciar Mensagens",
             "useExternalEmojis": "Usar Emojis Externos"
         },
         "strings": {
-            "error": "Erro!"
+            "error": "¡Error!"
         }
     }
 }
