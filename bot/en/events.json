@@ -28,12 +28,12 @@
         "status": {
             "1": "O canal do LoboMetalurgico",
             "2": "M83 - Midnight City",
-            "3": "Faz [time]",
-            "4": "Alguma coisa Divertida!",
-            "5": "Versão [version]",
-            "6": "Seu Shard é o [shard]",
-            "7": "Sabia que sou OpenSource? Não? Então use o comando \"git\" e ajude meu criador a me deixar melhor ;)"
+            "3": "It´s been [time]",
+            "4": "Something fun!",
+            "5": "Version [version]",
+            "6": "Your Shard is [shard]",
+            "7": "Did you know I´m OpenSource? No? Then use the command \"git\" and help my creator with my improvements ;)"
         },
-        "maintenance": "🚫AVISO: MANUTENÇÃO PROGRAMADA PARA [date]! FICAREI INDISPONÍVEL POR [time]!🚫"
+        "maintenance": "🚫WARNING: MAINTENANCE SCHEDULED FOR [date]! I´LL BE UNAVAILABLE FOR [time]!🚫"
     }
 }
