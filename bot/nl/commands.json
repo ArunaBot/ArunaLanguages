@@ -45,7 +45,7 @@
         "heads": "Cara!",
         "tails": "Corôa!",
         "config": {
-            "description": "Permite você girar uma moeda e descobrir se virá Cara ou Corôa"
+            "description": "Gire uma moeda! O que vai sair?"
         }
     },
     "prefix": {
