@@ -48,6 +48,23 @@
             "description": "Jite usa soeta! O rue tai yait?"
         }
     },
+    "ping": {
+        "embed": {
+            "1": {
+                "title": "[emoji] Por Favor [username], aguarde!",
+                "description": "Calculando meu ping. Por Favor, agurade U-U"
+            },
+            "2": {
+                "description": {
+                    "line1": ":hourglass: | Tempo de resposta: **[responseTime]** ms",
+                    "line2": ":satellite: | Api: **[apiTime]** ms"
+                }
+            }
+        },
+        "config": {
+            "description": "Veja minha saúde, digo, ping. Será que hoje estou mais rápida ou lentinha?"
+        }
+    },
     "prefix": {
         "embed": {
             "sucess": {
@@ -66,6 +83,17 @@
         },
         "deprecatedAlternative": "[prefix]yottij ktetik <set/remove> <ktetikoPeyetapo>"
     },
+    "rank": {
+        "embed": {
+            "title": "RANK: [username]",
+            "field1": "Nível",
+            "field2": "XP Atual",
+            "field3": "XP Necessário"
+        },
+        "config": {
+            "description": "Veja seu rank neste servidor, ou quem sabe, o do seu rival"
+        }
+    },
     "say": {
         "embed": {
             "error": {
@@ -80,6 +108,9 @@
     },
     "generic": {
         "embed": {
+            "disabled": {
+                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
+            },
             "deprecated": {
                 "title": "🚫TUTÇÃO OTYOPEPA🚫",
                 "description1": "**ATIYO: EYYA É USA TUTÇÃO ATPIJA E YETÁ TESOTIPA ES TTETE.**",
@@ -93,7 +124,8 @@
             "error": {
                 "title": "Ooky, [username]",
                 "footer": "Apjo peu ettapo, [username]"
-            }
+            },
+            "footer": "Comando Solicitado por [usertag]"
         },
         "permissions": {
             "embedLinks": "Ettiat Pitky",
