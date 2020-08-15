@@ -1,10 +1,10 @@
 {
     "message": {
         "errors": {
-            "emojiError": "Para meu funcionamento, preciso da permissão de `[externalEmojis]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-            "linkError": "Para meu funcionamento, preciso da permissão de `[sendLinks]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-            "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :(",
-            "commandNotFound": "Oops, não encontrei o comando `[command]`. Você quis dizer algo como `[alt]`?"
+            "emojiError": "Para mi operacíon, necesito permiso de `[externalEmojis]`. Pídale para algún administrador que habilite esto para que pueda trabajar :)",
+            "linkError": "Para mi operacíon, necesito permiso de `[sendLinks]`. Pídale para algún administrador que habilite esto para que pueda trabajar :)",
+            "dmError": "Lo siento, pero todavía no funciono con mensajes directos :(",
+            "commandNotFound": "Oops, no lo encontré el mando `[command]`. ¿Quisiste decir algo como `[alt]`?"
         },
         "mention": {
             "title": "Quem me chama?",
@@ -19,7 +19,7 @@
     "rank": {
         "embed": {
             "newLevel": {
-                "title": "Novo Nível!",
+                "title": "¡Nuevo Nivel!",
                 "description": "Parabéns [user], agora você está no Nível **[level]**!"
             }
         }
