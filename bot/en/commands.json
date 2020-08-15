@@ -51,7 +51,7 @@
     "ping": {
         "embed": {
             "1": {
-                "title": "[emoji] Por Favor [username], aguarde!",
+                "title": "[emoji] Please [username], wait!",
                 "description": "Calculando meu ping. Por Favor, agurade U-U"
             },
             "2": {
