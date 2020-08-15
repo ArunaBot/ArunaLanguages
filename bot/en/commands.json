@@ -52,11 +52,11 @@
         "embed": {
             "1": {
                 "title": "[emoji] Please [username], wait!",
-                "description": "Calculando meu ping. Por Favor, aguarde U-U"
+                "description": "Calculating my ping. Please wait for it U-U"
             },
             "2": {
                 "description": {
-                    "line1": ":hourglass: | Tempo de resposta: **[responseTime]** ms",
+                    "line1": ":hourglass: | Response time: **[responseTime]** ms",
                     "line2": ":satellite: | Api: **[apiTime]** ms"
                 }
             }
