@@ -7,11 +7,11 @@
         "fail": "Falha ao Inicializar:"
     },
     "main": {
-        "error": "ERRO",
+        "error": "ERROR",
         "event": "EVENTO",
         "command": "COMANDO",
         "commands": "COMANDOS",
-        "cluster": "CLUSTER"
+        "cluster": "CLÚSTER"
     },
     "shard": {
         "master": "SHARD MASTER",
@@ -25,8 +25,8 @@
         "base": "Base",
         "connected": "=> Conectado!",
         "core": "Núcleo",
-        "languageName": "Português Brasil",
-        "notFound": "Não Encontrado!",
+        "languageName": "Español",
+        "notFound": "¡No Encontrado!",
         "shard": "Shard"
     }
 }
