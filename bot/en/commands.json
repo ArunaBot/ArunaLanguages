@@ -52,7 +52,7 @@
         "embed": {
             "1": {
                 "title": "[emoji] Please [username], wait!",
-                "description": "Calculando meu ping. Por Favor, agurade U-U"
+                "description": "Calculando meu ping. Por Favor, aguarde U-U"
             },
             "2": {
                 "description": {
@@ -62,7 +62,7 @@
             }
         },
         "config": {
-            "description": "Veja minha saúde, digo, ping. Será que hoje estou mais rápida ou lentinha?"
+            "description": "See my healt- I mean, my ping. I wonder whether I´m fast or slow today?"
         }
     },
     "prefix": {
@@ -86,12 +86,12 @@
     "rank": {
         "embed": {
             "title": "RANK: [username]",
-            "field1": "Nível",
-            "field2": "XP Atual",
-            "field3": "XP Necessário"
+            "field1": "Level",
+            "field2": "Current XP",
+            "field3": "XP Required"
         },
         "config": {
-            "description": "Veja seu rank neste servidor, ou quem sabe, o do seu rival"
+            "description": "See your rank on this server, or maybe your rival´s"
         }
     },
     "say": {
@@ -109,7 +109,7 @@
     "generic": {
         "embed": {
             "disabled": {
-                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
+                "description": "This command isn´t activated on your server. Please, request that an admin activates it using the command `[config]`."
             },
             "deprecated": {
                 "title": "🚫DEPRECATED FUNCTION🚫",
@@ -125,7 +125,7 @@
                 "title": "Oops, [username]",
                 "footer": "Something went wrong, [username]"
             },
-            "footer": "Comando Solicitado por [usertag]"
+            "footer": "Command Requested by [usertag]"
         },
         "permissions": {
             "embedLinks": "Embed Links",
