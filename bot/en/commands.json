@@ -51,17 +51,17 @@
     "massRemove": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi removido de `[userSize] usuários` com sucesso!"
+                "description": "The role `[roleName]` was removed from `[userSize]` users with sucess!"
             },
             "error": {
-                "description1": "Você não possui a permissão de `[manageRoles]`!",
-                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description1": "You don´t have the `[manageRoles]` permission!",
+                "description2": "I don´t have the `[manageRoles]` permission!",
                 "description3": "You must mention a role to remove from members!",
                 "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s is lower than it.",
                 "description5": "You can´t remove the role `[roleName]` because either that´s your role or your´s is lower than it."
             },
             "running": {
-                "description": "O cargo [roleName] está sendo removido de [userSize] usuários no servidor. Por favor, aguarde um momento."
+                "description": "The role [roleName] is being removed from [userSize] users on this guild. Please, wait a moment."
             }
         },
         "config": {
