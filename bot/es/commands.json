@@ -27,9 +27,9 @@
     "clear": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[manageMessages]`!",
-                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
-                "description3": "Você deve inserir a quantidade de mensagens a ser apagada!",
+                "description1": "No tienes permiso para `[manageMessages]`!",
+                "description2": "No tengo permiso para `[manageMessages]`!",
+                "description3": "¡Debes ingresar el número de mensajes a eliminar!",
                 "description4": "Eu só posso apagar entre 2 e 100 mensagens."
             }
         },
@@ -45,7 +45,7 @@
         "heads": "Cara!",
         "tails": "Cruz!",
         "config": {
-            "description": "Gire uma moeda! O que vai sair?"
+            "description": "¡Gira una moneda! ¿Qué saldrá?"
         }
     },
     "massRemove": {
@@ -137,8 +137,8 @@
     "say": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[manageMessages]`!",
-                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
+                "description1": "No tienes permiso para `[manageMessages]`!",
+                "description2": "No tengo permiso para `[manageMessages]`!",
                 "description3": "Insira ao menos uma letra para que o bot possa falar!"
             }
         },
@@ -152,23 +152,23 @@
                 "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
             },
             "deprecated": {
-                "title": "🚫FUNÇÃO OBSOLETA🚫",
-                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
-                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
-                "footer": "Aviso de Comando Obsoleto"
+                "title": "🚫FUNCIÓN OBSOLETA🚫",
+                "description1": "**ADVERTENCIA: ESTA ES UNA FUNCIÓN ANTIGUA Y SE QUITARÁ PRONTO**",
+                "description2": "Para evitar inconvenientes, se recomienda utilizar `[alternative]`.",
+                "footer": "Advertencia de Comando Obsoleto"
             },
             "sucess": {
                 "title": "Yay, [username]",
                 "footer": "¡Éxito!",
-                "footer2": "Operação efetuada com sucesso, [username]"
+                "footer2": "Operación realizada con éxito, [username]"
             },
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Algo salió mal, [username]"
             },
             "running": {
-                "title": "[emoji] Aguarde, [username]",
-                "footer": "Operação em Execução, [username]"
+                "title": "[emoji] Espera, [username]",
+                "footer": "Operación en Ejecución, [username]"
             },
             "footer": "Comando Solicitado por [usertag]"
         },
@@ -176,7 +176,7 @@
             "embedLinks": "Insertar Enlaces",
             "manageGuild": "Gestionar Servidor",
             "manageMessages": "Gestionar Mensajes",
-            "manageRoles": "Gerenciar Cargos",
+            "manageRoles": "Gestionar Roles",
             "useExternalEmojis": "Usar Emojis Externos"
         },
         "strings": {
