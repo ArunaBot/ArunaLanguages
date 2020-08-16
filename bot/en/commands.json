@@ -51,32 +51,32 @@
     "massRemove": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi removido para `[userSize] usuários` com sucesso!"
+                "description": "The role `[roleName]` was removed from `[userSize]` users with sucess!"
             },
             "error": {
                 "description1": "Você não possui a permissão de `[manageRoles]`!",
                 "description2": "Eu não possuo a permissão de `[manageRoles]`!",
-                "description3": "Você deve mencionar um cargo para remover dos membros!",
-                "description4": "Você não pode remover o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
-                "description5": "Você não pode remover o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+                "description3": "You must mention a role to remove from members!",
+                "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s is lower than it.",
+                "description5": "You can´t remove the role `[roleName]` because either that´s your role or your´s is lower than it."
             },
             "running": {
-                "description": "O cargo [roleName] está sendo removido para [userSize] usuários no servidor. Por favor, aguarde um momento."
+                "description": "The role [roleName] is being removed for [userSize] users on this guild. Please, wait a moment."
             }
         },
         "config": {
-            "description": "Usou o massRole com o cargo errado? Use esse comando que seu problema desaparecerá dos usuários!"
+            "description": "Did you use massRole with the wrong role? Use this command and your problem will be solved!"
         }
     },
     "massRole": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!"
+                "description": "The role `[roleName]` was applied to `[userSize]` users with sucess!"
             },
             "error": {
-                "description1": "Você não possui a permissão de `[manageRoles]`!",
-                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
-                "description3": "Você deve mencionar um cargo para aplicar aos membros!",
+                "description1": "You don´t have the `[manageRoles]` permission!",
+                "description2": "I don´t have the `[manageRoles]` permission!",
+                "description3": "You must mention a role to apply it to members!",
                 "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s lower than it.",
                 "description5": "You can´t apply the role `[roleName]` because either that´s your role or your´s is lower than it."
             },
@@ -85,7 +85,7 @@
             }
         },
         "config": {
-            "description": "Too lazy to give everyone a role? Use this command and do it!"
+            "description": "Too lazy to give everyone a role? Use this command and do it easily!"
         }
     },
     "ping": {
