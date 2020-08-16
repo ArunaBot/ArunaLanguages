@@ -56,9 +56,9 @@
             "error": {
                 "description1": "No tienes permiso para `[manageRoles]`!",
                 "description2": "No tengo permiso para `[manageRoles]`!",
-                "description3": "Você deve mencionar um cargo para remover dos membros!",
-                "description4": "Você não pode remover o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
-                "description5": "Você não pode remover o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+                "description3": "¡Debe mencionar una rol para eliminar de los miembros!",
+                "description4": "No puede quitar el puesto `[roleName]` ya que este es mi puesto o soy inferior a él.",
+                "description5": "No puede quitar el puesto `[roleName]` ya que este es su puesto o es inferior a él."
             },
             "running": {
                 "description": "O cargo [roleName] está sendo removido de [userSize] usuários no servidor. Por favor, aguarde um momento."
@@ -96,23 +96,23 @@
             },
             "2": {
                 "description": {
-                    "line1": ":hourglass: | Tempo de resposta: **[responseTime]** ms",
+                    "line1": ":hourglass: | Tiempo de respuesta: **[responseTime]** ms",
                     "line2": ":satellite: | Api: **[apiTime]** ms"
                 }
             }
         },
         "config": {
-            "description": "Veja minha saúde, digo, ping. Será que hoje estou mais rápida ou lentinha?"
+            "description": "Mira mi salud, quiero decir, ping. ¿Soy más rápido o más lento hoy?"
         }
     },
     "prefix": {
         "embed": {
             "sucess": {
-                "description1": "Prefixo redefinido para `[prefix]` com sucesso!",
-                "description2": "Prefixo definido para `[prefix]` com sucesso!"
+                "description1": "¡Prefijo redefinido a `[prefix]` con éxito!",
+                "description2": "¡Prefijo establecido en `[prefix]` correctamente!"
             },
             "error": {
-                "noperm": "Você não possui a permissão de `[manageGuild]`",
+                "noperm": "No tienes permiso para `[manageGuild]`",
                 "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
                 "description2": "Você deve inserir o prefixo desejado!",
                 "description3": "O prefixo atual já é o prefixo padrão!"
