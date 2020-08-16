@@ -41,15 +41,146 @@
             "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
         }
     },
+    "flip": {
+        "heads": "Cara!",
+        "tails": "Corôa!",
+        "config": {
+            "description": "Gire uma moeda! O que vai sair?"
+        }
+    },
+    "massRemove": {
+        "embed": {
+            "sucess": {
+                "description": "O cargo `[roleName]` foi removido de `[userSize] usuários` com sucesso!"
+            },
+            "error": {
+                "description1": "Você não possui a permissão de `[manageRoles]`!",
+                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description3": "Você deve mencionar um cargo para remover dos membros!",
+                "description4": "Você não pode remover o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
+                "description5": "Você não pode remover o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+            },
+            "running": {
+                "description": "O cargo [roleName] está sendo removido de [userSize] usuários no servidor. Por favor, aguarde um momento."
+            }
+        },
+        "config": {
+            "description": "Usou o massRole com o cargo errado? Use esse comando que seu problema desaparecerá dos usuários!"
+        }
+    },
+    "massRole": {
+        "embed": {
+            "sucess": {
+                "description": "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!"
+            },
+            "error": {
+                "description1": "Você não possui a permissão de `[manageRoles]`!",
+                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description3": "Você deve mencionar um cargo para aplicar aos membros!",
+                "description4": "Você não pode aplicar o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
+                "description5": "Você não pode aplicar o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+            },
+            "running": {
+                "description": "O cargo [roleName] está sendo aplicado para [userSize] usuários no servidor. Por favor, aguarde um momento."
+            }
+        },
+        "config": {
+            "description": "Com preguiça de dar um cargo para todos? Use esse comando que seu problema estará resolvido!"
+        }
+    },
+    "ping": {
+        "embed": {
+            "1": {
+                "title": "[emoji] Por Favor [username], aguarde!",
+                "description": "Calculando meu ping. Por Favor, aguarde U-U"
+            },
+            "2": {
+                "description": {
+                    "line1": ":hourglass: | Tempo de resposta: **[responseTime]** ms",
+                    "line2": ":satellite: | Api: **[apiTime]** ms"
+                }
+            }
+        },
+        "config": {
+            "description": "Veja minha saúde, digo, ping. Será que hoje estou mais rápida ou lentinha?"
+        }
+    },
+    "prefix": {
+        "embed": {
+            "sucess": {
+                "description1": "Prefixo redefinido para `[prefix]` com sucesso!",
+                "description2": "Prefixo definido para `[prefix]` com sucesso!"
+            },
+            "error": {
+                "noperm": "Você não possui a permissão de `[manageGuild]`",
+                "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
+                "description2": "Você deve inserir o prefixo desejado!",
+                "description3": "O prefixo atual já é o prefixo padrão!"
+            }
+        },
+        "config": {
+            "description": "Permite alterar o prefixo neste servidor"
+        },
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+    },
+    "rank": {
+        "embed": {
+            "title": "RANK: [username]",
+            "field1": "Nível",
+            "field2": "XP Atual",
+            "field3": "XP Necessário"
+        },
+        "config": {
+            "description": "Veja seu rank neste servidor, ou quem sabe, o do seu rival"
+        }
+    },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[manageMessages]`!",
+                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
+                "description3": "Insira ao menos uma letra para que o bot possa falar!"
+            }
+        },
+        "config": {
+            "description": "Faz o bot falar uma frase ao invés de você"
+        }
+    },
     "generic": {
         "embed": {
+            "disabled": {
+                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
+            },
+            "deprecated": {
+                "title": "🚫FUNÇÃO OBSOLETA🚫",
+                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
+                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
+                "footer": "Aviso de Comando Obsoleto"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Sucesso!",
+                "footer2": "Operação efetuada com sucesso, [username]"
+            },
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Algo deu errado, [username]"
-            }
+            },
+            "running": {
+                "title": "[emoji] Aguarde, [username]",
+                "footer": "Operação em Execução, [username]"
+            },
+            "footer": "Comando Solicitado por [usertag]"
         },
         "permissions": {
-            "manageMessages": "Gerenciar Mensagens"
+            "embedLinks": "Enviar Links",
+            "manageGuild": "Gerenciar Servidor",
+            "manageMessages": "Gerenciar Mensagens",
+            "manageRoles": "Gerenciar Cargos",
+            "useExternalEmojis": "Usar Emojis Externos"
+        },
+        "strings": {
+            "error": "Erro!"
         }
     }
 }

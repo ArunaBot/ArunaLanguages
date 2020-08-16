@@ -12,7 +12,7 @@
         "embed": {
             "error": {
                 "description1": "You must enter the calculation to be done.",
-                "description2": "Sorry, but I was unable to perform the calculation. Try entering another calculation."
+                "description2": "Sorry, but I was unable to perform the calculation. Try inserting another one."
             },
             "sucess": {
                 "title": "Calculator",
@@ -27,29 +27,160 @@
     "clear": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[manageMessages]`!",
-                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
-                "description3": "Você deve inserir a quantidade de mensagens a ser apagada!",
-                "description4": "Eu só posso apagar entre 2 e 100 mensagens."
+                "description1": "You don't have the `[manageMessages]` permission!",
+                "description2": "I don't have the `[manageMessages]` permission!",
+                "description3": "You must insert the quantity of messages to be deleted!",
+                "description4": "I can only delete between 2 and 100 messages."
             }
         },
         "sucess": {
-            "message1": "Foram deletadas `[messages]` mensagens por [user]",
-            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+            "message1": " `[messages]` messages were deleted by [user]",
+            "message2": "[user] deleted only `[messages]` messages of `[request] requests` for not existing or being older than 2 weeks."
         },
         "config": {
-            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+            "description": "Allows you to delete massively until 100 messages with age equal to or less than 2 weeks"
+        }
+    },
+    "flip": {
+        "heads": "Heads!",
+        "tails": "Tails!",
+        "config": {
+            "description": "Flip a coin! What will it be?"
+        }
+    },
+    "massRemove": {
+        "embed": {
+            "sucess": {
+                "description": "The role `[roleName]` was removed from `[userSize]` users with sucess!"
+            },
+            "error": {
+                "description1": "You don´t have the `[manageRoles]` permission!",
+                "description2": "I don´t have the `[manageRoles]` permission!",
+                "description3": "You must mention a role to remove from members!",
+                "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s is lower than it.",
+                "description5": "You can´t remove the role `[roleName]` because either that´s your role or your´s is lower than it."
+            },
+            "running": {
+                "description": "The role [roleName] is being removed from [userSize] users on this guild. Please, wait a moment."
+            }
+        },
+        "config": {
+            "description": "Did you use massRole with the wrong role? Use this command and your problem will be solved!"
+        }
+    },
+    "massRole": {
+        "embed": {
+            "sucess": {
+                "description": "The role `[roleName]` was applied to `[userSize]` users with sucess!"
+            },
+            "error": {
+                "description1": "You don´t have the `[manageRoles]` permission!",
+                "description2": "I don´t have the `[manageRoles]` permission!",
+                "description3": "You must mention a role to apply it to members!",
+                "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s lower than it.",
+                "description5": "You can´t apply the role `[roleName]` because either that´s your role or your´s is lower than it."
+            },
+            "running": {
+                "description": "The role [roleName] is being used for [userSize] users on this guild. Please, wait a moment."
+            }
+        },
+        "config": {
+            "description": "Too lazy to give everyone a role? Use this command and do it easily!"
+        }
+    },
+    "ping": {
+        "embed": {
+            "1": {
+                "title": "[emoji] Please [username], wait!",
+                "description": "Calculating my ping. Please wait for it U-U"
+            },
+            "2": {
+                "description": {
+                    "line1": ":hourglass: | Response time: **[responseTime]** ms",
+                    "line2": ":satellite: | Api: **[apiTime]** ms"
+                }
+            }
+        },
+        "config": {
+            "description": "See my healt- I mean, my ping. I wonder whether I´m fast or slow today?"
+        }
+    },
+    "prefix": {
+        "embed": {
+            "sucess": {
+                "description1": "Prefix redefined to `[prefix]` with success!",
+                "description2": "Prefix defined to `[prefix]` with success!"
+            },
+            "error": {
+                "noperm": "You don't have the `[manageGuild]` permission",
+                "description1": "Enter if you wanna define a prefix (set) or if you wanna go back to default (remove).",
+                "description2": "You must insert the desired prefix!",
+                "description3": "The current prefix is already the default prefix!"
+            }
+        },
+        "config": {
+            "description": "Allows you to change the prefix on this server"
+        },
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <desiredPrefix>"
+    },
+    "rank": {
+        "embed": {
+            "title": "RANK: [username]",
+            "field1": "Level",
+            "field2": "Current XP",
+            "field3": "XP Required"
+        },
+        "config": {
+            "description": "See your rank on this server, or maybe your rival´s"
+        }
+    },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the `[manageMessages]` permission!",
+                "description2": "I don't have the `[manageMessages]` permission!",
+                "description3": "Insert at least one letter so that the bot can write!"
+            }
+        },
+        "config": {
+            "description": "Makes the bot speak a sentence instead of you"
         }
     },
     "generic": {
         "embed": {
+            "disabled": {
+                "description": "This command isn´t activated on your server. Please, request that an admin activates it using the command `[config]`."
+            },
+            "deprecated": {
+                "title": "🚫DEPRECATED FUNCTION🚫",
+                "description1": "**WARNING: THIS IS AN OLD FUNCTION AND IT WILL BE REMOVED SOON.**",
+                "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
+                "footer": "Deprecated Command Warning"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Success!",
+                "footer2": "Operation carried out sucessfully, [username]"
+            },
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Something went wrong, [username]"
-            }
+            },
+            "running": {
+                "title": "[emoji] Wait for it, [username]",
+                "footer": "Operation is being Executed, [username]"
+            },
+            "footer": "Command Requested by [usertag]"
         },
         "permissions": {
-            "manageMessages": "Gerenciar Mensagens"
+            "embedLinks": "Embed Links",
+            "manageGuild": "Manage Guild",
+            "manageMessages": "Manage Messages",
+            "manageRoles": "Manage Roles",
+            "useExternalEmojis": "Use External Emojis"
+        },
+        "strings": {
+            "error": "Error!"
         }
     }
 }

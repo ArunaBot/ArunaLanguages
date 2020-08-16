@@ -1,5 +1,39 @@
 {
     "message": {
-        "commandNotFound": "Oops, I couldn't find the command `[command]`. Did you mean something like `[alt]`?"
+        "errors": {
+            "emojiError": "I need the `[externalEmojis]` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
+            "linkError": "I need the `[sendLinks]` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
+            "dmError": "Sorry, but I can't send direct messages yet :(",
+            "commandNotFound": "Oops, I couldn't find the command `[command]`. Did you mean something like `[alt]`?"
+        },
+        "mention": {
+            "title": "Who´s calling me?",
+            "line1": "Oh, hello [username], how are you? My name is [me].",
+            "line2": "Well, if you wanna know my job, it is to help your server in many creative and different ways!",
+            "line3": "Maybe you don't know my prefix on this server and that's why you pinged me. If that´s your question, it´s `[prefix]`.",
+            "line4": "If you have any suggestions or found any loose ends, join my [support server]([url]) to talk with my creator.",
+            "line5": "If you wanna add me to your server, just click [aqui]([url])!",
+            "line6": "And finally, thanks for messaging me. It was great to explain who I am <3"
+        }
+    },
+    "rank": {
+        "embed": {
+            "newLevel": {
+                "title": "Level up!",
+                "description": "Congratulations [user], now you´re level **[level]**!"
+            }
+        }
+    },
+    "ready": {
+        "status": {
+            "1": "LoboMetalurgico´s channel",
+            "2": "M83 - Midnight City",
+            "3": "For [time]",
+            "4": "Something fun!",
+            "5": "Version [version]",
+            "6": "Your Shard is [shard]",
+            "7": "Did you know I´m OpenSource? No? Then use the command \"git\" and help my creator with my improvements ;)"
+        },
+        "maintenance": "🚫WARNING: MAINTENANCE SCHEDULED FOR [date]! I´LL BE UNAVAILABLE FOR [time]!🚫"
     }
 }

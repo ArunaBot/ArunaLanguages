@@ -1,8 +1,10 @@
 {
-    "errors": {
-        "emojiError": "Para meu funcionamento, preciso da permissão de `Usar Emojis Externos`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-        "linkError": "Para meu funcionamento, preciso da permissão de `Enviar Links`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
-        "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :("
+    "initialization": {
+        "initializing": "[prefix] Inicializando!",
+        "language": "O sistema está usando o idioma [language] e o idioma padrão para as funções é [default].",
+        "version": "Você Está Usando a Versão [version] com base na ArunaBot",
+        "complete": "Inicialização Completa!",
+        "fail": "Falha ao Inicializar:"
     },
     "main": {
         "error": "ERRO",
@@ -12,10 +14,19 @@
         "cluster": "CLUSTER"
     },
     "shard": {
+        "master": "SHARD MASTER",
         "launch": "[shard] iniciado(s)",
         "exit": "Foi forçado o encerramento de um processo.",
         "exitCode": "Código de Saída:",
         "startGeneration": "[logPrefix] Começando a gerar shards...",
         "finishGeneration": "Finalizando a geração dos Shards!"
+    },
+    "generic": {
+        "base": "Base",
+        "connected": "==> Ligado!",
+        "core": "Núcleo",
+        "languageName": "Português Portugal",
+        "notFound": "Não Encontrado!",
+        "shard": "Shard"
     }
 }

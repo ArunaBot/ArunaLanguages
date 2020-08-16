@@ -27,29 +27,160 @@
     "clear": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[manageMessages]`!",
-                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
-                "description3": "Você deve inserir a quantidade de mensagens a ser apagada!",
-                "description4": "Eu só posso apagar entre 2 e 100 mensagens."
+                "description1": "No tienes permiso para `[manageMessages]`!",
+                "description2": "No tengo permiso para `[manageMessages]`!",
+                "description3": "¡Debes ingresar el número de mensajes a eliminar!",
+                "description4": "Solo puedo borrar entre 2 y 100 mensajes."
             }
         },
         "sucess": {
-            "message1": "Foram deletadas `[messages]` mensagens por [user]",
-            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+            "message1": "[user] ha eliminado `[messages]` mensajes",
+            "message2": "[user] eliminó solo `[messages]` de `[request] solicitados` porque no existían o tenían más de 2 semanas."
         },
         "config": {
-            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+            "description": "Le permite eliminar masivamente hasta 100 mensajes de 2 semanas o menos"
+        }
+    },
+    "flip": {
+        "heads": "Cara!",
+        "tails": "Cruz!",
+        "config": {
+            "description": "¡Gira una moneda! ¿Qué saldrá?"
+        }
+    },
+    "massRemove": {
+        "embed": {
+            "sucess": {
+                "description": "¡El rol `[roleName]` ha sido eliminado de `[userSize] users` con éxito!"
+            },
+            "error": {
+                "description1": "No tienes permiso para `[manageRoles]`!",
+                "description2": "No tengo permiso para `[manageRoles]`!",
+                "description3": "¡Debe mencionar una rol para eliminar de los miembros!",
+                "description4": "No puede quitar el puesto `[roleName]` ya que este es mi puesto o soy inferior a él.",
+                "description5": "No puede quitar el puesto `[roleName]` ya que este es su puesto o es inferior a él."
+            },
+            "running": {
+                "description": "El rol [roleName] se eliminará de [userSize] usuarios en el servidor. Por favor, espere un momento."
+            }
+        },
+        "config": {
+            "description": "¿Usó massRole con el rol equivocado? ¡Utilice este comando y su problema desaparecerá de los usuarios!"
+        }
+    },
+    "massRole": {
+        "embed": {
+            "sucess": {
+                "description": "¡El rol `[roleName]` se ha aplicado con éxito a `[userSize] users`!"
+            },
+            "error": {
+                "description1": "No tienes permiso para `[manageRoles]`!",
+                "description2": "No tengo permiso para `[manageRoles]`!",
+                "description3": "Você deve mencionar um cargo para aplicar aos membros!",
+                "description4": "Você não pode aplicar o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
+                "description5": "Você não pode aplicar o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+            },
+            "running": {
+                "description": "O cargo [roleName] está sendo aplicado para [userSize] usuários no servidor. Por favor, aguarde um momento."
+            }
+        },
+        "config": {
+            "description": "¿Demasiado perezoso para darles una rol a todos? ¡Utiliza este comando y su problema se resolverá!"
+        }
+    },
+    "ping": {
+        "embed": {
+            "1": {
+                "title": "[emoji] ¡Por favor, [username], espera!",
+                "description": "Calculando mi ping. Por favor espere U-U"
+            },
+            "2": {
+                "description": {
+                    "line1": ":hourglass: | Tiempo de respuesta: **[responseTime]** ms",
+                    "line2": ":satellite: | Api: **[apiTime]** ms"
+                }
+            }
+        },
+        "config": {
+            "description": "Mira mi salud, quiero decir, ping. ¿Soy más rápido o más lento hoy?"
+        }
+    },
+    "prefix": {
+        "embed": {
+            "sucess": {
+                "description1": "¡Prefijo redefinido a `[prefix]` con éxito!",
+                "description2": "¡Prefijo establecido en `[prefix]` correctamente!"
+            },
+            "error": {
+                "noperm": "No tienes permiso para `[manageGuild]`",
+                "description1": "Ingrese si desea definir un prefijo (set) o si desea volver al predeterminado (remove).",
+                "description2": "¡Debes ingresar el prefijo deseado!",
+                "description3": "¡El prefijo actual ya es el prefijo predeterminado!"
+            }
+        },
+        "config": {
+            "description": "Le permite cambiar el prefijo en este servidor"
+        },
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefijoDeseado>"
+    },
+    "rank": {
+        "embed": {
+            "title": "RANGO: [username]",
+            "field1": "Nivel",
+            "field2": "XP Actual",
+            "field3": "XP Requerido"
+        },
+        "config": {
+            "description": "Vea su rango en este servidor, o tal vez el de su rival"
+        }
+    },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "No tienes permiso para `[manageMessages]`!",
+                "description2": "No tengo permiso para `[manageMessages]`!",
+                "description3": "¡Ingresa al menos una letra para que el bot pueda hablar!"
+            }
+        },
+        "config": {
+            "description": "Hace que el bot diga una oración en lugar de ti"
         }
     },
     "generic": {
         "embed": {
+            "disabled": {
+                "description": "Este comando no está activado en su servidor. Pídale a un ADM que lo active usando el comando `[config]`."
+            },
+            "deprecated": {
+                "title": "🚫FUNCIÓN OBSOLETA🚫",
+                "description1": "**ADVERTENCIA: ESTA ES UNA FUNCIÓN ANTIGUA Y SE QUITARÁ PRONTO**",
+                "description2": "Para evitar inconvenientes, se recomienda utilizar `[alternative]`.",
+                "footer": "Advertencia de Comando Obsoleto"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "¡Éxito!",
+                "footer2": "Operación realizada con éxito, [username]"
+            },
             "error": {
                 "title": "Oops, [username]",
                 "footer": "Algo salió mal, [username]"
-            }
+            },
+            "running": {
+                "title": "[emoji] Espera, [username]",
+                "footer": "Operación en Ejecución, [username]"
+            },
+            "footer": "Comando Solicitado por [usertag]"
         },
         "permissions": {
-            "manageMessages": "Gerenciar Mensagens"
+            "embedLinks": "Insertar Enlaces",
+            "manageGuild": "Gestionar Servidor",
+            "manageMessages": "Gestionar Mensajes",
+            "manageRoles": "Gestionar Roles",
+            "useExternalEmojis": "Usar Emojis Externos"
+        },
+        "strings": {
+            "error": "¡Error!"
         }
     }
 }

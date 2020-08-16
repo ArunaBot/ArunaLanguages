@@ -1,5 +1,39 @@
 {
     "message": {
-        "commandNotFound": "Oops, no lo encontré el mando `[command]`. Tú querías di algo como `[alt]`?"
+        "errors": {
+            "emojiError": "Para mi operacíon, necesito permiso de `[externalEmojis]`. Pídale para algún administrador que habilite esto para que pueda trabajar :)",
+            "linkError": "Para mi operacíon, necesito permiso de `[sendLinks]`. Pídale para algún administrador que habilite esto para que pueda trabajar :)",
+            "dmError": "Lo siento, pero todavía no funciono con mensajes directos :(",
+            "commandNotFound": "Oops, no lo encontré el mando `[command]`. ¿Quisiste decir algo como `[alt]`?"
+        },
+        "mention": {
+            "title": "¿Quién me está llamando?",
+            "line1": "Ah, hola [username], ¿cómo estás? Yo soy [me].",
+            "line2": "Bueno, si quieres conocer mi función, ¡es ayudar a tu servidor de muchas formas creativas y diferentes!",
+            "line3": "Quizás no conoces mi prefijo en este servidor y por eso me llamaste. Si esa es su pregunta, la respuesta es `[prefix]`.",
+            "line4": "Si tiene alguna sugerencia o ha encontrado un tornillo mío perdido, ingrese a mi [servidor de soporte]([url]) para hablar con mi creador.",
+            "line5": "Si desea agregarme a su servidor, ¡simplemente haga clic [aquí]([url])!",
+            "line6": "Y finalmente, gracias por llamarme. Fue genial explicar quién soy <3"
+        }
+    },
+    "rank": {
+        "embed": {
+            "newLevel": {
+                "title": "¡Nuevo Nivel!",
+                "description": "¡Felicitaciones [user], ahora estás en el Nivel **[level]**!"
+            }
+        }
+    },
+    "ready": {
+        "status": {
+            "1": "El canal LoboMetalurgico",
+            "2": "M83 - Midnight City",
+            "3": "Hace [time]",
+            "4": "¡Algo divertido!",
+            "5": "Versión [version]",
+            "6": "Tu fragmento es el [shard]",
+            "7": "¿Sabías que soy OpenSource? ¿No? Luego usa el comando \"git\" y ayuda a mi creador a mejorarme ;)"
+        },
+        "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫"
     }
 }

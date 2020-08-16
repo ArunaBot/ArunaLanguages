@@ -1,21 +1,32 @@
 {
-    "errors": {
-        "emojiError": "I need the `Use External Emojis` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
-        "linkError": "I need the `Send Links` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
-        "dmError": "Sorry, but I can't send direct messages yet :("
+    "initialization": {
+        "initializing": "[prefix] Initializing!",
+        "language": "The system is using the [language] language and the default language for the functions is [default].",
+        "version": "You´re Using the Version [version] Based on ArunaBot",
+        "complete": "Initialization Complete!",
+        "fail": "Failed to initialized:"
     },
     "main": {
-        "error": "ERRO",
-        "event": "EVENTO",
-        "command": "COMANDO",
-        "commands": "COMANDOS",
+        "error": "ERROR",
+        "event": "EVENT",
+        "command": "COMMAND",
+        "commands": "COMMANDS",
         "cluster": "CLUSTER"
     },
     "shard": {
+        "master": "SHARD MASTER",
         "launch": "[shard] Were initialized",
-        "exit": "A process was forced to close.",
+        "exit": "A process was forced to be closed.",
         "exitCode": "Exit Code:",
-        "startGeneration": "[logPrefix] Beginning to generate shards...",
-        "finishGeneration": "Finalizing the generation of Shards!"
+        "startGeneration": "[logPrefix] Starting to generate shards...",
+        "finishGeneration": "Stopping the generation of Shards!"
+    },
+    "generic": {
+        "base": "Base",
+        "connected": "=> Connected!",
+        "core": "Core",
+        "languageName": "English",
+        "notFound": "Not Found!",
+        "shard": "Shard"
     }
 }
