@@ -1,6 +1,6 @@
 {
     "initialization": {
-        "initializing": "[prefix] Inicializando!",
+        "initializing": "[prefix] ¡Inicializando!",
         "language": "O sistema está usando o idioma [language] e o idioma padrão para as funções é [default].",
         "version": "Você Está Usando a Versão [version] com base na ArunaBot",
         "complete": "Inicialização Completa!",
