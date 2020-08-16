@@ -1,10 +1,10 @@
 {
     "initialization": {
         "initializing": "[prefix] ¡Inicializando!",
-        "language": "O sistema está usando o idioma [language] e o idioma padrão para as funções é [default].",
-        "version": "Você Está Usando a Versão [version] com base na ArunaBot",
-        "complete": "Inicialização Completa!",
-        "fail": "Falha ao Inicializar:"
+        "language": "El sistema está utilizando el idioma [language] y el idioma predeterminado para las funciones es [default].",
+        "version": "Está Utilizando la Versión [version] Basada en ArunaBot",
+        "complete": "Inicialización Finalizada!",
+        "fail": "Error al Inicializar:"
     },
     "main": {
         "error": "ERROR",
@@ -14,12 +14,12 @@
         "cluster": "CLÚSTER"
     },
     "shard": {
-        "master": "SHARD MASTER",
+        "master": "FRAGMENTO MÁSTER",
         "launch": "[shard] iniciado(s)",
         "exit": "Foi forçado o encerramento de um processo.",
-        "exitCode": "Código de Saída:",
-        "startGeneration": "[logPrefix] Começando a gerar shards...",
-        "finishGeneration": "Finalizando a geração dos Shards!"
+        "exitCode": "Código de Salida:",
+        "startGeneration": "[logPrefix] Empezando a generar fragmentos...",
+        "finishGeneration": "¡Terminando la generación de los Fragmentos!"
     },
     "generic": {
         "base": "Base",
@@ -27,6 +27,6 @@
         "core": "Núcleo",
         "languageName": "Español",
         "notFound": "¡No Encontrado!",
-        "shard": "Shard"
+        "shard": "Fragmento"
     }
 }
