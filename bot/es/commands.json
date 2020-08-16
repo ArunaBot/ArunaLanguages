@@ -61,17 +61,17 @@
                 "description5": "No puede quitar el puesto `[roleName]` ya que este es su puesto o es inferior a él."
             },
             "running": {
-                "description": "O cargo [roleName] está sendo removido de [userSize] usuários no servidor. Por favor, aguarde um momento."
+                "description": "El rol [roleName] se eliminará de [userSize] usuarios en el servidor. Por favor, espere un momento."
             }
         },
         "config": {
-            "description": "Usou o massRole com o cargo errado? Use esse comando que seu problema desaparecerá dos usuários!"
+            "description": "¿Usó massRole con el rol equivocado? ¡Utilice este comando y su problema desaparecerá de los usuarios!"
         }
     },
     "massRole": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!"
+                "description": "¡El rol `[roleName]` se ha aplicado con éxito a `[userSize] users`!"
             },
             "error": {
                 "description1": "No tienes permiso para `[manageRoles]`!",
@@ -85,14 +85,14 @@
             }
         },
         "config": {
-            "description": "Com preguiça de dar um cargo para todos? Use esse comando que seu problema estará resolvido!"
+            "description": "¿Demasiado perezoso para darles una rol a todos? ¡Utiliza este comando y su problema se resolverá!"
         }
     },
     "ping": {
         "embed": {
             "1": {
-                "title": "[emoji] Por Favor [username], aguarde!",
-                "description": "Calculando meu ping. Por Favor, aguarde U-U"
+                "title": "[emoji] ¡Por favor, [username], espera!",
+                "description": "Calculando mi ping. Por favor espere U-U"
             },
             "2": {
                 "description": {
@@ -113,15 +113,15 @@
             },
             "error": {
                 "noperm": "No tienes permiso para `[manageGuild]`",
-                "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
-                "description2": "Você deve inserir o prefixo desejado!",
-                "description3": "O prefixo atual já é o prefixo padrão!"
+                "description1": "Ingrese si desea definir un prefijo (set) o si desea volver al predeterminado (remove).",
+                "description2": "¡Debes ingresar el prefijo deseado!",
+                "description3": "¡El prefijo actual ya es el prefijo predeterminado!"
             }
         },
         "config": {
-            "description": "Permite alterar o prefixo neste servidor"
+            "description": "Le permite cambiar el prefijo en este servidor"
         },
-        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefijoDeseado>"
     },
     "rank": {
         "embed": {
@@ -131,7 +131,7 @@
             "field3": "XP Requerido"
         },
         "config": {
-            "description": "Veja seu rank neste servidor, ou quem sabe, o do seu rival"
+            "description": "Vea su rango en este servidor, o tal vez el de su rival"
         }
     },
     "say": {
@@ -139,17 +139,17 @@
             "error": {
                 "description1": "No tienes permiso para `[manageMessages]`!",
                 "description2": "No tengo permiso para `[manageMessages]`!",
-                "description3": "Insira ao menos uma letra para que o bot possa falar!"
+                "description3": "¡Ingresa al menos una letra para que el bot pueda hablar!"
             }
         },
         "config": {
-            "description": "Faz o bot falar uma frase ao invés de você"
+            "description": "Hace que el bot diga una oración en lugar de ti"
         }
     },
     "generic": {
         "embed": {
             "disabled": {
-                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
+                "description": "Este comando no está activado en su servidor. Pídale a un ADM que lo active usando el comando `[config]`."
             },
             "deprecated": {
                 "title": "🚫FUNCIÓN OBSOLETA🚫",
