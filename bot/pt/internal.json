@@ -23,7 +23,7 @@
     },
     "generic": {
         "base": "Base",
-        "connected": "=> Conectado!",
+        "connected": "==> Ligado!",
         "core": "Núcleo",
         "languageName": "Português Portugal",
         "notFound": "Não Encontrado!",
