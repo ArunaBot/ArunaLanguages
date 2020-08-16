@@ -7,10 +7,10 @@
             "commandNotFound": "Oops, no lo encontré el mando `[command]`. ¿Quisiste decir algo como `[alt]`?"
         },
         "mention": {
-            "title": "Quem me chama?",
-            "line1": "Ah, olá [username], como está? Eu sou a [me].",
-            "line2": "Bom, caso queira saber minha função, ela é ajudar seu servidor de várias formas criativas e diferentes!",
-            "line3": "Talvez você não saiba meu prefixo neste servidor e por isso me chamou. Se essa for sua dúvida, ele é `[prefix]`.",
+            "title": "¿Quién me está llamando?",
+            "line1": "Ah, hola [username], ¿cómo estás? Yo soy [me].",
+            "line2": "Bueno, si quieres conocer mi función, ¡es ayudar a tu servidor de muchas formas creativas y diferentes!",
+            "line3": "Quizás no conoces mi prefijo en este servidor y por eso me llamaste. Si esa es su pregunta, la respuesta es `[prefix]`.",
             "line4": "Se você tiver alguma sugestão ou tiver encontrado algum parafuso meu perdido por aí, entre no meu [servidor de suporte]([url]) para falar com meu criador.",
             "line5": "Se quiser me adicionar em seu servidor, basta clicar [aqui]([url])!",
             "line6": "E por fim, obrigada por me chamar. Foi ótimo te explicar quem sou <3"
