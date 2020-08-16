@@ -51,7 +51,7 @@
     "massRemove": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi removido para `[userSize] usuários` com sucesso!"
+                "description": "O cargo `[roleName]` foi removido de `[userSize] usuários` com sucesso!"
             },
             "error": {
                 "description1": "Você não possui a permissão de `[manageRoles]`!",
@@ -61,7 +61,7 @@
                 "description5": "Você não pode remover o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
             },
             "running": {
-                "description": "O cargo [roleName] está sendo removido para [userSize] usuários no servidor. Por favor, aguarde um momento."
+                "description": "O cargo [roleName] está sendo removido de [userSize] usuários no servidor. Por favor, aguarde um momento."
             }
         },
         "config": {
