@@ -16,7 +16,7 @@
     "shard": {
         "master": "FRAGMENTO MÁSTER",
         "launch": "[shard] iniciado(s)",
-        "exit": "Foi forçado o encerramento de um processo.",
+        "exit": "Se obligó a cerrar una demanda.",
         "exitCode": "Código de Salida:",
         "startGeneration": "[logPrefix] Empezando a generar fragmentos...",
         "finishGeneration": "¡Terminando la generación de los Fragmentos!"
