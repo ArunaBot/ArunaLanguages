@@ -30,15 +30,15 @@
                 "description1": "No tienes permiso para `[manageMessages]`!",
                 "description2": "No tengo permiso para `[manageMessages]`!",
                 "description3": "¡Debes ingresar el número de mensajes a eliminar!",
-                "description4": "Eu só posso apagar entre 2 e 100 mensagens."
+                "description4": "Solo puedo borrar entre 2 y 100 mensajes."
             }
         },
         "sucess": {
-            "message1": "Foram deletadas `[messages]` mensagens por [user]",
-            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+            "message1": "[user] ha eliminado `[messages]` mensajes",
+            "message2": "[user] eliminó solo `[messages]` de `[request] solicitados` porque no existían o tenían más de 2 semanas."
         },
         "config": {
-            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+            "description": "Le permite eliminar masivamente hasta 100 mensajes de 2 semanas o menos"
         }
     },
     "flip": {
@@ -51,11 +51,11 @@
     "massRemove": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi removido de `[userSize] usuários` com sucesso!"
+                "description": "¡El rol `[roleName]` ha sido eliminado de `[userSize] users` con éxito!"
             },
             "error": {
-                "description1": "Você não possui a permissão de `[manageRoles]`!",
-                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description1": "No tienes permiso para `[manageRoles]`!",
+                "description2": "No tengo permiso para `[manageRoles]`!",
                 "description3": "Você deve mencionar um cargo para remover dos membros!",
                 "description4": "Você não pode remover o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
                 "description5": "Você não pode remover o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
@@ -74,8 +74,8 @@
                 "description": "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!"
             },
             "error": {
-                "description1": "Você não possui a permissão de `[manageRoles]`!",
-                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description1": "No tienes permiso para `[manageRoles]`!",
+                "description2": "No tengo permiso para `[manageRoles]`!",
                 "description3": "Você deve mencionar um cargo para aplicar aos membros!",
                 "description4": "Você não pode aplicar o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
                 "description5": "Você não pode aplicar o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
@@ -125,10 +125,10 @@
     },
     "rank": {
         "embed": {
-            "title": "RANK: [username]",
+            "title": "RANGO: [username]",
             "field1": "Nivel",
             "field2": "XP Actual",
-            "field3": "XP Necessário"
+            "field3": "XP Requerido"
         },
         "config": {
             "description": "Veja seu rank neste servidor, ou quem sabe, o do seu rival"
