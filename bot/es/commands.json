@@ -126,8 +126,8 @@
     "rank": {
         "embed": {
             "title": "RANK: [username]",
-            "field1": "Nível",
-            "field2": "XP Atual",
+            "field1": "Nivel",
+            "field2": "XP Actual",
             "field3": "XP Necessário"
         },
         "config": {
