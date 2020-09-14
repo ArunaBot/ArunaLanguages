@@ -1,4 +1,18 @@
 {
+    "guild": {
+        "create": "¡Me uní al servidor [guildName]! :)",
+        "delete": "Me eliminaron del servidor [guildName] :("
+    },
+    "memberAdd": {
+        "db": "¡Nuevo miembro en la base de datos!",
+        "change": {
+            "embed": {
+                "title": "Oops, [username]",
+                "description": "¡Hola! Actualmente estamos cambiando de servidor. Por favor, le pido que ingrese a nuestro nuevo servidor presionando **[aquí]([link])** :)",
+                "footer": "¡Hasta pronto, [username]!"
+            }
+        }
+    },
     "message": {
         "errors": {
             "emojiError": "Para mi operacíon, necesito permiso de `[externalEmojis]`. Pídale para algún administrador que habilite esto para que pueda trabajar :)",
@@ -35,9 +49,5 @@
             "7": "¿Sabías que soy OpenSource? ¿No? Luego usa el comando \"git\" y ayuda a mi creador a mejorarme ;)"
         },
         "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫"
-    },
-    "guild": {
-        "create": "Entrei no servidor [guildName]! :)",
-        "delete": "Fui removida do servidor [guildName] :("
     }
 }
