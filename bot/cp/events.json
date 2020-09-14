@@ -1,4 +1,18 @@
 {
+    "guild": {
+        "create": "Entrei no servidor [guildName]! :)",
+        "delete": "Fui removida do servidor [guildName] :("
+    },
+    "memberAdd": {
+        "db": "Novo Membro na Database!",
+        "change": {
+            "embed": {
+                "title": "Ooky, [username]",
+                "description": "Olá! No momento estamos trocando de servidor. Por favor, peço que entre no nosso novo servidor clicando **[aqui]([link])** :)",
+                "footer": "Nos Vemos em Breve, [username]!"
+            }
+        }
+    },
     "message": {
         "errors": {
             "emojiError": "Kata seu tutyiotasetpo, kteyiyo pa ketsuyyão pe `[externalEmojis]`. Kot patot, yopiyipe kata apjus apsitiyptapot rue apite iyyo kata rue eu koyya putyiotat :)",
@@ -35,9 +49,5 @@
             "7": "Yatia rue you OketYoutye? Tão? Etpão uye o yosatpo \"jip\" e atupe seu ytuapot a se peikat sepkot ;)"
         },
         "maintenance": "🚫ATIYO: SATUPETÇÃO KTOJTASAPA KATA [date]! TIYATEI ITPIYKOTÍTEP KOT [time]!🚫"
-    },
-    "guild": {
-        "create": "Entrei no servidor [guildName]! :)",
-        "delete": "Fui removida do servidor [guildName] :("
     }
 }
