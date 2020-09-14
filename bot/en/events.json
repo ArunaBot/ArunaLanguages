@@ -35,5 +35,9 @@
             "7": "Did you know I´m OpenSource? No? Then use the command \"git\" and help my creator with my improvements ;)"
         },
         "maintenance": "🚫WARNING: MAINTENANCE SCHEDULED FOR [date]! I´LL BE UNAVAILABLE FOR [time]!🚫"
+    },
+    "guild": {
+        "create": "Entrei no servidor [guildName]! :)",
+        "delete": "Fui removida do servidor [guildName] :("
     }
 }
