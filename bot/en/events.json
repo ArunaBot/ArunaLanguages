@@ -1,4 +1,18 @@
 {
+    "guild": {
+        "create": "Enter on my guild [guildName]! :)",
+        "delete": "I was removed from the guild [guildName] :("
+    },
+    "memberAdd": {
+        "db": "Novo Membro na Database!",
+        "change": {
+            "embed": {
+                "title": "Oops, [username]",
+                "description": "Olá! No momento estamos trocando de servidor. Por favor, peço que entre no nosso novo servidor clicando **[aqui]([link])** :)",
+                "footer": "Nos Vemos em Breve, [username]!"
+            }
+        }
+    },
     "message": {
         "errors": {
             "emojiError": "I need the `[externalEmojis]` permission in order for me to operate. Please, request that an admin activates it so that I can work :)",
@@ -35,9 +49,5 @@
             "7": "Did you know I´m OpenSource? No? Then use the command \"git\" and help my creator with my improvements ;)"
         },
         "maintenance": "🚫WARNING: MAINTENANCE SCHEDULED FOR [date]! I´LL BE UNAVAILABLE FOR [time]!🚫"
-    },
-    "guild": {
-        "create": "Enter on my guild [guildName]! :)",
-        "delete": "I was removed from the guild [guildName] :("
     }
 }
