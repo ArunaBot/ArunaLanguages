@@ -35,5 +35,9 @@
             "7": "Yatia rue you OketYoutye? Tão? Etpão uye o yosatpo \"jip\" e atupe seu ytuapot a se peikat sepkot ;)"
         },
         "maintenance": "🚫ATIYO: SATUPETÇÃO KTOJTASAPA KATA [date]! TIYATEI ITPIYKOTÍTEP KOT [time]!🚫"
+    },
+    "guild": {
+        "create": "Entrei no servidor [guildName]! :)",
+        "delete": "Fui removida do servidor [guildName] :("
     }
 }
