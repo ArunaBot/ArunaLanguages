@@ -37,7 +37,7 @@
         "maintenance": "🚫WARNING: MAINTENANCE SCHEDULED FOR [date]! I´LL BE UNAVAILABLE FOR [time]!🚫"
     },
     "guild": {
-        "create": "Entrei no servidor [guildName]! :)",
-        "delete": "Fui removida do servidor [guildName] :("
+        "create": "Enter on my guild [guildName]! :)",
+        "delete": "I was removed from the guild [guildName] :("
     }
 }
