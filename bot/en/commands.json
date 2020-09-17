@@ -56,7 +56,7 @@
             "sucess": {
                 "description": {
                     "line1": "I´m happy that you liked me and wanted to contribute with my development :)",
-                    "line2": "In order for you to see my repository and help, just click [aqui] ([url]), \"fork\" the repository, edit my \"Unstable\" branch , make a pull request on my main repository and that´s it! You would´ve contributed with my development :)",
+                    "line2": "In order for you to see my repository and help, just click [here] ([url]), \"fork\" the repository, edit my \"Unstable\" branch , make a pull request on my main repository and that´s it! You would´ve contributed with my development :)",
                     "line3": "Again, thanks for the interest and we´ll see eachother on GitHub!"
                 }
             }
@@ -73,7 +73,7 @@
             "sucess": {
                 "description": {
                     "line1": "I´m happy that you liked me and wanted to add me :)",
-                    "line2": "To do that, just click [aqui] ([link]), select the guild on the list, confirm the reCaptcha and that´s it! I´ll be on your guild!",
+                    "line2": "To do that, just click [here] ([link]), select the guild on the list, confirm the reCaptcha and that´s it! I´ll be on your guild!",
                     "line3": "Again, thanks for the interest and we´ll see eachother on your guild!"
                 }
             }
@@ -183,18 +183,18 @@
     "support": {
         "embed": {
             "error": {
-                "description": "I think my creator forgot to add a link for my support server :("
+                "description": "I think my creator forgot to add a link for my support guild :("
             },
             "sucess": {
                 "description": {
                     "line1": "Did you find anything weird with me? Do you have any complaints or suggestions for my creators?",
-                    "line2": "Se esse é o seu caso, você está no lugar certo! O meu servidor de suporte fica a poucos cliques de distância. Dúvida? Então clique [aqui]([link])!",
-                    "line3": "Clicou? Agora é só apertar o botão de \"entrar\" que apareceu na sua tela. Viu como foi fácil?"
+                    "line2": "If that´s your case, you´ll be on the right place! My support guild is just a few clicks away. Any questions? Then click [here] ([link])!",
+                    "line3": "Did you click it? Now you just have to click the \"enter\" button that appeared on your screen. Did you see how easy it is?"
                 }
             }
         },
         "config": {
-            "description": "Parece que você precisa falar com meu criador. Se sim, use esse comando para entrar em meu servidor de suporte!"
+            "description": "It seems that you need to speak with my creator. If that´s the case, use this command to enter on my support guild!"
         }
     },
     "generic": {
@@ -221,7 +221,7 @@
                 "title": "[emoji] Wait for it, [username]",
                 "footer": "Operation is being Executed, [username]"
             },
-            "title": "Olá, [username]",
+            "title": "Hey, [username]",
             "footer": "Command Requested by [usertag]"
         },
         "permissions": {
