@@ -76,10 +76,10 @@
                     "line2": "Para isso, basta clicar [aqui]([link]), selecionar o servidor na lista, confirmar o reCaptcha e pronto! Eu estarei em seu servidor!",
                     "line3": "Novamente, obrigado pelo interesse e nos vemos em seu servidor!"
                 }
-            },
-            "config": {
-                "description": "Meu link de convite para você que me quer em seu servidor :)"
             }
+        },
+        "config": {
+            "description": "Meu link de convite para você que me quer em seu servidor :)"
         }
     },
     "massRemove": {
