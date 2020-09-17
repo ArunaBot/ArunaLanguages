@@ -180,6 +180,23 @@
             "description": "Tab o top Tapar usa ttaye ao ittéy pe toyé"
         }
     },
+    "support": {
+        "embed": {
+            "error": {
+                "description": "Acho que meu criador se esqueceu de adicionar um link para meu servidor de suporte :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "Encontrou alguma coisa esquisita em mim? Tem alguma reclamação ou sugestões para meus criadores?",
+                    "line2": "Se esse é o seu caso, você está no lugar certo! O meu servidor de suporte fica a poucos cliques de distância. Dúvida? Então clique [aqui]([link])!",
+                    "line3": "Clicou? Agora é só apertar o botão de \"entrar\" que apareceu na sua tela. Viu como foi fácil?"
+                }
+            }
+        },
+        "config": {
+            "description": "Parece que você precisa falar com meu criador. Se sim, use esse comando para entrar em meu servidor de suporte!"
+        }
+    },
     "generic": {
         "embed": {
             "disabled": {
