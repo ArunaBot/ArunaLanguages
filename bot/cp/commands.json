@@ -48,6 +48,18 @@
             "description": "Jite usa soeta! O rue tai yait?"
         }
     },
+    "github": {
+        "embed": {
+            "description": {
+                "line1": "Fico feliz que tenha gostado de mim e que queira contribuir com meu desenvolvimento :)",
+                "line2": "Para ver meu repositório e poder ajudar, basta clicar [aqui]([url]), dar \"fork\" no repositório, editar minha branch \"Unstable\" e fazer um pull request no meu repositório principal e pronto! Você já terá contriubuído comigo :)",
+                "line3": "Novamente, obrigado pelo interesse e nos vemos no GitHub!"
+            }
+        },
+        "config": {
+            "description": "Veja o link do meu GitHub com uma mensagem bonitinha junto :)"
+        }
+    },
     "massRemove": {
         "embed": {
             "sucess": {
@@ -170,6 +182,7 @@
                 "title": "[emoji] Aguarde, [username]",
                 "footer": "Operação em Execução, [username]"
             },
+            "title": "Olá, [username]",
             "footer": "Comando Solicitado por [usertag]"
         },
         "permissions": {
