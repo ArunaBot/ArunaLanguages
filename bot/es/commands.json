@@ -221,7 +221,7 @@
                 "title": "[emoji] Espera, [username]",
                 "footer": "Operación en Ejecución, [username]"
             },
-            "title": "Olá, [username]",
+            "title": "Hola, [username]",
             "footer": "Comando Solicitado por [usertag]"
         },
         "permissions": {
