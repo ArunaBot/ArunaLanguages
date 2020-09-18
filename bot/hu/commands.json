@@ -56,7 +56,7 @@
             "sucess": {
                 "description": {
                     "line1": "Fico feliz que tenha gostado de mim e que queira contribuir com meu desenvolvimento :)",
-                    "line2": "Para ver meu repositório e poder ajudar, basta clicar [aqui]([url]), dar \"fork\" no repositório, editar minha branch \"Unstable\" e fazer um pull request no meu repositório principal e pronto! Você já terá contriubuído comigo :)",
+                    "line2": "Para ver meu repositório e poder ajudar, basta clicar [aqui]([url]), dar \"fork\" no repositório, editar minha branch \"Unstable\", fazer um pull request no meu repositório principal e pronto! Você já terá contriubuído comigo :)",
                     "line3": "Novamente, obrigado pelo interesse e nos vemos no GitHub!"
                 }
             }
@@ -72,7 +72,7 @@
             },
             "sucess": {
                 "description": {
-                    "line1": "Fico feliz que tenha gostado de mim e queira me adicionar :) ",
+                    "line1": "Fico feliz que tenha gostado de mim e queira me adicionar :)",
                     "line2": "Para isso, basta clicar [aqui]([link]), selecionar o servidor na lista, confirmar o reCaptcha e pronto! Eu estarei em seu servidor!",
                     "line3": "Novamente, obrigado pelo interesse e nos vemos em seu servidor!"
                 }
