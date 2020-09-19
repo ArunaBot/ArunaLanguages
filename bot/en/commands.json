@@ -56,7 +56,7 @@
             "sucess": {
                 "description": {
                     "line1": "I´m happy that you liked me and wanted to contribute with my development :)",
-                    "line2": "Para ver meu repositório e poder ajudar, basta clicar [aqui]([url]), dar \"fork\" no repositório, editar minha branch \"Unstable\", fazer um pull request no meu repositório principal e pronto! Você já terá contriubuído comigo :)",
+                    "line2": "In order for you to see my repository and help, just click [here] ([url]), \"fork\" the repository, edit my \"Unstable\" branch , make a pull request on my main repository and that´s it! You would´ve contributed with my development :)",
                     "line3": "Again, thanks for the interest and we´ll see eachother on GitHub!"
                 }
             }
@@ -72,7 +72,7 @@
             },
             "sucess": {
                 "description": {
-                    "line1": "Fico feliz que tenha gostado de mim e queira me adicionar :)",
+                    "line1": "I´m happy that you liked me and wanted to add me :)",
                     "line2": "To do that, just click [here] ([link]), select the guild on the list, confirm the reCaptcha and that´s it! I´ll be on your guild!",
                     "line3": "Again, thanks for the interest and we´ll see eachother on your guild!"
                 }
