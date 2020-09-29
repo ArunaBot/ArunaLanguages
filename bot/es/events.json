@@ -39,6 +39,10 @@
         }
     },
     "ready": {
+        "databaseAdd": "Database Inicializada!",
+        "dbl": "DBL",
+        "posted": "Contagem de servidores enviada!",
+        "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫",
         "status": {
             "1": "El canal LoboMetalurgico",
             "2": "M83 - Midnight City",
@@ -47,7 +51,6 @@
             "5": "Versión [version]",
             "6": "Tu fragmento es el [shard]",
             "7": "¿Sabías que soy OpenSource? ¿No? Luego usa el comando \"git\" y ayuda a mi creador a mejorarme ;)"
-        },
-        "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫"
+        }
     }
 }
