@@ -199,8 +199,13 @@
     },
     "generic": {
         "embed": {
-            "disabled": {
-                "description": "This command isn´t activated on your server. Please, request that an admin activates it using the command `[config]`."
+            "denied": {
+                "title": "Acesso Negado!",
+                "description": {
+                    "line1": "Sinto muito [username], mas o comando [command] está disponível apenas para meu criador :(",
+                    "line2": "Ao invés de tentar usar esse comando, porque você não usa um dos meus públicos? Para vê-los, é só usar `[prefix]help`."
+                },
+                "footer": "Você não posui permissão para executar essa ação"
             },
             "deprecated": {
                 "title": "🚫DEPRECATED FUNCTION🚫",
@@ -208,10 +213,8 @@
                 "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
                 "footer": "Deprecated Command Warning"
             },
-            "sucess": {
-                "title": "Yay, [username]",
-                "footer": "Success!",
-                "footer2": "Operation carried out sucessfully, [username]"
+            "disabled": {
+                "description": "This command isn´t activated on your server. Please, request that an admin activates it using the command `[config]`."
             },
             "error": {
                 "title": "Oops, [username]",
@@ -220,6 +223,11 @@
             "running": {
                 "title": "[emoji] Wait for it, [username]",
                 "footer": "Operation is being Executed, [username]"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Success!",
+                "footer2": "Operation carried out sucessfully, [username]"
             },
             "title": "Hey, [username]",
             "footer": "Command Requested by [usertag]"
