@@ -199,8 +199,13 @@
     },
     "generic": {
         "embed": {
-            "disabled": {
-                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
+            "denied": {
+                "title": "Acesso Negado!",
+                "description": {
+                    "line1": "Sinto muito [username], mas o comando [command] está disponível apenas para meu criador :(",
+                    "line2": "Ao invés de tentar usar esse comando, porque você não usa um dos meus públicos? Para vê-los, é só usar `[prefix]help`."
+                },
+                "footer": "Você não posui permissão para executar essa ação"
             },
             "deprecated": {
                 "title": "🚫FUNÇÃO OBSOLETA🚫",
@@ -208,10 +213,8 @@
                 "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
                 "footer": "Aviso de Comando Obsoleto"
             },
-            "sucess": {
-                "title": "Yay, [username]",
-                "footer": "Sucesso!",
-                "footer2": "Operação efetuada com sucesso, [username]"
+            "disabled": {
+                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
             },
             "error": {
                 "title": "Ups, [username]",
@@ -220,6 +223,11 @@
             "running": {
                 "title": "[emoji] Aguarde, [username]",
                 "footer": "Operação em Execução, [username]"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Sucesso!",
+                "footer2": "Operação efetuada com sucesso, [username]"
             },
             "title": "Olá, [username]",
             "footer": "Comando Solicitado por [usertag]"
