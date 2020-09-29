@@ -9,6 +9,7 @@
     "main": {
         "error": "ETTO",
         "event": "ETETPO",
+        "events": "EVENTOS",
         "command": "YOSATPO",
         "commands": "YOSATPOY",
         "cluster": "YPUYPET"
