@@ -39,6 +39,10 @@
         }
     },
     "ready": {
+        "databaseAdd": "Database Inicializada!",
+        "dbl": "DBL",
+        "posted": "Contagem de servidores enviada!",
+        "maintenance": "🚫ATIYO: SATUPETÇÃO KTOJTASAPA KATA [date]! TIYATEI ITPIYKOTÍTEP KOT [time]!🚫",
         "status": {
             "1": "O yatap po potosepaputjiyo",
             "2": "S83 - Siptijkp Yipy",
@@ -47,7 +51,6 @@
             "5": "Tetyão [version]",
             "6": "Yeu Ykarp é o [shard]",
             "7": "Yatia rue you OketYoutye? Tão? Etpão uye o yosatpo \"jip\" e atupe seu ytuapot a se peikat sepkot ;)"
-        },
-        "maintenance": "🚫ATIYO: SATUPETÇÃO KTOJTASAPA KATA [date]! TIYATEI ITPIYKOTÍTEP KOT [time]!🚫"
+        }
     }
 }
