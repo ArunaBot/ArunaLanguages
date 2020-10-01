@@ -205,7 +205,7 @@
                     "line1": "Sinto muito [username], mas o comando `[command]` está disponível apenas para meu criador :(",
                     "line2": "Ao invés de tentar usar esse comando, porque você não usa um dos meus públicos? Para vê-los, é só usar `[prefix]help`."
                 },
-                "footer": "You don't have permission to perform this action"
+                "footer": "You don't have the permission to perform this action"
             },
             "deprecated": {
                 "title": "🚫DEPRECATED FUNCTION🚫",
