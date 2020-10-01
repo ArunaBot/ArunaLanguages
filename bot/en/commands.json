@@ -202,8 +202,8 @@
             "denied": {
                 "title": "Access Denied!",
                 "description": {
-                    "line1": "Sinto muito [username], mas o comando `[command]` está disponível apenas para meu criador :(",
-                    "line2": "Ao invés de tentar usar esse comando, porque você não usa um dos meus públicos? Para vê-los, é só usar `[prefix]help`."
+                    "line1": "I´m sorry [username], but the command `[command]` is only available for my creator :(",
+                    "line2": "Instead of trying to use this command, why don´t you use one my public ones? To see them, just use ` [prefix]help´."
                 },
                 "footer": "You don't have the permission to perform this action"
             },
