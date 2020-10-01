@@ -59,7 +59,7 @@
     "ready": {
         "databaseAdd": "Database Inicializada!",
         "dbl": "DBL",
-        "posted": "Contagem de servidores enviada!",
+        "posted": "¡Recuento de servidores enviado!",
         "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫",
         "status": {
             "1": "El canal LoboMetalurgico",
