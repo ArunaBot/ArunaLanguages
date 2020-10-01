@@ -9,7 +9,7 @@
     "main": {
         "error": "ERROR",
         "event": "EVENT",
-        "events": "EVENTOS",
+        "events": "EVENTS",
         "command": "COMMAND",
         "commands": "COMMANDS",
         "cluster": "CLUSTER"
