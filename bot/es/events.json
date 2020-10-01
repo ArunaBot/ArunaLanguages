@@ -4,14 +4,32 @@
         "delete": "Me eliminaron del servidor [guildName] :("
     },
     "memberAdd": {
-        "db": "¡Nuevo miembro en la base de datos!",
+        "antifake": {
+            "embed": {
+                "adminwarn": {
+                    "title": "Hola, [username]",
+                    "description": {
+                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake porém, não pude kickar pois não tenho permissão para isso.",
+                        "line2": "Caso queira desativar meu módulo de Anti-Fake, use o comando `[prefix]config antifake desativar`"
+                    },
+                    "footer": "Solicitação de Kick"
+                },
+                "fakemember": {
+                    "title": "Oops, [username]",
+                    "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
+                    "footer": "Algo salió mal, [username]"
+                }
+            },
+            "kickMessage": "Conta Fake Não Autorizada!"
+        },
         "change": {
             "embed": {
                 "title": "Oops, [username]",
                 "description": "¡Hola! Actualmente estamos cambiando de servidor. Por favor, le pido que ingrese a nuestro nuevo servidor presionando **[aquí]([link])** :)",
                 "footer": "¡Hasta pronto, [username]!"
             }
-        }
+        },
+        "db": "¡Nuevo miembro en la base de datos!"
     },
     "message": {
         "errors": {
