@@ -9,18 +9,18 @@
                 "adminwarn": {
                     "title": "Hey, [username]",
                     "description": {
-                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake porém, não pude kickar pois não tenho permissão para isso.",
-                        "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
+                        "line1": "The user `[fakeTag]` (ID: [fakeId]) had a fake username, but I couldn´t kick him because I don´t have the permission to do that.",
+                        "line2": "If you wanna disable my Anti-Fake module, use the command `[prefix]config antifake disable`"
                     },
-                    "footer": "Solicitação de Kick"
+                    "footer": "Kick request"
                 },
                 "fakemember": {
                     "title": "Oops, [username]",
-                    "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
+                    "description": "This server doesn´t accept fakes. Please, alter your username in order to solve the problem :)",
                     "footer": "Something went wrong, [username]"
                 }
             },
-            "kickMessage": "Conta Fake Não Autorizada!"
+            "kickMessage": "Fake Account Not Authorized!"
         },
         "change": {
             "embed": {
@@ -57,9 +57,9 @@
         }
     },
     "ready": {
-        "databaseAdd": "Database Inicializada!",
+        "databaseAdd": "Initialized the Database!",
         "dbl": "DBL",
-        "posted": "Contagem de servidores enviada!",
+        "posted": "The server count was sent!",
         "maintenance": "🚫WARNING: MAINTENANCE SCHEDULED FOR [date]! I´LL BE UNAVAILABLE FOR [time]!🚫",
         "status": {
             "1": "LoboMetalurgico´s channel",
