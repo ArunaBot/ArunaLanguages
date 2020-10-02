@@ -9,7 +9,7 @@
                 "adminwarn": {
                     "title": "Hey, [username]",
                     "description": {
-                        "line1": "The user `[fakeTag]` (ID: [fakeId]) had a fake username, but I couldn´t kick him because I don´t have the permission to do that.",
+                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake, porém não pude kickar pois não tenho permissão para isso.",
                         "line2": "If you wanna disable my Anti-Fake module, use the command `[prefix]config antifake disable`"
                     },
                     "footer": "Kick request"
