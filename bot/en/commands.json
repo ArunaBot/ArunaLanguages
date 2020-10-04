@@ -16,7 +16,11 @@
                 "description3": "Você deve inserir um usuário para ser punido!",
                 "description4": "Você não pode banir [ownerName] pois este é o(a) dono(a) do servidor!",
                 "description5": "Você não pode banir este usuário pois seu cargo é igual ou inferior ao de [username]!",
-                "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!"
+                "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!",
+                "userNotFound": {
+                    "line1": "Parece que eu não conheço este usuário :(",
+                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                }
             },
             "sucess": {
                 "title": "Banimento Efetuado com Sucesso!",
