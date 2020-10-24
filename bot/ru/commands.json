@@ -273,10 +273,10 @@
             "manageGuild": "Gerenciar Servidor",
             "manageMessages": "Gerenciar Mensagens",
             "manageRoles": "Gerenciar Cargos",
-            "useExternalEmojis": "Usar Emojis Externos"
+            "useExternalEmojis": "Использовать внешние эмодзи"
         },
         "strings": {
-            "error": "Erro!"
+            "error": "Ошибка!"
         }
     }
 }
