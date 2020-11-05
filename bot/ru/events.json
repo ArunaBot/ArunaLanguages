@@ -1,18 +1,18 @@
 {
     "guild": {
-        "create": "Entrei no servidor [guildName]! :)",
-        "delete": "Fui removida do servidor [guildName] :("
+        "create": "Я вошёл в сервер [guildName]! :)",
+        "delete": "Меня изгнали из сервера [guildName] :("
     },
     "memberAdd": {
         "antifake": {
             "embed": {
                 "adminwarn": {
-                    "title": "Olá, [username]",
+                    "title": "Здравствуйте, [username]",
                     "description": {
-                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake, porém não pude kickar pois não tenho permissão para isso.",
+                        "line1": "При пользователе `[fakeTag]` (ID: [fakeId]) было найдено ложное имя, но я не мог изгнать его потому, что у меня нет такого разрешения.",
                         "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
                     },
-                    "footer": "Solicitação de Kick"
+                    "footer": "Зарос изгнания."
                 },
                 "fakemember": {
                     "title": "Oops, [username]",
