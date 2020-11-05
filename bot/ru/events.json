@@ -17,7 +17,7 @@
                 "fakemember": {
                     "title": "Oops, [username]",
                     "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
-                    "footer": "Algo deu errado, [username]"
+                    "footer": "Что-то пошло не так, [username]"
                 }
             },
             "kickMessage": "Conta Fake Não Autorizada!"
@@ -26,7 +26,7 @@
             "embed": {
                 "title": "Oops, [username]",
                 "description": "Olá! No momento estamos trocando de servidor. Por favor, peço que entre no nosso novo servidor clicando **[aqui]([link])** :)",
-                "footer": "Nos Vemos em Breve, [username]!"
+                "footer": "Скоро увидимся, [username]!"
             }
         },
         "db": "Novo Membro na Database!"
@@ -51,8 +51,8 @@
     "rank": {
         "embed": {
             "newLevel": {
-                "title": "Novo Nível!",
-                "description": "Parabéns [user], agora você está no Nível **[level]**!"
+                "title": "Новый уровень!",
+                "description": "Поздравляю [user], вы достигло **[level]ый** уровень!"
             }
         }
     },
