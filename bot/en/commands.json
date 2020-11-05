@@ -13,17 +13,17 @@
             "error": {
                 "description1": "You don't have the '[banMembers]' permission!",
                 "description2": "I don't have the '[banMembers]' permission!",
-                "description3": "Você deve inserir um usuário para ser punido!",
+                "description3": "You must enter a user to be punished!",
                 "description4": "You cannot ban [ownerName] because that's the server owner!",
                 "description5": "You cannot ban that user because your role is lower than [username]'s!",
                 "description6": "I cannot ban that user because my role is lower than [username]'s!",
                 "userNotFound": {
                     "line1": "It seems like I don't know that user :(",
-                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                    "line2": "Unfortunately, I don't have the permission from Discord to ban unknown users yet. But you can help me get that by pitching in on my GitHub!"
                 }
             },
             "sucess": {
-                "title": "Banimento Efetuado com Sucesso!",
+                "title": "Banishment performed successfully!",
                 "description": "Now the user '[username]' won't be seen here anymore.",
                 "field1": {
                     "title": "Banned user",
@@ -31,15 +31,15 @@
                 },
                 "field2": "Banned by",
                 "field3": "Ban Date",
-                "field4": "Motivo"
+                "field4": "Reason"
             }
         },
         "reason": {
-            "1": "Punido por: [username]",
-            "2": "Punido por: [username] com o Motivo: [reason]"
+            "1": "Banned by: [username]",
+            "2": "Punished by: [username] for the reason: [reason]"
         },
         "config": {
-            "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
+            "description": "Ban a user using few letters, no matter whether they're on the guild!"
         }
     },
     "calculator": {
