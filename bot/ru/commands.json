@@ -15,22 +15,22 @@
                 "description2": "У меня нет разрешения [banMembers]`!",
                 "description3": "Вы должны ввести какого использователя наказать!",
                 "description4": "Вы можете наказать [ownerName], ведь он(а) хозяин сервера!",
-                "description5": "Você não pode banir este usuário pois seu cargo é igual ou inferior ao de [username]!",
-                "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!",
+                "description5": "Вы не можете забанить этого пользователя, ведь ваша роль ниже той, которая у [username]!",
+                "description6": "Я не могу забанить этого пользователя потому, что у меня роль ниже той, которая у [username]!",
                 "userNotFound": {
-                    "line1": "Parece que eu não conheço este usuário :(",
-                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                    "line1": "Вроде я не знаю такого пользователя :(",
+                    "line2": "К сожалению, у меня ещё нет от Дискорда разрешения забанить неизвестных пользователей. Но вы можете способствовать получить его на GitHub!"
                 }
             },
             "sucess": {
-                "title": "Banimento Efetuado com Sucesso!",
+                "title": "Бан выполнен успешно!",
                 "description": "Agora, o usuário `[username]` nunca mais será visto por aqui.",
                 "field1": {
-                    "title": "Usuário Banido",
+                    "title": "Пользователь забанен",
                     "content": "[username] (ID: [userId])"
                 },
                 "field2": "Banido por",
-                "field3": "Data do Banimento",
+                "field3": "Дата бана",
                 "field4": "Motivo"
             }
         },
@@ -76,8 +76,8 @@
         }
     },
     "flip": {
-        "heads": "Cara!",
-        "tails": "Corôa!",
+        "heads": "Орёл!",
+        "tails": "Решка!",
         "config": {
             "description": "Gire uma moeda! O que vai sair?"
         }
