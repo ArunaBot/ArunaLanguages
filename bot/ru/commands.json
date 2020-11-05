@@ -5,16 +5,16 @@
             "description": "**Нажми [здесь]([url]) чтобы скачать картинку.**"
         },
         "config": {
-            "description": "Mostra o seu próprio avatar ou de um usuário"
+            "description": "Показать собственную или чужу аватарку"
         }
     },
     "ban": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[banMembers]`!",
-                "description2": "Eu não possuo a permissão de `[banMembers]`!",
-                "description3": "Você deve inserir um usuário para ser punido!",
-                "description4": "Você não pode banir [ownerName] pois este é o(a) dono(a) do servidor!",
+                "description1": "У вас нет разрешения '[banMembers]'!",
+                "description2": "У меня нет разрешения [banMembers]`!",
+                "description3": "Вы должны ввести какого использователя наказать!",
+                "description4": "Вы можете наказать [ownerName], ведь он(а) хозяин сервера!",
                 "description5": "Você não pode banir este usuário pois seu cargo é igual ou inferior ao de [username]!",
                 "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!",
                 "userNotFound": {
