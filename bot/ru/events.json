@@ -12,7 +12,7 @@
                         "line1": "При пользователе `[fakeTag]` (ID: [fakeId]) было найдено ложное имя, но я не мог изгнать его потому, что у меня нет такого разрешения.",
                         "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
                     },
-                    "footer": "Зарос изгнания."
+                    "footer": "Зарос изгнания"
                 },
                 "fakemember": {
                     "title": "Oops, [username]",
