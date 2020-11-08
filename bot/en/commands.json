@@ -214,6 +214,15 @@
             "description": "Makes the bot speak a sentence instead of you"
         }
     },
+    "servericon": {
+        "embed": {
+            "title": "[emoji] Ícone do servidor [guild]",
+            "description": "**Clique [aqui]([url]) para baixar o ícone.**"
+        },
+        "config": {
+            "description": "Mostra o ícone do servidor atual"
+        }
+    },
     "support": {
         "embed": {
             "error": {
