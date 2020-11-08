@@ -12,7 +12,8 @@
         "events": "EVENTOS",
         "command": "COMANDO",
         "commands": "COMANDOS",
-        "cluster": "CLÚSTER"
+        "cluster": "CLÚSTER",
+        "registered": "[COMMAND] registrado na database como configurável."
     },
     "shard": {
         "master": "FRAGMENTO MÁSTER",
