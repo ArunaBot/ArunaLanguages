@@ -214,6 +214,15 @@
             "description": "Hace que el bot diga una oración en lugar de ti"
         }
     },
+    "servericon": {
+        "embed": {
+            "title": "[emoji] Ícone do servidor [guild]",
+            "description": "**Clique [aqui]([url]) para baixar o ícone.**"
+        },
+        "config": {
+            "description": "Mostra o ícone do servidor atual"
+        }
+    },
     "support": {
         "embed": {
             "error": {
