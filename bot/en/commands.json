@@ -75,6 +75,33 @@
             "description": "Allows you to delete massively until 100 messages with age equal to or less than 2 weeks"
         }
     },
+    "config": {
+        "embed": {
+            "sucess": {
+                "description1": "O comando `[COMMAND]` foi ativado com sucesso!",
+                "description2": "O comando `[COMMAND]` foi desativado com sucesso!",
+                "prefix": {
+                    "description1": "Prefix redefined to `[prefix]` with success!",
+                    "description2": "Prefix defined to `[prefix]` with success!"
+                }
+            },
+            "error": {
+                "noperm": "You don't have the `[manageGuild]` permission",
+                "description1": "Por Favor, utilize uma das seguintes opções junto ao comando: [OPTIONS]",
+                "description2": "Esse comando não pode ser configurado no momento :(",
+                "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
+                "prefix": {
+                    "description1": "You must insert the desired prefix!",
+                    "description2": "Esse já é o prefixo atual!",
+                    "description3": "The current prefix is already the default prefix!"
+                }
+            },
+            "generic": {
+                "no": "Neste momento, o comando [COMMAND] está desativado. Para ativar, use ``[PREFIX]config [COMMAND] ativar``.",
+                "yes": "Neste momento, o comando [COMMAND] está ativado. Para desativar, use ``[PREFIX]config [COMMAND] desativar``."
+            }
+        }
+    },
     "flip": {
         "heads": "Heads!",
         "tails": "Tails!",
