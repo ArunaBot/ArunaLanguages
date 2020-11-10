@@ -75,6 +75,33 @@
             "description": "Le permite eliminar masivamente hasta 100 mensajes de 2 semanas o menos"
         }
     },
+    "config": {
+        "embed": {
+            "sucess": {
+                "description1": "O comando `[COMMAND]` foi ativado com sucesso!",
+                "description2": "O comando `[COMMAND]` foi desativado com sucesso!",
+                "prefix": {
+                    "description1": "¡Prefijo redefinido a `[prefix]` con éxito!",
+                    "description2": "¡Prefijo establecido en `[prefix]` correctamente!"
+                }
+            },
+            "error": {
+                "noperm": "No tienes permiso para `[manageGuild]`",
+                "description1": "Por Favor, utilize uma das seguintes opções junto ao comando: [OPTIONS]",
+                "description2": "Esse comando não pode ser configurado no momento :(",
+                "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
+                "prefix": {
+                    "description1": "¡Debes ingresar el prefijo deseado!",
+                    "description2": "Esse já é o prefixo atual!",
+                    "description3": "¡El prefijo actual ya es el prefijo predeterminado!"
+                }
+            },
+            "generic": {
+                "no": "Neste momento, o comando [COMMAND] está desativado. Para ativar, use ``[PREFIX]config [COMMAND] ativar``.",
+                "yes": "Neste momento, o comando [COMMAND] está ativado. Para desativar, use ``[PREFIX]config [COMMAND] desativar``."
+            }
+        }
+    },
     "flip": {
         "heads": "Cara!",
         "tails": "Cruz!",
