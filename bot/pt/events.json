@@ -68,7 +68,9 @@
             "4": "Alguma coisa Divertida!",
             "5": "Versão [version]",
             "6": "Seu Shard é o [shard]",
-            "7": "Sabia que sou OpenSource? Não? Então use o comando \"git\" e ajude meu criador a me deixar melhor ;)"
+            "7": "Sabia que sou OpenSource? Não? Então use o comando \"git\" e ajude meu criador a me deixar melhor ;)",
+            "8": "[USERS] usuários!",
+            "9": "[GUILDS] servidores!"
         }
     }
 }
