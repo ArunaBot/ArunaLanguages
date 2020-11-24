@@ -126,6 +126,19 @@
             "description": "Veja o link do meu GitHub com uma mensagem bonitinha junto :)"
         }
     },
+    "help": {
+        "embed": {
+            "error": {
+                "description": "Verifique se tenho permissão para lhe enviar mensagens no privado pois, é por lá que envio os comandos."
+            },
+            "sucess": {
+                "description": "Os comandos foram enviados em seu privado com sucesso!"
+            }
+        },
+        "config": {
+            "description": "Veja todos os comandos que você pode usar!"
+        }
+    },
     "invite": {
         "embed": {
             "error": {
