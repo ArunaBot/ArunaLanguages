@@ -26,9 +26,9 @@
     "generic": {
         "base": "Base",
         "connected": "=> Conectado!",
-        "core": "Núcleo",
-        "languageName": "Português Brasil",
-        "notFound": "Não Encontrado!",
+        "core": "コア",
+        "languageName": "日本語",
+        "notFound": "見つかりませんでした！",
         "shard": "シャード"
     }
 }
