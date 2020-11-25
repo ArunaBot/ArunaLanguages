@@ -93,21 +93,21 @@
                 "noperm": "You don't have the `[manageGuild]` permission",
                 "description1": "Please, utilize one of the following options along with the command: [OPTIONS]",
                 "description2": "This command cannot be configured at the moment. :(",
-                "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
+                "invalidaction": "Please, utilize one of the following actions after the selecting the option: [OPTIONS]",
                 "prefix": {
                     "description1": "You must insert the desired prefix!",
-                    "description2": "Esse já é o prefixo atual!",
+                    "description2": "This is already the current prefix!",
                     "description3": "The current prefix is already the default prefix!"
                 },
                 "language": {
-                    "description1": "Desculpe, eu não conheço esse idioma :( Minha professora só me ensinou esses idiomas: [LANGUAGES]",
-                    "description2": "O idioma que você escolheu já é o padrão no servidor...",
-                    "description3": "O idioma que você escolheu já é o que estou falando..."
+                    "description1": "Sorry, I don't know that language :( My teacher only taught me these: [LANGUAGES]",
+                    "description2": "The language you chose is already the default in this server...",
+                    "description3": "I'm already speaking the language you chose..."
                 }
             },
             "generic": {
-                "no": "Neste momento, o comando [COMMAND] está desativado. Para ativar, use ``[PREFIX]config [COMMAND] ativar``.",
-                "yes": "Neste momento, o comando [COMMAND] está ativado. Para desativar, use ``[PREFIX]config [COMMAND] desativar``."
+                "no": "At the moment, the command [COMMAND] is deactivated. To activate it, use ``[PREFIX]config[COMMAND] enable``.",
+                "yes": "At the moment, the command [COMMAND] is activated. To deactivate it, use ``[PREFIX]config[COMMAND] disable``."
             }
         }
     },
@@ -138,14 +138,14 @@
     "help": {
         "embed": {
             "error": {
-                "description": "Verifique se tenho permissão para lhe enviar mensagens no privado pois, é por lá que envio os comandos."
+                "description": "Check if I have permission to send you private messages, since that is where I send the commands."
             },
             "sucess": {
-                "description": "Os comandos foram enviados em seu privado com sucesso!"
+                "description": "The commands were sent to your DMs successfully!"
             }
         },
         "config": {
-            "description": "Veja todos os comandos que você pode usar!"
+            "description": "Look at all the commands you can use!"
         }
     },
     "invite": {
@@ -265,7 +265,7 @@
     },
     "servericon": {
         "embed": {
-            "title": "[emoji] Ícone do servidor [guild]",
+            "title": "[emoji] Icon of the server [guild]",
             "description": "**Click [here]([url]) to download the icon.**"
         },
         "config": {
