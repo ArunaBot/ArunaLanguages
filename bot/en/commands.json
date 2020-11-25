@@ -78,21 +78,21 @@
     "config": {
         "embed": {
             "sucess": {
-                "description1": "O comando `[COMMAND]` foi ativado com sucesso!",
-                "description2": "O comando `[COMMAND]` foi desativado com sucesso!",
+                "description1": "The [COMMAND] command was activated successfully!",
+                "description2": "The [COMMAND] command was deactivated successfully!",
                 "prefix": {
                     "description1": "Prefix redefined to `[prefix]` with success!",
                     "description2": "Prefix defined to `[prefix]` with success!"
                 },
                 "language": {
-                    "description1": "Idioma do servidor definido com sucesso! Apartir de agora, vou tentar sempre falar em `[LANGUAGE]` aqui :)",
-                    "description2": "O seu idioma foi definido com sucesso! Agora, sempre que usar um comando meu, independente do servidor, eu vou falar em `[LANGUAGE]` :)"
+                    "description1": "Server language defined successfully! From now on, I will always try to speak in [LANGUAGE] here. :)",
+                    "description2": "Your language was defined successfully! Now, every time you use a command of mine, I will speak in [LANGUAGE], regardless of the server. :)"
                 }
             },
             "error": {
                 "noperm": "You don't have the `[manageGuild]` permission",
-                "description1": "Por Favor, utilize uma das seguintes opções junto ao comando: [OPTIONS]",
-                "description2": "Esse comando não pode ser configurado no momento :(",
+                "description1": "Please, utilize one of the following options along with the command: [OPTIONS]",
+                "description2": "This command cannot be configured at the moment. :(",
                 "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
                 "prefix": {
                     "description1": "You must insert the desired prefix!",
