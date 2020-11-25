@@ -24,8 +24,8 @@
         "finishGeneration": "Finalizando a geração dos Shards!"
     },
     "generic": {
-        "base": "Base",
-        "connected": "=> Conectado!",
+        "base": "ベース",
+        "connected": "=>接続済み！",
         "core": "コア",
         "languageName": "日本語",
         "notFound": "見つかりませんでした！",
