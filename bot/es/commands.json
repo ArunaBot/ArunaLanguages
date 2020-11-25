@@ -83,6 +83,10 @@
                 "prefix": {
                     "description1": "¡Prefijo redefinido a `[prefix]` con éxito!",
                     "description2": "¡Prefijo establecido en `[prefix]` correctamente!"
+                },
+                "language": {
+                    "description1": "Idioma do servidor definido com sucesso! Apartir de agora, vou tentar sempre falar em `[LANGUAGE]` aqui :)",
+                    "description2": "O seu idioma foi definido com sucesso! Agora, sempre que usar um comando meu, independente do servidor, eu vou falar em `[LANGUAGE]` :)"
                 }
             },
             "error": {
@@ -94,6 +98,11 @@
                     "description1": "¡Debes ingresar el prefijo deseado!",
                     "description2": "Esse já é o prefixo atual!",
                     "description3": "¡El prefijo actual ya es el prefijo predeterminado!"
+                },
+                "language": {
+                    "description1": "Desculpe, eu não conheço esse idioma :( Minha professora só me ensinou esses idiomas: [LANGUAGES]",
+                    "description2": "O idioma que você escolheu já é o padrão no servidor...",
+                    "description3": "O idioma que você escolheu já é o que estou falando..."
                 }
             },
             "generic": {
