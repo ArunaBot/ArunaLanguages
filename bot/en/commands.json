@@ -266,10 +266,10 @@
     "servericon": {
         "embed": {
             "title": "[emoji] Ícone do servidor [guild]",
-            "description": "**Clique [aqui]([url]) para baixar o ícone.**"
+            "description": "**Click [here]([url]) to download the icon.**"
         },
         "config": {
-            "description": "Mostra o ícone do servidor atual"
+            "description": "Shows the current server's icon"
         }
     },
     "support": {
