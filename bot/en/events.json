@@ -69,8 +69,8 @@
             "5": "Version [version]",
             "6": "Your Shard is [shard]",
             "7": "Did you know I´m OpenSource? No? Then use the command \"git\" and help my creator with my improvements ;)",
-            "8": "[USERS] usuários!",
-            "9": "[GUILDS] servidores!"
+            "8": "[USERS] users!",
+            "9": "[GUILDS] guilds!"
         }
     }
 }
