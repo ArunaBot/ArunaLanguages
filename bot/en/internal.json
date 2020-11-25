@@ -13,7 +13,7 @@
         "command": "COMMAND",
         "commands": "COMMANDS",
         "cluster": "CLUSTER",
-        "registered": "[COMMAND] registrado na database como configurável."
+        "registered": "[COMMAND] registered in the database as configurable."
     },
     "shard": {
         "master": "SHARD MASTER",
