@@ -17,7 +17,7 @@
     },
     "shard": {
         "master": "SHARD MASTER",
-        "launch": "[shard] iniciado(s)",
+        "launch": "[shard] は開始済",
         "exit": "Foi forçado o encerramento de um processo.",
         "exitCode": "Código de Saída:",
         "startGeneration": "[logPrefix] Começando a gerar shards...",
