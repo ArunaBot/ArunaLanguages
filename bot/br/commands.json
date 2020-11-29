@@ -171,19 +171,19 @@
                 "description1": "Você não possui a permissão de `[kickMembers]`!",
                 "description2": "Eu não possuo a permissão de `[kickMembers]`!",
                 "description3": "Você deve inserir um usuário para ser punido!",
-                "description4": "Você não pode banir [ownerName] pois este é o(a) dono(a) do servidor!",
-                "description5": "Você não pode banir este usuário pois seu cargo é igual ou inferior ao de [username]!",
-                "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!"
+                "description4": "Você não pode expulsar [ownerName] pois este é o(a) dono(a) do servidor!",
+                "description5": "Você não pode expulsar este usuário pois seu cargo é igual ou inferior ao de [username]!",
+                "description6": "Eu não posso expulsar este usuário pois meu cargo é igual ou inferior ao de [username]!"
             },
             "sucess": {
-                "title": "Banimento Efetuado com Sucesso!",
-                "description": "Agora, o usuário `[username]` nunca mais será visto por aqui.",
+                "title": "Expulsão Efetuada com Sucesso!",
+                "description": "Agora, o usuário `[username]` vai precisar ser convidado para poder voltar.",
                 "field1": {
-                    "title": "Usuário Banido",
+                    "title": "Usuário Expulsado",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Banido por",
-                "field3": "Data do Banimento",
+                "field2": "Expulsado por",
+                "field3": "Data de Expulsão",
                 "field4": "Motivo"
             }
         },
