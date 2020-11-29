@@ -165,6 +165,36 @@
             "description": "Meu link de convite para você que me quer em seu servidor :)"
         }
     },
+    "kick": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[kickMembers]`!",
+                "description2": "Eu não possuo a permissão de `[kickMembers]`!",
+                "description3": "Вы должны ввести какого использователя наказать!",
+                "description4": "Вы можете наказать [ownerName], ведь он(а) хозяин сервера!",
+                "description5": "Вы не можете забанить этого пользователя, ведь ваша роль ниже той, которая у [username]!",
+                "description6": "Я не могу забанить этого пользователя потому, что у меня роль ниже той, которая у [username]!"
+            },
+            "sucess": {
+                "title": "Бан выполнен успешно!",
+                "description": "Agora, o usuário `[username]` nunca mais será visto por aqui.",
+                "field1": {
+                    "title": "Пользователь забанен",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Banido por",
+                "field3": "Дата бана",
+                "field4": "Motivo"
+            }
+        },
+        "reason": {
+            "1": "Punido por: [username]",
+            "2": "Punido por: [username] com o Motivo: [reason]"
+        },
+        "config": {
+            "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
+        }
+    },
     "massRemove": {
         "embed": {
             "sucess": {
@@ -328,6 +358,7 @@
         "permissions": {
             "banMembers": "Banir Membros",
             "embedLinks": "Enviar Links",
+            "kickMembers": "Expulsar Membros",
             "manageGuild": "Gerenciar Servidor",
             "manageMessages": "Gerenciar Mensagens",
             "manageRoles": "Gerenciar Cargos",
