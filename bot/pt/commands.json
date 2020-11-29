@@ -179,10 +179,10 @@
                 "title": "Expulsão Efetuada com Sucesso!",
                 "description": "Agora, o usuário `[username]` vai precisar ser convidado para poder voltar.",
                 "field1": {
-                    "title": "Usuário Expulsado",
+                    "title": "Usuário Expulso",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Expulsado por",
+                "field2": "Expulso por",
                 "field3": "Data de Expulsão",
                 "field4": "Motivo"
             }
