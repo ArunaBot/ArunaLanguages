@@ -171,19 +171,19 @@
                 "description1": "Você não possui a permissão de `[kickMembers]`!",
                 "description2": "Eu não possuo a permissão de `[kickMembers]`!",
                 "description3": "Вы должны ввести какого использователя наказать!",
-                "description4": "Вы можете наказать [ownerName], ведь он(а) хозяин сервера!",
-                "description5": "Вы не можете забанить этого пользователя, ведь ваша роль ниже той, которая у [username]!",
-                "description6": "Я не могу забанить этого пользователя потому, что у меня роль ниже той, которая у [username]!"
+                "description4": "Você não pode expulsar [ownerName] pois este é o(a) dono(a) do servidor!",
+                "description5": "Você não pode expulsar este usuário pois seu cargo é igual ou inferior ao de [username]!",
+                "description6": "Eu não posso expulsar este usuário pois meu cargo é igual ou inferior ao de [username]!"
             },
             "sucess": {
-                "title": "Бан выполнен успешно!",
-                "description": "Agora, o usuário `[username]` nunca mais será visto por aqui.",
+                "title": "Expulsão Efetuada com Sucesso!",
+                "description": "Agora, o usuário `[username]` vai precisar ser convidado para poder voltar.",
                 "field1": {
-                    "title": "Пользователь забанен",
+                    "title": "Usuário Expulsado",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Banido por",
-                "field3": "Дата бана",
+                "field2": "Expulsado por",
+                "field3": "Data de Expulsão",
                 "field4": "Motivo"
             }
         },
@@ -192,7 +192,7 @@
             "2": "Punido por: [username] com o Motivo: [reason]"
         },
         "config": {
-            "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
+            "description": "Expulse aquele usuário chato enquanto ele pensa que você está respondendo o que ele tá falando."
         }
     },
     "massRemove": {
