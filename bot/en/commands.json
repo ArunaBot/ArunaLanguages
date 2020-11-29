@@ -165,6 +165,36 @@
             "description": "My invite link for you, who wants me on your server :)"
         }
     },
+    "kick": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[kickMembers]`!",
+                "description2": "Eu não possuo a permissão de `[kickMembers]`!",
+                "description3": "You must enter a user to be punished!",
+                "description4": "You cannot ban [ownerName] because that's the server owner!",
+                "description5": "You cannot ban that user because your role is lower than [username]'s!",
+                "description6": "I cannot ban that user because my role is lower than [username]'s!"
+            },
+            "sucess": {
+                "title": "Banishment performed successfully!",
+                "description": "Now the user '[username]' won't be seen here anymore.",
+                "field1": {
+                    "title": "Banned user",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Banned by",
+                "field3": "Ban Date",
+                "field4": "Reason"
+            }
+        },
+        "reason": {
+            "1": "Banned by: [username]",
+            "2": "Punished by: [username] for the reason: [reason]"
+        },
+        "config": {
+            "description": "Ban a user using few letters, no matter whether they're on the guild!"
+        }
+    },
     "massRemove": {
         "embed": {
             "sucess": {
@@ -328,6 +358,7 @@
         "permissions": {
             "banMembers": "Ban Members",
             "embedLinks": "Embed Links",
+            "kickMembers": "Expulsar Membros",
             "manageGuild": "Manage Guild",
             "manageMessages": "Manage Messages",
             "manageRoles": "Manage Roles",
