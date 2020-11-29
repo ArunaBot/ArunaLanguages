@@ -192,7 +192,7 @@
             "2": "Punido por: [username] com o Motivo: [reason]"
         },
         "config": {
-            "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
+            "description": "Expulse aquele usuário chato enquanto ele pensa que você está respondendo o que ele tá falando."
         }
     },
     "massRemove": {
