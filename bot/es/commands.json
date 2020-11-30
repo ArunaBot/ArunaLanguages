@@ -111,6 +111,37 @@
             }
         }
     },
+    "dice": {
+        "embed": {
+            "error": {
+                "description1": "Você deve inserir o tipo do dado que devo girar!",
+                "description2": "Eu só consigo girar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
+                "description3": "Eu não consigo girar tantos dados de uma vez!",
+                "description4": "Acho que algo não deu muito certo. Não é possível que isso seja um número...",
+                "description5": "Eu não entendi muito bem o que voc~e quer. Por favor, use algo como 1d6 como argumento.",
+                "description6": "Acho que todos sabemos que o resultado de um dado de 0 lados é 0!",
+                "description7": "Ok, não vou girar dado algum.",
+                "description8": "Todos sabemos que o resultado de [NUMBER] [diceString] de 1 lado é [NUMBER]!"
+            },
+            "sucess": {
+                "1": {
+                    "title": "Resultado dos [NUMBER] dados de [DICE] lados girados por [username]",
+                    "description": "Dados: `[DICES]`\nTotal da soma: `[TOTAL]`"
+                },
+                "2": {
+                    "title": "Resultado do dado de [DICE] lados girados por [username]",
+                    "description": "Dado: `[DICES]`"
+                }
+            },
+            "generic": {
+                "dice": "dado",
+                "dices": "dados"
+            }
+        },
+        "config": {
+            "description": "Está jogando RPG e precisa girar 1d8? Perfeito! Basta usar esse comando que tudo está resolvido."
+        }
+    },
     "flip": {
         "heads": "Cara!",
         "tails": "Cruz!",
