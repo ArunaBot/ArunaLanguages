@@ -333,6 +333,61 @@
             "description": "Mostra o ícone do servidor atual"
         }
     },
+    "serverinfo": {
+        "embed": {
+            "field1": {
+                "title": "ID do Servidor"
+            },
+            "field2": {
+                "title": "Dono"
+            },
+            "field3": {
+                "title": "Região"
+            },
+            "field4": {
+                "title": "Data de Criação",
+                "content": "dd/mm/yyyy \"às\" HH:MM:ss"
+            },
+            "field5": {
+                "title": "ID do Shard"
+            },
+            "field6": {
+                "title": "Entrei Em",
+                "content": "dd/mm/yyyy \"às\" HH:MM:ss"
+            },
+            "field7": {
+                "title": "%1 Canais (%2) / Categorias (%3)",
+                "content": "%1 Texto: %2\n%3 Voz: %4\n%5 Anúncio: %6"
+            },
+            "field8": {
+                "title": "%1 Membros (Sendo %2 Robôs e %3 Humanos)"
+            },
+            "field9": {
+                "title": "Informações do Boost",
+                "content": "%1 » Nível do Boost %2\n%3 » Quantitade de Impulsos: %4"
+            },
+            "field10": {
+                "title": "Informações do Boost",
+                "content": "%1 » Quantitade de Impulsos: %2"
+            }
+        },
+        "generic": {
+            "region": {
+                "brazil": "Brasil",
+                "europe": "Europa",
+                "hongkong": "Hong Kong",
+                "india": "Índia",
+                "japan": "Japão",
+                "russia": "Rússia",
+                "singapore": "Singapura",
+                "usa": "Estados Unidos",
+                "undefined": "Região Desconhecida :("
+            }
+        },
+        "config": {
+            "description": "Veja todas as informações desse servidor. Até a data de quando eu entrei :)"
+        }
+    },
     "support": {
         "embed": {
             "error": {
@@ -394,6 +449,12 @@
             "manageMessages": "Gestionar Mensajes",
             "manageRoles": "Gestionar Roles",
             "useExternalEmojis": "Usar Emojis Externos"
+        },
+        "status": {
+            "online": "Online",
+            "idle": "Ausente",
+            "dnd": "Não Perturbe",
+            "offline": "Offline"
         },
         "strings": {
             "error": "¡Error!"
