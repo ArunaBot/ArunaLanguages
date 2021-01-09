@@ -371,6 +371,29 @@
                 "content": "%1 » Quantitade de Impulsos: %2"
             }
         },
+        "ship": {
+            "embed": {
+                "error": {
+                    "description": "Você deve mencionar outro alguém pra poder te shipar <3"
+                }
+            },
+            "shipStatus": [
+                "%s% [----------] Nada é impossível, apenas improvável.",
+                "%s% [█---------] Um dia talvez. ",
+                "%s% [██--------] Bem, olhando por esse ângulo...",
+                "%s% [███-------] Possível, é. Díficil? De fato.",
+                "%s% [████------] Numa galáxia não tão distante...",
+                "%s% [█████-----] Até que formariam um belo casal. ",
+                "%s% [██████----] Esse casal está perto de ser muito bom!",
+                "%s% [███████---] Casal de primeira! Ninguém vai separar eles <3",
+                "%s% [████████--] Esses 2 já poderiam estar até casados! 💍",
+                "%s% [█████████-] Casal perfeito, só a morte os separa! 💍",
+                "%s% [██████████] Casal perfeito, nem mesmo a dona morte separa esses 2! 💍"
+            ],
+            "config": {
+                "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando pefeito pra testar a compatibilidade de vocês!"
+            }
+        },
         "generic": {
             "region": {
                 "brazil": "Brasil",
