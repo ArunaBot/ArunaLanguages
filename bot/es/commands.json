@@ -480,6 +480,10 @@
         }
     },
     "userinfo": {
+        "generic": {
+            "day": "Dia",
+            "days": "Dias"
+        },
         "config": {
             "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
         }
