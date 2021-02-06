@@ -479,6 +479,11 @@
             "description": "Parece que você precisa falar com meu criador. Se sim, use esse comando para entrar em meu servidor de suporte!"
         }
     },
+    "userinfo": {
+        "config": {
+            "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
+        }
+    },
     "generic": {
         "embed": {
             "denied": {
@@ -532,7 +537,9 @@
         },
         "strings": {
             "error": "¡Error!",
-            "link": "Link"
+            "link": "Link",
+            "yes": "Sim",
+            "no": "No"
         }
     }
 }
