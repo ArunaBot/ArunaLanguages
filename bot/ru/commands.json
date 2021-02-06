@@ -42,6 +42,57 @@
             "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
         }
     },
+    "bot": {
+        "embed": {
+            "basic": {
+                "description": "`Informações Básicas`",
+                "field": [
+                    "%s Nome na Guild",
+                    "%s Versão",
+                    "% Uptime",
+                    "%s Canais",
+                    "%s Servidores",
+                    "%s Usuários",
+                    "%s Shard Atual",
+                    "%s Total  de Shards",
+                    "%s Ping do Shard",
+                    "Convite",
+                    "Meu Site",
+                    "Servidor de Suporte"
+                ]
+            },
+            "advanced": {
+                "description": "`Informações Avançadas`",
+                "field": [
+                    "Versão do Node",
+                    "Versão do discord.js",
+                    "Informações da Host",
+                    "Criada e Desenvolvida Por",
+                    "Idealizada Por",
+                    "Avatar Por"
+                ],
+                "content": [
+                    null,
+                    null,
+                    [
+                        "Sistema Operacional:",
+                        "Processador:",
+                        "Quantidade de Núcleos:",
+                        "Uso de Ram:"
+                    ],
+                    "Lobo Metalurgico (<@281515925960654848>)\n\nContato: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
+                    "Carson (<@773670346921476166>)",
+                    "Kira's Art (<@207023257512181760>)\n\nContato: https://twitter.com/kiratokioArt"
+                ]
+            }
+        },
+        "generic": {
+            "linkr": "[%s](%s)"
+        },
+        "config": {
+            "description": "Lista as minhas principais informações"
+        }
+    },
     "calculator": {
         "embed": {
             "error": {
@@ -480,7 +531,8 @@
             "offline": "Offline"
         },
         "strings": {
-            "error": "Ошибка!"
+            "error": "Ошибка!",
+            "link": "Link"
         }
     }
 }
