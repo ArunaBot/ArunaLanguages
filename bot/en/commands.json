@@ -479,6 +479,11 @@
             "description": "It seems that you need to speak with my creator. If that´s the case, use this command to enter on my support guild!"
         }
     },
+    "userinfo": {
+        "config": {
+            "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
+        }
+    },
     "generic": {
         "embed": {
             "denied": {
@@ -532,7 +537,9 @@
         },
         "strings": {
             "error": "Error!",
-            "link": "Link"
+            "link": "Link",
+            "yes": "Sim",
+            "no": "No"
         }
     }
 }
