@@ -184,17 +184,17 @@
                     "description": "Dice: `[DICES]`\nTotal sum: `[TOTAL]`"
                 },
                 "2": {
-                    "title": "Resultado do dado de [DICE] lados girados por [username]",
-                    "description": "Dado: `[DICES]`"
+                    "title": "Result from die of [DICE] sides rolled by [username]",
+                    "description": "Die: `[DICES]`"
                 }
             },
             "generic": {
-                "dice": "dado",
-                "dices": "dados"
+                "dice": "die",
+                "dices": "dice"
             }
         },
         "config": {
-            "description": "Está jogando RPG e precisa girar 1d8? Perfeito! Basta usar esse comando que tudo está resolvido."
+            "description": "Are you playing an RPG and do you need to roll a 1d8? Perfect\" Just use this command and your problem will be solved."
         }
     },
     "flip": {
