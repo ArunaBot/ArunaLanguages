@@ -45,7 +45,7 @@
     "bot": {
         "embed": {
             "pre": {
-                "title": "%s Por Favor %s, aguarde!",
+                "title": "%s Por Favor, aguarde!",
                 "description": "Estou pegando todas as minhas informações pra te passar.\nAguenta só um pouquinho 😉"
             },
             "basic": {
