@@ -79,14 +79,14 @@
                     null,
                     null,
                     [
-                        "Sistema Operacional:",
-                        "Processador:",
-                        "Quantidade de Núcleos:",
+                        "Sistema operativo:",
+                        "Procesador:",
+                        "Numero de Nucleos:",
                         "Uso de Ram:"
                     ],
-                    "Lobo Metalurgico (<@281515925960654848>)\n\nContato: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
+                    "Lobo Metalurgico (<@281515925960654848>)\n\nContacto: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
                     "Carson (<@773670346921476166>)",
-                    "Kira's Art (<@207023257512181760>)\n\nContato: https://twitter.com/kiratokioArt"
+                    "Kira's Art (<@207023257512181760>)\n\nContacto: https://twitter.com/kiratokioArt"
                 ]
             }
         },
@@ -94,7 +94,7 @@
             "linkr": "[%s](%s)"
         },
         "config": {
-            "description": "Lista as minhas principais informações"
+            "description": "Lista mi información principal"
         }
     },
     "calculator": {
@@ -194,7 +194,7 @@
             }
         },
         "config": {
-            "description": "Está jogando RPG e precisa girar 1d8? Perfeito! Basta usar esse comando que tudo está resolvido."
+            "description": "¿Estás jugando a un juego de rol y necesitas tirar 1d8? ¡Perfecto! Simplemente use este comando y todo estará resuelto."
         }
     },
     "flip": {
@@ -268,7 +268,7 @@
                     "title": "Usuário Expulso",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Expulso por",
+                "field2": "Expulsado por",
                 "field3": "Data de Expulsão",
                 "field4": "Razón"
             }
@@ -391,16 +391,16 @@
     "serverinfo": {
         "embed": {
             "field1": {
-                "title": "ID do Servidor"
+                "title": "ID del servidor"
             },
             "field2": {
-                "title": "Dono"
+                "title": "Propietario"
             },
             "field3": {
-                "title": "Região"
+                "title": "Región"
             },
             "field4": {
-                "title": "Data de Criação"
+                "title": "Creado en"
             },
             "field5": {
                 "title": "ID do Shard"
@@ -429,12 +429,12 @@
                 "brazil": "Brasil",
                 "europe": "Europa",
                 "hongkong": "Hong Kong",
-                "india": "Índia",
-                "japan": "Japão",
-                "russia": "Rússia",
-                "singapore": "Singapura",
+                "india": "India",
+                "japan": "Japón",
+                "russia": "Rusia",
+                "singapore": "Singapur",
                 "usa": "Estados Unidos",
-                "undefined": "Região Desconhecida :("
+                "undefined": "Región Desconocida :("
             }
         },
         "config": {
@@ -522,14 +522,14 @@
                 ],
                 "description": [
                     [
-                        "Nome:",
+                        "Nombre:",
                         "Tag Completa:",
                         "ID:",
-                        "Status:",
+                        "Estado:",
                         "Criou a Conta em:"
                     ],
                     [
-                        "Apelido:",
+                        "Apodo:",
                         "Adm?: ",
                         "Entrou Em:"
                     ]
@@ -537,7 +537,7 @@
             }
         },
         "strings": {
-            "nickname": "Não tem",
+            "nickname": "No tiene",
             "boosting": "Impulsionando um Servidor desde:"
         },
         "config": {
@@ -581,9 +581,9 @@
             "footer": "Comando Solicitado por [usertag]"
         },
         "permissions": {
-            "banMembers": "Banir Membros",
+            "banMembers": "Banear Miembros",
             "embedLinks": "Insertar Enlaces",
-            "kickMembers": "Expulsar Membros",
+            "kickMembers": "Expulsar Miembros",
             "manageGuild": "Gestionar Servidor",
             "manageMessages": "Gestionar Mensajes",
             "manageRoles": "Gestionar Roles",
@@ -592,17 +592,17 @@
         "status": {
             "online": "Online",
             "idle": "Ausente",
-            "dnd": "Não Perturbe",
-            "offline": "Offline"
+            "dnd": "No Molestar",
+            "offline": "Desconectado"
         },
         "strings": {
-            "back": "Atrás",
-            "date": "dd/mm/yyyy \"às\" HH:MM:ss",
-            "day": "Dia",
-            "days": "Dias",
+            "back": "Hace",
+            "date": "dd/mm/yyyy \"a las\" HH:MM:ss",
+            "day": "Día",
+            "days": "Días",
             "error": "¡Error!",
-            "link": "Link",
-            "yes": "Sim",
+            "link": "Enlace",
+            "yes": "Sí",
             "no": "No"
         }
     }
