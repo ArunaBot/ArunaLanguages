@@ -400,15 +400,13 @@
                 "title": "Região"
             },
             "field4": {
-                "title": "Data de Criação",
-                "content": "dd/mm/yyyy \"às\" HH:MM:ss"
+                "title": "Data de Criação"
             },
             "field5": {
                 "title": "ID do Shard"
             },
             "field6": {
-                "title": "Entrei Em",
-                "content": "dd/mm/yyyy \"às\" HH:MM:ss"
+                "title": "Entrei Em"
             },
             "field7": {
                 "title": "%1 Canais (%2) / Categorias (%3)",
@@ -483,6 +481,38 @@
             "description": "Parece que você precisa falar com meu criador. Se sim, use esse comando para entrar em meu servidor de suporte!"
         }
     },
+    "unban": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[banMembers]`!",
+                "description2": "Eu não possuo a permissão de `[banMembers]`!",
+                "description3": "Você deve inserir um usuário para poder desbanir!",
+                "description4": "Não tem como desbanir [ownerName], pois este é o(a) dono(a) do servidor e portanto, não está banido!",
+                "userNotFound": {
+                    "line1": "Parece que eu não conheço este usuário :(",
+                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                }
+            },
+            "sucess": {
+                "title": "Desbanimento Efetuado com Sucesso!",
+                "description": "Agora, o usuário `[username]` poderá voltar como se nada tivesse acontecido.",
+                "field1": {
+                    "title": "Usuário Desbanido",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Desbanido por",
+                "field3": "Data do Desbanimento",
+                "field4": "Motivo"
+            }
+        },
+        "reason": {
+            "1": "Punição Revogada por: [username]",
+            "2": "Punição Revogada por: [username] com o Motivo: [reason]"
+        },
+        "config": {
+            "description": "Desbana um usuário que foi punido injustamente (ou por engano) pela sua equipe."
+        }
+    },
     "userinfo": {
         "embed": {
             "field": {
@@ -508,8 +538,7 @@
         },
         "strings": {
             "nickname": "Não tem",
-            "boosting": "Impulsionando um Servidor desde:",
-            "date": "dd/mm/yyyy \"às\" HH:MM:ss"
+            "boosting": "Impulsionando um Servidor desde:"
         },
         "config": {
             "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
@@ -568,6 +597,7 @@
         },
         "strings": {
             "back": "Atrás",
+            "date": "dd/mm/yyyy \"às\" HH:MM:ss",
             "day": "Dia",
             "days": "Dias",
             "error": "Etto!",
