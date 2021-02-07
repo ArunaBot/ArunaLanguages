@@ -45,8 +45,8 @@
     "bot": {
         "embed": {
             "pre": {
-                "title": "%s Por Favor, aguarde!",
-                "description": "Estou pegando todas as minhas informações pra te passar.\nAguenta só um pouquinho 😉"
+                "title": "%s Please wait!",
+                "description": "I'm gathering all of my info to give it to you. \nHold on a second 😉"
             },
             "basic": {
                 "description": "'Basic Info'",
@@ -169,19 +169,19 @@
     "dice": {
         "embed": {
             "error": {
-                "description1": "You should insert the type of die that I should roll!",
-                "description2": "I can only roll the 100 sides dice. More than that is impossible, I guess...",
-                "description3": "I can't roll that much dice at once!",
+                "description1": "Você deve inserir o tipo do dado que devo rolar!",
+                "description2": "Eu só consigo rolar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
+                "description3": "Eu não consigo rolar tantos dados de uma vez!",
                 "description4": "Something isn't right. No way that that's a number...",
                 "description5": "I didn't quite understand what you want. Please, use something like 1d6 as an argument.",
                 "description6": "I think we all know that the result of a die with 0 sides is always 0!",
-                "description7": "Ok, I won't roll any dice.",
+                "description7": "Ok, não vou rolar dado algum.",
                 "description8": "We all know that the result of a [NUMBER] [diceString] of 1 side is [NUMBER]!"
             },
             "sucess": {
                 "1": {
                     "title": "Result from the [NUMBER] dice of [DICE] sides rolled by [username]",
-                    "description": "Dados: `[DICES]`\nTotal da soma: `[TOTAL]`"
+                    "description": "Dice: `[DICES]`\nTotal sum: `[TOTAL]`"
                 },
                 "2": {
                     "title": "Resultado do dado de [DICE] lados girados por [username]",
@@ -484,9 +484,32 @@
         }
     },
     "userinfo": {
-        "generic": {
-            "day": "Dia",
-            "days": "Dias"
+        "embed": {
+            "field": {
+                "title": [
+                    "Informações do Usuário",
+                    "Informações do Membro"
+                ],
+                "description": [
+                    [
+                        "Nome:",
+                        "Tag Completa:",
+                        "ID:",
+                        "Status:",
+                        "Criou a Conta em:"
+                    ],
+                    [
+                        "Apelido:",
+                        "Adm?: ",
+                        "Entrou Em:"
+                    ]
+                ]
+            }
+        },
+        "strings": {
+            "nickname": "Não tem",
+            "boosting": "Impulsionando um Servidor desde:",
+            "date": "dd/mm/yyyy \"às\" HH:MM:ss"
         },
         "config": {
             "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
@@ -544,6 +567,9 @@
             "offline": "Offline"
         },
         "strings": {
+            "back": "Atrás",
+            "day": "Dia",
+            "days": "Dias",
             "error": "Error!",
             "link": "Link",
             "yes": "Sim",
