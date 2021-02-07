@@ -176,11 +176,11 @@
                 "description5": "I didn't quite understand what you want. Please, use something like 1d6 as an argument.",
                 "description6": "I think we all know that the result of a die with 0 sides is always 0!",
                 "description7": "Ok, I won't roll any dice.",
-                "description8": "Todos sabemos que o resultado de [NUMBER] [diceString] de 1 lado é [NUMBER]!"
+                "description8": "We all know that the result of a [NUMBER] [diceString] of 1 side is [NUMBER]!"
             },
             "sucess": {
                 "1": {
-                    "title": "Resultado dos [NUMBER] dados de [DICE] lados girados por [username]",
+                    "title": "Result from the [NUMBER] dice of [DICE] sides rolled by [username]",
                     "description": "Dados: `[DICES]`\nTotal da soma: `[TOTAL]`"
                 },
                 "2": {
