@@ -15,63 +15,63 @@
                 "description2": "¡No tengo permiso de `[banMembers]`!",
                 "description3": "¡Debes ingresar un usuario para ser castigado!",
                 "description4": "¡No puedes prohibir a [ownerName] ya que es el propietario del servidor!",
-                "description5": "¡No puede banir a este usuario porque su posición es igual o menor que la de [username]!",
-                "description6": "¡No puedo banir a este usuario porque mi posición es igual o menor que la de [username]!",
+                "description5": "¡No puede banear a este usuario porque su posición es igual o menor que la de [username]!",
+                "description6": "¡No puedo banear a este usuario porque mi posición es igual o menor que la de [username]!",
                 "userNotFound": {
-                    "line1": "Parece que eu não conheço este usuário :(",
-                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                    "line1": "Parece que no conozco a este usuario :(",
+                    "line2": "Desafortunadamente, no tengo soporte oficial para banir a usuarios desconocidos en este momento. ¡Pero puedes ayudarme a tener esta función contribuyendo a mi github!"
                 }
             },
             "sucess": {
-                "title": "Banimento Efetuado com Sucesso!",
-                "description": "Agora, o usuário `[username]` nunca mais será visto por aqui.",
+                "title": "¡Baneado con éxito!",
+                "description": "Ahora, el usuario `[username]` nunca se volverá a ver aquí.",
                 "field1": {
-                    "title": "Usuário Banido",
+                    "title": "Usuario Baneado",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Banido por",
-                "field3": "Data do Banimento",
-                "field4": "Motivo"
+                "field2": "Baneado por",
+                "field3": "Fecha del Baneamento",
+                "field4": "Razón"
             }
         },
         "reason": {
-            "1": "Punido por: [username]",
-            "2": "Punido por: [username] com o Motivo: [reason]"
+            "1": "Castigado por: [username]",
+            "2": "Castigado por: [username] con motivo: [reason]"
         },
         "config": {
-            "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
+            "description": "Banea un usuario con unas pocas teclas, ¡incluso si el usuario ya no está en el servidor!"
         }
     },
     "bot": {
         "embed": {
             "pre": {
-                "title": "%s Por Favor, aguarde!",
-                "description": "Estou pegando todas as minhas informações pra te passar.\nAguenta só um pouquinho 😉"
+                "title": "¡%s Por Favor, espere!",
+                "description": "Estoy tomando toda mi información para pasártela.\nEspera un poquito 😉"
             },
             "basic": {
-                "description": "`Informações Básicas`",
+                "description": "`Información Básica`",
                 "field": [
-                    "%s Nome na Guild",
-                    "%s Versão",
-                    "%s Uptime",
-                    "%s Canais",
+                    "%s Nombre en el servidor",
+                    "%s Versión",
+                    "%s Tiempo de Actividad",
+                    "%s Canales",
                     "%s Servidores",
-                    "%s Usuários",
-                    "%s Shard Atual",
-                    "%s Total  de Shards",
-                    "%s Ping do Shard",
-                    "Convite",
-                    "Meu Site",
-                    "Servidor de Suporte"
+                    "%s Usuarios",
+                    "%s Fragmento Actual",
+                    "%s Total  de Fragmentos",
+                    "%s Ping del Fragmento",
+                    "Invitación",
+                    "Mi Sitio",
+                    "Servidor de Soporte"
                 ]
             },
             "advanced": {
-                "description": "`Informações Avançadas`",
+                "description": "`Información Avanzada`",
                 "field": [
-                    "Versão do Node",
-                    "Versão do discord.js",
-                    "Informações da Host",
-                    "Criada e Desenvolvida Por",
+                    "Versión del Node.js",
+                    "Versión del discord.js",
+                    "Información de Alojamiento",
+                    "Creada y Desarrollada Por",
                     "Idealizada Por",
                     "Avatar Por"
                 ],
@@ -270,12 +270,12 @@
                 },
                 "field2": "Expulso por",
                 "field3": "Data de Expulsão",
-                "field4": "Motivo"
+                "field4": "Razón"
             }
         },
         "reason": {
-            "1": "Punido por: [username]",
-            "2": "Punido por: [username] com o Motivo: [reason]"
+            "1": "Castigado por: [username]",
+            "2": "Castigado por: [username] con motivo: [reason]"
         },
         "config": {
             "description": "Expulse aquele usuário chato enquanto ele pensa que você está respondendo o que ele tá falando."
@@ -489,8 +489,8 @@
                 "description3": "Você deve inserir um usuário para poder desbanir!",
                 "description4": "Não tem como desbanir [ownerName], pois este é o(a) dono(a) do servidor e portanto, não está banido!",
                 "userNotFound": {
-                    "line1": "Parece que eu não conheço este usuário :(",
-                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                    "line1": "Parece que no conozco a este usuario :(",
+                    "line2": "Desafortunadamente, no tengo soporte oficial para banir a usuarios desconocidos en este momento. ¡Pero puedes ayudarme a tener esta función contribuyendo a mi github!"
                 }
             },
             "sucess": {
@@ -502,7 +502,7 @@
                 },
                 "field2": "Desbanido por",
                 "field3": "Data do Desbanimento",
-                "field4": "Motivo"
+                "field4": "Razón"
             }
         },
         "reason": {
