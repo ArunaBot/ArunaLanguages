@@ -269,7 +269,7 @@
                     "content": "[username] (ID: [userId])"
                 },
                 "field2": "Kicked by",
-                "field3": "Data de Expulsão",
+                "field3": "Expulsion Date",
                 "field4": "Reason"
             }
         },
@@ -278,7 +278,7 @@
             "2": "Punished by: [username] for the reason: [reason]"
         },
         "config": {
-            "description": "Expulse aquele usuário chato enquanto ele pensa que você está respondendo o que ele tá falando."
+            "description": "Kick that annoying user while he thinks you're not responding to what he says."
         }
     },
     "massRemove": {
@@ -391,16 +391,16 @@
     "serverinfo": {
         "embed": {
             "field1": {
-                "title": "ID do Servidor"
+                "title": "Guild ID"
             },
             "field2": {
-                "title": "Dono"
+                "title": "Owner"
             },
             "field3": {
-                "title": "Região"
+                "title": "Region"
             },
             "field4": {
-                "title": "Data de Criação"
+                "title": "Creation Date"
             },
             "field5": {
                 "title": "ID do Shard"
