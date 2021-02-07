@@ -258,12 +258,12 @@
                 "description2": "I don´t have the `[kickMembers]` permission!",
                 "description3": "You must enter a user to be punished!",
                 "description4": "You cannot ban [ownerName] because that's the server owner!",
-                "description5": "Você não pode expulsar este usuário pois seu cargo é igual ou inferior ao de [username]!",
-                "description6": "Eu não posso expulsar este usuário pois meu cargo é igual ou inferior ao de [username]!"
+                "description5": "You cannot ban that user because your role is equal or lower than [username]'s!",
+                "description6": "I cannot ban that user because my role is equal or lower than [username]'s!"
             },
             "sucess": {
-                "title": "Expulsão Efetuada com Sucesso!",
-                "description": "Agora, o usuário `[username]` vai precisar ser convidado para poder voltar.",
+                "title": "Banishment performed successfully!",
+                "description": "Now the user `[username]` will need to be invited to come back.",
                 "field1": {
                     "title": "Usuário Expulso",
                     "content": "[username] (ID: [userId])"
