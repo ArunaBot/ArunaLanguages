@@ -94,7 +94,7 @@
             "linkr": "[%s](%s)"
         },
         "config": {
-            "description": "Lista as minhas principais informações"
+            "description": "Lists my main info"
         }
     },
     "calculator": {
@@ -169,13 +169,13 @@
     "dice": {
         "embed": {
             "error": {
-                "description1": "Você deve inserir o tipo do dado que devo girar!",
-                "description2": "Eu só consigo girar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
-                "description3": "Eu não consigo girar tantos dados de uma vez!",
-                "description4": "Acho que algo não deu muito certo. Não é possível que isso seja um número...",
-                "description5": "Eu não entendi muito bem o que você quer. Por favor, use algo como 1d6 como argumento.",
-                "description6": "Acho que todos sabemos que o resultado de um dado de 0 lados é 0!",
-                "description7": "Ok, não vou girar dado algum.",
+                "description1": "You should insert the type of die that I should roll!",
+                "description2": "I can only roll the 100 sides dice. More than that is impossible, I guess...",
+                "description3": "I can't roll that much dice at once!",
+                "description4": "Something isn't right. No way that that's a number...",
+                "description5": "I didn't quite understand what you want. Please, use something like 1d6 as an argument.",
+                "description6": "I think we all know that the result of a die with 0 sides is always 0!",
+                "description7": "Ok, I won't roll any dice.",
                 "description8": "Todos sabemos que o resultado de [NUMBER] [diceString] de 1 lado é [NUMBER]!"
             },
             "sucess": {
