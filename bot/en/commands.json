@@ -265,10 +265,10 @@
                 "title": "Banishment performed successfully!",
                 "description": "Now the user `[username]` will need to be invited to come back.",
                 "field1": {
-                    "title": "Usuário Expulso",
+                    "title": "User Kicked",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Expulso por",
+                "field2": "Kicked by",
                 "field3": "Data de Expulsão",
                 "field4": "Reason"
             }
