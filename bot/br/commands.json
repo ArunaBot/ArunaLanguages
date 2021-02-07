@@ -492,17 +492,24 @@
                 ],
                 "description": [
                     [
-
+                        "Nome:",
+                        "Tag Completa:",
+                        "ID:",
+                        "Status:",
+                        "Criou a Conta em:"
                     ],
                     [
-                        
+                        "Apelido:",
+                        "Adm? ",
+                        "Entrou Em:"
                     ]
                 ]
             }
         },
-        "generic": {
-            "day": "Dia",
-            "days": "Dias"
+        "strings": {
+            "nickname": "Não tem",
+            "boosting": "Impulsionando Algum Servidor Desde",
+            "date": "dd/mm/yyyy \"às\" HH:MM:ss"
         },
         "config": {
             "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
@@ -560,6 +567,9 @@
             "offline": "Offline"
         },
         "strings": {
+            "back": "Atrás",
+            "day": "Dia",
+            "days": "Dias",
             "error": "Erro!",
             "link": "Link",
             "yes": "Sim",
