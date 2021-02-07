@@ -169,13 +169,13 @@
     "dice": {
         "embed": {
             "error": {
-                "description1": "Você deve inserir o tipo do dado que devo girar!",
-                "description2": "Eu só consigo girar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
-                "description3": "Eu não consigo girar tantos dados de uma vez!",
+                "description1": "Você deve inserir o tipo do dado que devo rolar!",
+                "description2": "Eu só consigo rolar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
+                "description3": "Eu não consigo rolar tantos dados de uma vez!",
                 "description4": "Acho que algo não deu muito certo. Não é possível que isso seja um número...",
                 "description5": "Eu não entendi muito bem o que você quer. Por favor, use algo como 1d6 como argumento.",
                 "description6": "Acho que todos sabemos que o resultado de um dado de 0 lados é 0!",
-                "description7": "Ok, não vou girar dado algum.",
+                "description7": "Ok, não vou rolar dado algum.",
                 "description8": "Todos sabemos que o resultado de [NUMBER] [diceString] de 1 lado é [NUMBER]!"
             },
             "sucess": {
@@ -484,6 +484,22 @@
         }
     },
     "userinfo": {
+        "embed": {
+            "field": {
+                "title": [
+                    "Informações do Usuário",
+                    "Informações do Membro"
+                ],
+                "description": [
+                    [
+
+                    ],
+                    [
+                        
+                    ]
+                ]
+            }
+        },
         "generic": {
             "day": "Dia",
             "days": "Dias"
