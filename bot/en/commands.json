@@ -254,10 +254,10 @@
     "kick": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[kickMembers]`!",
-                "description2": "Eu não possuo a permissão de `[kickMembers]`!",
+                "description1": "You don´t have the `[kickMembers]` permission!",
+                "description2": "I don´t have the `[kickMembers]` permission!",
                 "description3": "You must enter a user to be punished!",
-                "description4": "Você não pode expulsar [ownerName] pois este é o(a) dono(a) do servidor!",
+                "description4": "You cannot ban [ownerName] because that's the server owner!",
                 "description5": "Você não pode expulsar este usuário pois seu cargo é igual ou inferior ao de [username]!",
                 "description6": "Eu não posso expulsar este usuário pois meu cargo é igual ou inferior ao de [username]!"
             },
@@ -400,15 +400,13 @@
                 "title": "Região"
             },
             "field4": {
-                "title": "Data de Criação",
-                "content": "dd/mm/yyyy \"às\" HH:MM:ss"
+                "title": "Data de Criação"
             },
             "field5": {
                 "title": "ID do Shard"
             },
             "field6": {
-                "title": "Entrei Em",
-                "content": "dd/mm/yyyy \"às\" HH:MM:ss"
+                "title": "Entrei Em"
             },
             "field7": {
                 "title": "%1 Canais (%2) / Categorias (%3)",
@@ -483,6 +481,38 @@
             "description": "It seems that you need to speak with my creator. If that´s the case, use this command to enter on my support guild!"
         }
     },
+    "unban": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the '[banMembers]' permission!",
+                "description2": "I don't have the '[banMembers]' permission!",
+                "description3": "Você deve inserir um usuário para poder desbanir!",
+                "description4": "Não tem como desbanir [ownerName], pois este é o(a) dono(a) do servidor e portanto, não está banido!",
+                "userNotFound": {
+                    "line1": "It seems like I don't know that user :(",
+                    "line2": "Unfortunately, I don't have the permission from Discord to ban unknown users yet. But you can help me get that by pitching in on my GitHub!"
+                }
+            },
+            "sucess": {
+                "title": "Desbanimento Efetuado com Sucesso!",
+                "description": "Agora, o usuário `[username]` poderá voltar como se nada tivesse acontecido.",
+                "field1": {
+                    "title": "Usuário Desbanido",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Desbanido por",
+                "field3": "Data do Desbanimento",
+                "field4": "Reason"
+            }
+        },
+        "reason": {
+            "1": "Punição Revogada por: [username]",
+            "2": "Punição Revogada por: [username] com o Motivo: [reason]"
+        },
+        "config": {
+            "description": "Desbana um usuário que foi punido injustamente (ou por engano) pela sua equipe."
+        }
+    },
     "userinfo": {
         "embed": {
             "field": {
@@ -508,8 +538,7 @@
         },
         "strings": {
             "nickname": "Não tem",
-            "boosting": "Impulsionando um Servidor desde:",
-            "date": "dd/mm/yyyy \"às\" HH:MM:ss"
+            "boosting": "Impulsionando um Servidor desde:"
         },
         "config": {
             "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
@@ -568,6 +597,7 @@
         },
         "strings": {
             "back": "Atrás",
+            "date": "dd/mm/yyyy \"às\" HH:MM:ss",
             "day": "Dia",
             "days": "Dias",
             "error": "Error!",
