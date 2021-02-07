@@ -508,7 +508,7 @@
         },
         "strings": {
             "nickname": "Não tem",
-            "boosting": "Impulsionando Algum Servidor Desde",
+            "boosting": "Impulsionando Algum Servidor Desde:",
             "date": "dd/mm/yyyy \"às\" HH:MM:ss"
         },
         "config": {
