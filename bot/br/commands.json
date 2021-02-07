@@ -500,7 +500,7 @@
                     ],
                     [
                         "Apelido:",
-                        "Adm? ",
+                        "Adm?: ",
                         "Entrou Em:"
                     ]
                 ]
@@ -508,7 +508,7 @@
         },
         "strings": {
             "nickname": "Não tem",
-            "boosting": "Impulsionando Algum Servidor Desde:",
+            "boosting": "Impulsionando um Servidor desde:",
             "date": "dd/mm/yyyy \"às\" HH:MM:ss"
         },
         "config": {
