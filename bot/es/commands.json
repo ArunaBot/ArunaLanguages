@@ -11,12 +11,12 @@
     "ban": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[banMembers]`!",
-                "description2": "Eu não possuo a permissão de `[banMembers]`!",
-                "description3": "Você deve inserir um usuário para ser punido!",
-                "description4": "Você não pode banir [ownerName] pois este é o(a) dono(a) do servidor!",
-                "description5": "Você não pode banir este usuário pois seu cargo é igual ou inferior ao de [username]!",
-                "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!",
+                "description1": "¡No tienes permiso de `[banMembers]`!",
+                "description2": "¡No tengo permiso de `[banMembers]`!",
+                "description3": "¡Debes ingresar un usuario para ser castigado!",
+                "description4": "¡No puedes prohibir a [ownerName] ya que es el propietario del servidor!",
+                "description5": "¡No puede banir a este usuario porque su posición es igual o menor que la de [username]!",
+                "description6": "¡No puedo banir a este usuario porque mi posición es igual o menor que la de [username]!",
                 "userNotFound": {
                     "line1": "Parece que eu não conheço este usuário :(",
                     "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
@@ -256,7 +256,7 @@
             "error": {
                 "description1": "Você não possui a permissão de `[kickMembers]`!",
                 "description2": "Eu não possuo a permissão de `[kickMembers]`!",
-                "description3": "Você deve inserir um usuário para ser punido!",
+                "description3": "¡Debes ingresar un usuario para ser castigado!",
                 "description4": "Você não pode expulsar [ownerName] pois este é o(a) dono(a) do servidor!",
                 "description5": "Você não pode expulsar este usuário pois seu cargo é igual ou inferior ao de [username]!",
                 "description6": "Eu não posso expulsar este usuário pois meu cargo é igual ou inferior ao de [username]!"
@@ -484,8 +484,8 @@
     "unban": {
         "embed": {
             "error": {
-                "description1": "Você não possui a permissão de `[banMembers]`!",
-                "description2": "Eu não possuo a permissão de `[banMembers]`!",
+                "description1": "¡No tienes permiso de `[banMembers]`!",
+                "description2": "¡No tengo permiso de `[banMembers]`!",
                 "description3": "Você deve inserir um usuário para poder desbanir!",
                 "description4": "Não tem como desbanir [ownerName], pois este é o(a) dono(a) do servidor e portanto, não está banido!",
                 "userNotFound": {
