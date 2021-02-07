@@ -44,6 +44,10 @@
     },
     "bot": {
         "embed": {
+            "pre": {
+                "title": "%s Por Favor %s, aguarde!",
+                "description": "Estou pegando todas as minhas informações pra te passar.\nAguenta só um pouquinho 😉"
+            },
             "basic": {
                 "description": "`Informações Básicas`",
                 "field": [
