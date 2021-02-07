@@ -44,45 +44,49 @@
     },
     "bot": {
         "embed": {
+            "pre": {
+                "title": "%s Por Favor, aguarde!",
+                "description": "Estou pegando todas as minhas informações pra te passar.\nAguenta só um pouquinho 😉"
+            },
             "basic": {
-                "description": "`Informações Básicas`",
+                "description": "'Basic Info'",
                 "field": [
-                    "%s Nome na Guild",
-                    "%s Versão",
+                    "%s Guild Name",
+                    "%s Version",
                     "%s Uptime",
-                    "%s Canais",
-                    "%s Servidores",
-                    "%s Usuários",
-                    "%s Shard Atual",
-                    "%s Total  de Shards",
-                    "%s Ping do Shard",
-                    "Convite",
-                    "Meu Site",
-                    "Servidor de Suporte"
+                    "%s Channels",
+                    "%s Guilds",
+                    "%s Users",
+                    "%s Current Shard",
+                    "%s Total of Shards",
+                    "%s Shard's Ping",
+                    "Invitation",
+                    "My Website",
+                    "Support Guild"
                 ]
             },
             "advanced": {
-                "description": "`Informações Avançadas`",
+                "description": "'Advanced Info'",
                 "field": [
-                    "Versão do Node",
-                    "Versão do discord.js",
-                    "Informações da Host",
-                    "Criada e Desenvolvida Por",
-                    "Idealizada Por",
-                    "Avatar Por"
+                    "Node Version",
+                    "The discord.js Version",
+                    "Host's Info",
+                    "Created and developed by",
+                    "Idealized By",
+                    "Avatar by"
                 ],
                 "content": [
                     null,
                     null,
                     [
-                        "Sistema Operacional:",
-                        "Processador:",
-                        "Quantidade de Núcleos:",
-                        "Uso de Ram:"
+                        "Operational System:",
+                        "Processor:",
+                        "Number of Cores:",
+                        "Ram usage:"
                     ],
-                    "Lobo Metalurgico (<@281515925960654848>)\n\nContato: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
+                    "Lobo Metalurgico (<@281515925960654848>)\n\nContact: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
                     "Carson (<@773670346921476166>)",
-                    "Kira's Art (<@207023257512181760>)\n\nContato: https://twitter.com/kiratokioArt"
+                    "Kira's Art (<@207023257512181760>)\n\nContact: https://twitter.com/kiratokioArt"
                 ]
             }
         },
