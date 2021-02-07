@@ -9,18 +9,18 @@
                 "adminwarn": {
                     "title": "Hola, [username]",
                     "description": {
-                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake, porém não pude kickar pois não tenho permissão para isso.",
-                        "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
+                        "line1": "Se encontró al usuario `[fakeTag]` (ID: [fakeId]) con un nick falso, pero no pude patear porque no tengo permiso para hacerlo.",
+                        "line2": "Si desea desactivar mi módulo Anti-Fake, use el comando `[prefix] config antifake disable`"
                     },
                     "footer": "Solicitud de Expulsión"
                 },
                 "fakemember": {
                     "title": "Oops, [username]",
-                    "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
+                    "description": "Este servidor no acepta falsificaciones. Cambie su nombre de usuario para resolver el problema :)",
                     "footer": "Algo salió mal, [username]"
                 }
             },
-            "kickMessage": "Conta Fake Não Autorizada!"
+            "kickMessage": "Cuenta falsa no autorizada!"
         },
         "change": {
             "embed": {
@@ -57,7 +57,7 @@
         }
     },
     "ready": {
-        "databaseAdd": "Database Inicializada!",
+        "databaseAdd": "¡Base de datos inicializada!",
         "dbl": "DBL",
         "posted": "¡Recuento de servidores enviado!",
         "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫",
@@ -69,7 +69,7 @@
             "5": "Versión [version]",
             "6": "Tu fragmento es el [shard]",
             "7": "¿Sabías que soy OpenSource? ¿No? Luego usa el comando \"git\" y ayuda a mi creador a mejorarme ;)",
-            "8": "[USERS] usuários!",
+            "8": "[USERS] usuarios!",
             "9": "[GUILDS] servidores!"
         }
     }
