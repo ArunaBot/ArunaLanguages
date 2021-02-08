@@ -538,7 +538,7 @@
         },
         "strings": {
             "nickname": "No tiene",
-            "boosting": "Impulsionando um Servidor desde:"
+            "boosting": "Impulsionando o Servidor desde:"
         },
         "config": {
             "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
