@@ -140,24 +140,24 @@
                     "description2": "¡Prefijo establecido en `[prefix]` correctamente!"
                 },
                 "language": {
-                    "description1": "Idioma do servidor definido com sucesso! Apartir de agora, vou tentar sempre falar em `[LANGUAGE]` aqui :)",
-                    "description2": "O seu idioma foi definido com sucesso! Agora, sempre que usar um comando meu, independente do servidor, eu vou falar em `[LANGUAGE]` :)"
+                    "description1": "¡El idioma del servidor se estableció correctamente! A partir de ahora, siempre intentaré hablar en `[LANGUAGE]` aquí :)",
+                    "description2": "¡Tu idioma se ha definido correctamente! Ahora, cada vez que use un comando mío, independientemente del servidor, hablaré en `[LANGUAGE]` :)"
                 }
             },
             "error": {
                 "noperm": "No tienes permiso para `[manageGuild]`",
-                "description1": "Por Favor, utilize uma das seguintes opções junto ao comando: [OPTIONS]",
-                "description2": "Esse comando não pode ser configurado no momento :(",
-                "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
+                "description1": "Utilice una de las siguientes opciones junto al comando: [OPTIONS]",
+                "description2": "Este comando no se puede configurar en este momento :(",
+                "invalidaction": "Utilice una de las siguientes acciones después de seleccionar la opción: [OPTIONS]",
                 "prefix": {
                     "description1": "¡Debes ingresar el prefijo deseado!",
                     "description2": "¡Este ya es el prefijo actual!",
                     "description3": "¡El prefijo actual ya es el prefijo predeterminado!"
                 },
                 "language": {
-                    "description1": "Desculpe, eu não conheço esse idioma :( Minha professora só me ensinou esses idiomas: [LANGUAGES]",
-                    "description2": "O idioma que você escolheu já é o padrão no servidor...",
-                    "description3": "O idioma que você escolheu já é o que estou falando..."
+                    "description1": "Lo siento, no sé este idioma :(\nMi profesor solo me enseñó estos idiomas: [LANGUAGES]",
+                    "description2": "El idioma que eligió ya es el predeterminado en el servidor...",
+                    "description3": "El idioma que ha elegido ya es del que estoy hablando..."
                 }
             },
             "generic": {
@@ -175,7 +175,7 @@
                 "description4": "Acho que algo não deu muito certo. Não é possível que isso seja um número...",
                 "description5": "Eu não entendi muito bem o que você quer. Por favor, use algo como 1d6 como argumento.",
                 "description6": "Acho que todos sabemos que o resultado de um dado de 0 lados é 0!",
-                "description7": "Ok, não vou rolar dado algum.",
+                "description7": "Está bien, no voy a rolar los dados.",
                 "description8": "Todos sabemos que o resultado de [NUMBER] [diceString] de 1 lado é [NUMBER]!"
             },
             "sucess": {
@@ -207,7 +207,7 @@
     "github": {
         "embed": {
             "error": {
-                "description": "Parece que meu criador não definiu o link do meu GitHub :("
+                "description": "Parece que mi creador no definió mi enlace de GitHub :("
             },
             "sucess": {
                 "description": {
@@ -218,7 +218,7 @@
             }
         },
         "config": {
-            "description": "Veja o link do meu GitHub com uma mensagem bonitinha junto :)"
+            "description": "Vea mi enlace de GitHub con un lindo mensaje juntos :)"
         }
     },
     "help": {
@@ -263,13 +263,13 @@
             },
             "sucess": {
                 "title": "Expulsão Efetuada com Sucesso!",
-                "description": "Agora, o usuário `[username]` vai precisar ser convidado para poder voltar.",
+                "description": "Ahora, el usuario `[username]` deberá ser invitado para poder regresar.",
                 "field1": {
-                    "title": "Usuário Expulso",
+                    "title": "Usuario Expulsado",
                     "content": "[username] (ID: [userId])"
                 },
                 "field2": "Expulsado por",
-                "field3": "Data de Expulsão",
+                "field3": "Fecha de Expulsión",
                 "field4": "Razón"
             }
         },
