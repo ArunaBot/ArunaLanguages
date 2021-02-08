@@ -169,13 +169,13 @@
     "dice": {
         "embed": {
             "error": {
-                "description1": "Você deve inserir o tipo do dado que devo rolar!",
-                "description2": "Eu só consigo rolar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
-                "description3": "Eu não consigo rolar tantos dados de uma vez!",
+                "description1": "You should insert the type of die that I should roll!",
+                "description2": "I can only roll the 100 sides dice. More than that is impossible, I guess...",
+                "description3": "I can't roll that much dice at once!",
                 "description4": "Something isn't right. No way that that's a number...",
                 "description5": "I didn't quite understand what you want. Please, use something like 1d6 as an argument.",
                 "description6": "I think we all know that the result of a die with 0 sides is always 0!",
-                "description7": "Ok, não vou rolar dado algum.",
+                "description7": "Ok, I won't roll any dice.",
                 "description8": "We all know that the result of a [NUMBER] [diceString] of 1 side is [NUMBER]!"
             },
             "sucess": {
@@ -403,24 +403,24 @@
                 "title": "Creation Date"
             },
             "field5": {
-                "title": "ID do Shard"
+                "title": "Shard's ID"
             },
             "field6": {
                 "title": "Entrei Em"
             },
             "field7": {
-                "title": "%1 Canais (%2) / Categorias (%3)",
-                "content": "%1 Texto: %2\n%3 Voz: %4\n%5 Anúncio: %6"
+                "title": "%1 Channels (%2) / Categories (%3)",
+                "content": "%1 Text: %2\n%3 Voice: %4\n%5 Announcement: %6"
             },
             "field8": {
-                "title": "%1 Membros (Sendo %2 Robôs e %3 Humanos)"
+                "title": "%1 Members (%2 Being Robots and %3 Being Humans)"
             },
             "field9": {
-                "title": "Informações do Boost",
+                "title": "Boost Info",
                 "content": "%1 » Nível do Boost %2\n%3 » Quantitade de Impulsos: %4"
             },
             "field10": {
-                "title": "Informações do Boost",
+                "title": "Boost Info",
                 "content": "%1 » Quantitade de Impulsos: %2"
             }
         },
@@ -438,24 +438,24 @@
             }
         },
         "config": {
-            "description": "Veja todas as informações desse servidor. Até a data de quando eu entrei :)"
+            "description": "See all info on this server. Well, at least since the date I joined :)"
         }
     },
     "ship": {
         "embed": {
             "error": {
-                "description": "Você deve mencionar outro alguém pra poder te shipar <3"
+                "description": "You should mention somebody else so that I can ship you <3"
             }
         },
         "shipStatus": [
-            "%s% [----------] Nada é impossível, apenas improvável.",
-            "%s% [█---------] Um dia talvez. ",
-            "%s% [██--------] Bem, olhando por esse ângulo...",
-            "%s% [███-------] Possível, é. Díficil? De fato.",
-            "%s% [████------] Numa galáxia não tão distante...",
-            "%s% [█████-----] Até que formariam um belo casal. ",
-            "%s% [██████----] Esse casal está perto de ser muito bom!",
-            "%s% [███████---] Casal de primeira! Ninguém vai separar eles <3",
+            "%s% [----------] Nothing is impossible, just unlikely.",
+            "%s% [█---------] Someday maybe. ",
+            "%s% [██--------] Well, looking at this perspective...",
+            "%s% [███-------] Well I guess it's possible. Hard? For sure.",
+            "%s% [████------] At a galaxy not so far far away...",
+            "%s% [█████-----] They'd kinda be a good couple.",
+            "%s% [██████----] This couple is close to being very good!",
+            "%s% [███████---] A very good couple! Nobody could set them apart <3",
             "%s% [████████--] Esses 2 já poderiam estar até casados! 💍",
             "%s% [█████████-] Casal perfeito, só a morte os separa! 💍",
             "%s% [██████████] Casal perfeito, nem mesmo a dona morte separa esses 2! 💍"
