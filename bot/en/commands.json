@@ -426,15 +426,15 @@
         },
         "generic": {
             "region": {
-                "brazil": "Brasil",
-                "europe": "Europa",
+                "brazil": "Brazil",
+                "europe": "Europe",
                 "hongkong": "Hong Kong",
-                "india": "Índia",
-                "japan": "Japão",
-                "russia": "Rússia",
-                "singapore": "Singapura",
-                "usa": "Estados Unidos",
-                "undefined": "Região Desconhecida :("
+                "india": "India",
+                "japan": "Japan",
+                "russia": "Russia",
+                "singapore": "Singapore",
+                "usa": "United States",
+                "undefined": "Unknown Region :("
             }
         },
         "config": {
