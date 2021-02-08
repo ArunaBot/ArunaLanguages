@@ -151,7 +151,7 @@
                 "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
                 "prefix": {
                     "description1": "¡Debes ingresar el prefijo deseado!",
-                    "description2": "Esse já é o prefixo atual!",
+                    "description2": "¡Este ya es el prefijo actual!",
                     "description3": "¡El prefijo actual ya es el prefijo predeterminado!"
                 },
                 "language": {
