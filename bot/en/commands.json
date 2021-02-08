@@ -461,7 +461,7 @@
             "%s% [██████████] Perfect couple, not even death could do them part!💍"
         ],
         "config": {
-            "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando pefeito pra testar a compatibilidade de vocês!"
+            "description": "\"I wonder if I'd do well with him? I'd like to know...\" If you ever asked yourself this question, this is the perfect command to test the compatibility between you two!"
         }
     },
     "support": {
@@ -507,7 +507,7 @@
         },
         "reason": {
             "1": "Punishment Revoked by: [username]",
-            "2": "Punição Revogada por: [username] com o Motivo: [reason]"
+            "2": "Punishment Revoked by: [username] for the Following Reason: [reason]"
         },
         "config": {
             "description": "Unban an user that was punished unfairly (or by mistake) by your team."
