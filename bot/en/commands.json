@@ -406,7 +406,7 @@
                 "title": "Shard's ID"
             },
             "field6": {
-                "title": "Entrei Em"
+                "title": "Joined In"
             },
             "field7": {
                 "title": "%1 Channels (%2) / Categories (%3)",
@@ -456,9 +456,9 @@
             "%s% [█████-----] They'd kinda be a good couple.",
             "%s% [██████----] This couple is close to being very good!",
             "%s% [███████---] A very good couple! Nobody could set them apart <3",
-            "%s% [████████--] Esses 2 já poderiam estar até casados! 💍",
-            "%s% [█████████-] Casal perfeito, só a morte os separa! 💍",
-            "%s% [██████████] Casal perfeito, nem mesmo a dona morte separa esses 2! 💍"
+            "%s% [████████--] These two could already be married! 💍",
+            "%s% [█████████-] Perfect couple, only death could set them apart!💍",
+            "%s% [██████████] Perfect couple, not even death could do them part!💍"
         ],
         "config": {
             "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando pefeito pra testar a compatibilidade de vocês!"
@@ -486,62 +486,62 @@
             "error": {
                 "description1": "You don't have the '[banMembers]' permission!",
                 "description2": "I don't have the '[banMembers]' permission!",
-                "description3": "Você deve inserir um usuário para poder desbanir!",
-                "description4": "Não tem como desbanir [ownerName], pois este é o(a) dono(a) do servidor e portanto, não está banido!",
+                "description3": "You must enter a user to be unbanned!",
+                "description4": "You can't unban [ownerName] because he's the owner of the server, and as such he/she isn't banned!",
                 "userNotFound": {
                     "line1": "It seems like I don't know that user :(",
                     "line2": "Unfortunately, I don't have the permission from Discord to ban unknown users yet. But you can help me get that by pitching in on my GitHub!"
                 }
             },
             "sucess": {
-                "title": "Desbanimento Efetuado com Sucesso!",
-                "description": "Agora, o usuário `[username]` poderá voltar como se nada tivesse acontecido.",
+                "title": "The Unban was Effected Sucessfuly!",
+                "description": "Now, the user `[username]` can come back as if nothing ever happened.",
                 "field1": {
-                    "title": "Usuário Desbanido",
+                    "title": "User Unbanned",
                     "content": "[username] (ID: [userId])"
                 },
-                "field2": "Desbanido por",
-                "field3": "Data do Desbanimento",
+                "field2": "Unbanned by",
+                "field3": "Unban date",
                 "field4": "Reason"
             }
         },
         "reason": {
-            "1": "Punição Revogada por: [username]",
+            "1": "Punishment Revoked by: [username]",
             "2": "Punição Revogada por: [username] com o Motivo: [reason]"
         },
         "config": {
-            "description": "Desbana um usuário que foi punido injustamente (ou por engano) pela sua equipe."
+            "description": "Unban an user that was punished unfairly (or by mistake) by your team."
         }
     },
     "userinfo": {
         "embed": {
             "field": {
                 "title": [
-                    "Informações do Usuário",
-                    "Informações do Membro"
+                    "User's Info",
+                    "Member's Info"
                 ],
                 "description": [
                     [
-                        "Nome:",
-                        "Tag Completa:",
+                        "Name:",
+                        "Complete Tag:",
                         "ID:",
                         "Status:",
-                        "Criou a Conta em:"
+                        "Account created in:"
                     ],
                     [
-                        "Apelido:",
+                        "Nickname:",
                         "Adm?: ",
-                        "Entrou Em:"
+                        "Joined In:"
                     ]
                 ]
             }
         },
         "strings": {
-            "nickname": "Não tem",
-            "boosting": "Impulsionando o Servidor desde:"
+            "nickname": "Doesn't have",
+            "boosting": "Boosting the Server since:"
         },
         "config": {
-            "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
+            "description": "Show the info on your own nickname or on the person mentioned"
         }
     },
     "generic": {
@@ -583,7 +583,7 @@
         "permissions": {
             "banMembers": "Ban Members",
             "embedLinks": "Embed Links",
-            "kickMembers": "Expulsar Membros",
+            "kickMembers": "Kick Members",
             "manageGuild": "Manage Guild",
             "manageMessages": "Manage Messages",
             "manageRoles": "Manage Roles",
@@ -591,19 +591,19 @@
         },
         "status": {
             "online": "Online",
-            "idle": "Ausente",
-            "dnd": "Não Perturbe",
+            "idle": "Away",
+            "dnd": "Do Not Disturb",
             "offline": "Offline"
         },
         "strings": {
-            "back": "Atrás",
-            "date": "dd/mm/yyyy \"às\" HH:MM:ss",
-            "day": "Dia",
-            "days": "Dias",
+            "back": "Back",
+            "date": "dd/mm/yyyy \"at\" HH:MM:ss",
+            "day": "Day",
+            "days": "Days",
             "error": "Error!",
             "link": "Link",
-            "yes": "Sim",
-            "no": "No"
+            "yes": "Yes",
+            "no": "In"
         }
     }
 }
