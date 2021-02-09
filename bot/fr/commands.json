@@ -164,6 +164,9 @@
                 "no": "Neste momento, o comando [COMMAND] está desativado. Para ativar, use ``[PREFIX]config [COMMAND] ativar``.",
                 "yes": "Neste momento, o comando [COMMAND] está ativado. Para desativar, use ``[PREFIX]config [COMMAND] desativar``."
             }
+        },
+        "config": {
+            "description": "Precisa alterar alguma configuração minha? Então você está no lugar certo!"
         }
     },
     "dice": {
