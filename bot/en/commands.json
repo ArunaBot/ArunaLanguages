@@ -417,11 +417,11 @@
             },
             "field9": {
                 "title": "Boost Info",
-                "content": "%1 » Nível do Boost %2\n%3 » Quantitade de Impulsos: %4"
+                "content": "%1 » Boost's Level %2\n%3 » Quantity of Boosts: %4"
             },
             "field10": {
                 "title": "Boost Info",
-                "content": "%1 » Quantitade de Impulsos: %2"
+                "content": "%1 » Quantity of Boosts: %2"
             }
         },
         "generic": {
