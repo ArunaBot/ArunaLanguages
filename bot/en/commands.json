@@ -12,7 +12,7 @@
         "embed": {
             "error": {
                 "description1": "You don't have the '[banMembers]' permission!",
-                "description2": "I don't have the '[banMembers]' permission!",
+                "description2": "I don't have the `[banMembers]` permission!",
                 "description3": "You must enter a user to be punished!",
                 "description4": "You cannot ban [ownerName] because that's the server owner!",
                 "description5": "You cannot ban that user because your role is lower than [username]'s!",
@@ -24,7 +24,7 @@
             },
             "sucess": {
                 "title": "Banishment performed successfully!",
-                "description": "Now the user '[username]' won't be seen here anymore.",
+                "description": "Now the user `[username]` won't be seen here anymore.",
                 "field1": {
                     "title": "Banned user",
                     "content": "[username] (ID: [userId])"
@@ -49,7 +49,7 @@
                 "description": "I'm gathering all of my info to give it to you. \nHold on a second 😉"
             },
             "basic": {
-                "description": "'Basic Info'",
+                "description": "`Basic Info`",
                 "field": [
                     "%s Guild Name",
                     "%s Version",
@@ -66,7 +66,7 @@
                 ]
             },
             "advanced": {
-                "description": "'Advanced Info'",
+                "description": "`Advanced Info`",
                 "field": [
                     "Node Version",
                     "The discord.js Version",
@@ -133,7 +133,7 @@
     "config": {
         "embed": {
             "sucess": {
-                "description1": "The [COMMAND] command was activated successfully!",
+                "description1": "The `[COMMAND]` command was activated successfully!",
                 "description2": "The `[COMMAND]` command was deactivated successfully!",
                 "prefix": {
                     "description1": "Prefix redefined to `[prefix]` with success!",
@@ -488,7 +488,7 @@
         "embed": {
             "error": {
                 "description1": "You don't have the '[banMembers]' permission!",
-                "description2": "I don't have the '[banMembers]' permission!",
+                "description2": "I don't have the `[banMembers]` permission!",
                 "description3": "You must enter a user to be unbanned!",
                 "description4": "You can't unban [ownerName] because he's the owner of the server, and as such he/she isn't banned!",
                 "userNotFound": {
