@@ -9,9 +9,11 @@
     "main": {
         "error": "ERROR",
         "event": "EVENTO",
+        "events": "EVENTOS",
         "command": "COMANDO",
         "commands": "COMANDOS",
-        "cluster": "CLÚSTER"
+        "cluster": "CLÚSTER",
+        "registered": "[COMMAND] se há registrado en la base de datos como configurable."
     },
     "shard": {
         "master": "FRAGMENTO MÁSTER",

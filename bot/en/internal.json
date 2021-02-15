@@ -2,16 +2,18 @@
     "initialization": {
         "initializing": "[prefix] Initializing!",
         "language": "The system is using the [language] language and the default language for the functions is [default].",
-        "version": "You´re Using the Version [version] Based on ArunaBot",
+        "version": "You're Using the Version [version] Based on ArunaBot",
         "complete": "Initialization Complete!",
-        "fail": "Failed to initialized:"
+        "fail": "Failed to initialize:"
     },
     "main": {
         "error": "ERROR",
         "event": "EVENT",
+        "events": "EVENTS",
         "command": "COMMAND",
         "commands": "COMMANDS",
-        "cluster": "CLUSTER"
+        "cluster": "CLUSTER",
+        "registered": "[COMMAND] registered in the database as configurable."
     },
     "shard": {
         "master": "SHARD MASTER",

@@ -1,4 +1,36 @@
 {
+    "guild": {
+        "create": "Entrei no servidor [guildName]! :)",
+        "delete": "Fui removida do servidor [guildName] :("
+    },
+    "memberAdd": {
+        "antifake": {
+            "embed": {
+                "adminwarn": {
+                    "title": "Olá, [username]",
+                    "description": {
+                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake, porém não pude kickar pois não tenho permissão para isso.",
+                        "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
+                    },
+                    "footer": "Solicitação de Kick"
+                },
+                "fakemember": {
+                    "title": "Ooky, [username]",
+                    "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
+                    "footer": "Apjo peu ettapo, [username]"
+                }
+            },
+            "kickMessage": "Conta Fake Não Autorizada!"
+        },
+        "change": {
+            "embed": {
+                "title": "Ooky, [username]",
+                "description": "Olá! No momento estamos trocando de servidor. Por favor, peço que entre no nosso novo servidor clicando **[aqui]([link])** :)",
+                "footer": "Nos Vemos em Breve, [username]!"
+            }
+        },
+        "db": "Novo Membro na Database!"
+    },
     "message": {
         "errors": {
             "emojiError": "Kata seu tutyiotasetpo, kteyiyo pa ketsuyyão pe `[externalEmojis]`. Kot patot, yopiyipe kata apjus apsitiyptapot rue apite iyyo kata rue eu koyya putyiotat :)",
@@ -25,6 +57,10 @@
         }
     },
     "ready": {
+        "databaseAdd": "Database Inicializada!",
+        "dbl": "DBL",
+        "posted": "Contagem de servidores enviada!",
+        "maintenance": "🚫ATIYO: SATUPETÇÃO KTOJTASAPA KATA [date]! TIYATEI ITPIYKOTÍTEP KOT [time]!🚫",
         "status": {
             "1": "O yatap po potosepaputjiyo",
             "2": "S83 - Siptijkp Yipy",
@@ -32,8 +68,9 @@
             "4": "Apjusa yoiya Pitetpipa!",
             "5": "Tetyão [version]",
             "6": "Yeu Ykarp é o [shard]",
-            "7": "Yatia rue you OketYoutye? Tão? Etpão uye o yosatpo \"jip\" e atupe seu ytuapot a se peikat sepkot ;)"
-        },
-        "maintenance": "🚫ATIYO: SATUPETÇÃO KTOJTASAPA KATA [date]! TIYATEI ITPIYKOTÍTEP KOT [time]!🚫"
+            "7": "Yatia rue you OketYoutye? Tão? Etpão uye o yosatpo \"jip\" e atupe seu ytuapot a se peikat sepkot ;)",
+            "8": "[USERS] usuários!",
+            "9": "[GUILDS] servidores!"
+        }
     }
 }

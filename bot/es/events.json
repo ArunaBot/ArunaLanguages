@@ -1,4 +1,36 @@
 {
+    "guild": {
+        "create": "¡Me uní al servidor [guildName]! :)",
+        "delete": "Me eliminaron del servidor [guildName] :("
+    },
+    "memberAdd": {
+        "antifake": {
+            "embed": {
+                "adminwarn": {
+                    "title": "Hola, [username]",
+                    "description": {
+                        "line1": "Se encontró al usuario `[fakeTag]` (ID: [fakeId]) con un nick falso, pero no pude patear porque no tengo permiso para hacerlo.",
+                        "line2": "Si desea desactivar mi módulo Anti-Fake, use el comando `[prefix] config antifake disable`"
+                    },
+                    "footer": "Solicitud de Expulsión"
+                },
+                "fakemember": {
+                    "title": "Oops, [username]",
+                    "description": "Este servidor no acepta falsificaciones. Cambie su nombre de usuario para resolver el problema :)",
+                    "footer": "Algo salió mal, [username]"
+                }
+            },
+            "kickMessage": "Cuenta falsa no autorizada!"
+        },
+        "change": {
+            "embed": {
+                "title": "Oops, [username]",
+                "description": "¡Hola! Actualmente estamos cambiando de servidor. Por favor, le pido que ingrese a nuestro nuevo servidor presionando **[aquí]([link])** :)",
+                "footer": "¡Hasta pronto, [username]!"
+            }
+        },
+        "db": "¡Nuevo miembro en la base de datos!"
+    },
     "message": {
         "errors": {
             "emojiError": "Para mi operacíon, necesito permiso de `[externalEmojis]`. Pídale para algún administrador que habilite esto para que pueda trabajar :)",
@@ -25,6 +57,10 @@
         }
     },
     "ready": {
+        "databaseAdd": "¡Base de datos inicializada!",
+        "dbl": "DBL",
+        "posted": "¡Recuento de servidores enviado!",
+        "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫",
         "status": {
             "1": "El canal LoboMetalurgico",
             "2": "M83 - Midnight City",
@@ -32,8 +68,9 @@
             "4": "¡Algo divertido!",
             "5": "Versión [version]",
             "6": "Tu fragmento es el [shard]",
-            "7": "¿Sabías que soy OpenSource? ¿No? Luego usa el comando \"git\" y ayuda a mi creador a mejorarme ;)"
-        },
-        "maintenance": "🚫¡Advertencia!: MANTENIMIENTO PROGRAMADO PARA [date]! ¡NO ESTARÉ DISPONIBLE POR [time] VEZ!🚫"
+            "7": "¿Sabías que soy OpenSource? ¿No? Luego usa el comando \"git\" y ayuda a mi creador a mejorarme ;)",
+            "8": "[USERS] usuarios!",
+            "9": "[GUILDS] servidores!"
+        }
     }
 }
