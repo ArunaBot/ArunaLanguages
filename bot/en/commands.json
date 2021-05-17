@@ -245,7 +245,7 @@
             "sucess": {
                 "description": {
                     "line1": "I´m happy that you liked me and wanted to add me :)",
-                    "line2": "To do that, just click [here] ([link]), select the guild on the list, confirm the reCaptcha and that´s it! I´ll be on your guild!",
+                    "line2": "To do that, just click [here]([link]), select the guild on the list, confirm the reCaptcha and that´s it! I´ll be on your guild!",
                     "line3": "Again, thanks for the interest and we´ll see eachother on your guild!"
                 }
             }
