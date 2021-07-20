@@ -7,7 +7,7 @@
         "antifake": {
             "embed": {
                 "adminwarn": {
-                    "title": "こんにちは、[username] さん",
+                    "title": "Olá, [username]",
                     "description": {
                         "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake, porém não pude kickar pois não tenho permissão para isso.",
                         "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
