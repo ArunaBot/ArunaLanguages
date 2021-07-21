@@ -1,0 +1,34 @@
+{
+    "initialization": {
+        "initializing": "[prefix] ¡Inicializando!",
+        "language": "El sistema está utilizando el idioma [language] y el idioma predeterminado para las funciones es [default].",
+        "version": "Está Utilizando la Versión [version] Basada en ArunaBot",
+        "complete": "Inicialización Finalizada!",
+        "fail": "Error al Inicializar:"
+    },
+    "main": {
+        "error": "ERROR",
+        "event": "EVENTO",
+        "events": "EVENTOS",
+        "command": "COMANDO",
+        "commands": "COMANDOS",
+        "cluster": "CLÚSTER",
+        "registered": "[COMMAND] se há registrado en la base de datos como configurable."
+    },
+    "shard": {
+        "master": "FRAGMENTO MÁSTER",
+        "launch": "[shard] iniciado(s)",
+        "exit": "Se obligó a cerrar una demanda.",
+        "exitCode": "Código de Salida:",
+        "startGeneration": "[logPrefix] Iniciando a geração do(s) Shards...",
+        "finishGeneration": "Finalizando a geração do(s) Shards..."
+    },
+    "generic": {
+        "base": "Base",
+        "connected": "=> Conectado!",
+        "core": "Núcleo",
+        "languageName": "Español",
+        "notFound": "¡No Encontrado!",
+        "shard": "Fragmento"
+    }
+}
