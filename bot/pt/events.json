@@ -15,7 +15,7 @@
                     "footer": "Solicitação de Kick"
                 },
                 "fakemember": {
-                    "title": "Ups, [username]",
+                    "title": "Oops, [username]",
                     "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
                     "footer": "Algo deu errado, [username]"
                 }
@@ -24,7 +24,7 @@
         },
         "change": {
             "embed": {
-                "title": "Ups, [username]",
+                "title": "Oops, [username]",
                 "description": "Olá! No momento estamos trocando de servidor. Por favor, peço que entre no nosso novo servidor clicando **[aqui]([link])** :)",
                 "footer": "Nos Vemos em Breve, [username]!"
             }
