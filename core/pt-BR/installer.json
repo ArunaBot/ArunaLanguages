@@ -15,6 +15,11 @@
                 "fail": "Falha ao executar um comando git!"
             }
         },
+        "loadConfig": {
+            "error": {
+                "noPath": "No valid path has been provide to load the configuration from!"
+            }
+        },
         "start": {
             "errors": {
                 "config": {
