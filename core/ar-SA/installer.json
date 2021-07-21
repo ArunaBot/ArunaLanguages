@@ -18,12 +18,13 @@
         "start": {
             "errors": {
                 "config": {
-                    "fail": "Failed to download configs!",
+                    "fail": "Failed to load default configs!",
                     "folder": "Config folder does not exist!"
                 }
             },
             "config": {
-                "downloading": "Downloading configs..."
+                "downloading": "Downloading configs...",
+                "loading": "Loading default configs..."
             },
             "messages": {
                 "starting": "Starting Aruna Core Installer...",
