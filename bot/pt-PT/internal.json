@@ -1,0 +1,34 @@
+{
+    "initialization": {
+        "initializing": "[prefix] Inicializando!",
+        "language": "O sistema está usando o idioma [language] e o idioma padrão para as funções é [default].",
+        "version": "Você Está Usando a Versão [version] com base na ArunaBot",
+        "complete": "Inicialização Completa!",
+        "fail": "Falha ao Inicializar:"
+    },
+    "main": {
+        "error": "ERRO",
+        "event": "EVENTO",
+        "events": "EVENTOS",
+        "command": "COMANDO",
+        "commands": "COMANDOS",
+        "cluster": "CLUSTER",
+        "registered": "[COMMAND] registrado na database como configurável."
+    },
+    "shard": {
+        "master": "SHARD MASTER",
+        "launch": "[shard] iniciado(s)",
+        "exit": "Foi forçado o encerramento de um processo.",
+        "exitCode": "Código de Saída:",
+        "startGeneration": "[logPrefix] Iniciando a geração do(s) Shards...",
+        "finishGeneration": "Finalizando a geração do(s) Shards..."
+    },
+    "generic": {
+        "base": "Base",
+        "connected": "==> Ligado!",
+        "core": "Núcleo",
+        "languageName": "Português Portugal",
+        "notFound": "Não Encontrado!",
+        "shard": "Shard"
+    }
+}
