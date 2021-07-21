@@ -1,7 +1,36 @@
 {
-    "steps": [
-        {
-            "a": "olá mundo!"
+    "class": {
+        "download": {
+            "file": {
+                "start": "Extracting file in"
+            }
+        },
+        "getUserInput": {
+            "error": {
+                "noQuestion": "No question has been passed to be asked to the user!"
+            }
+        },
+        "git": {
+            "error": {
+                "fail": "Failed to execute git command!"
+            }
+        },
+        "start": {
+            "errors": {
+                "config": {
+                    "fail": "Failed to download configs!",
+                    "folder": "Config folder does not exist!"
+                }
+            },
+            "config": {
+                "downloading": "Downloading configs..."
+            },
+            "messages": {
+                "starting": "Starting Aruna Core Installer...",
+                "OSLanguage": "OS Language",
+                "version": "Aruna Core Version",
+                "installerVersion": "Installer Version"
+            }
         }
-    ]
+    }
 }
