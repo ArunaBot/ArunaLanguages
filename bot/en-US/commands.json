@@ -1,0 +1,612 @@
+{
+    "avatar": {
+        "embed": {
+            "title": "[emoji] [user]'s Avatar",
+            "description": "**Click [here]([url]) to download the image.**"
+        },
+        "config": {
+            "description": "Show your own or another user's avatar"
+        }
+    },
+    "ban": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the '[banMembers]' permission!",
+                "description2": "I don't have the `[banMembers]` permission!",
+                "description3": "You must enter a user to be punished!",
+                "description4": "You cannot ban [ownerName] because that's the server owner!",
+                "description5": "You cannot ban that user because your role is lower than [username]'s!",
+                "description6": "I cannot ban that user because my role is lower than [username]'s!",
+                "userNotFound": {
+                    "line1": "It seems like I don't know that user :(",
+                    "line2": "Unfortunately, I don't have the permission from Discord to ban unknown users yet. But you can help me get that by pitching in on my GitHub!"
+                }
+            },
+            "sucess": {
+                "title": "Banishment performed successfully!",
+                "description": "Now the user `[username]` won't be seen here anymore.",
+                "field1": {
+                    "title": "Banned user",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Banned by",
+                "field3": "Ban Date",
+                "field4": "Reason"
+            }
+        },
+        "reason": {
+            "1": "Banned by: [username]",
+            "2": "Punished by: [username] for the reason: [reason]"
+        },
+        "config": {
+            "description": "Ban a user using few letters, no matter whether they're on the guild!"
+        }
+    },
+    "bot": {
+        "embed": {
+            "pre": {
+                "title": "%s Please wait!",
+                "description": "I'm gathering all of my info to give it to you. \nHold on a second 😉"
+            },
+            "basic": {
+                "description": "`Basic Info`",
+                "field": [
+                    "%s Guild Name",
+                    "%s Version",
+                    "%s Uptime",
+                    "%s Channels",
+                    "%s Guilds",
+                    "%s Users",
+                    "%s Current Shard",
+                    "%s Total of Shards",
+                    "%s Shard's Ping",
+                    "Invitation",
+                    "My Website",
+                    "Support Guild"
+                ]
+            },
+            "advanced": {
+                "description": "`Advanced Info`",
+                "field": [
+                    "Node Version",
+                    "The discord.js Version",
+                    "Host's Info",
+                    "Created and developed by",
+                    "Idealized By",
+                    "Avatar by"
+                ],
+                "content": [
+                    null,
+                    null,
+                    [
+                        "Operational System:",
+                        "Processor:",
+                        "Number of Cores:",
+                        "Ram usage:"
+                    ],
+                    "Lobo Metalurgico (<@281515925960654848>)\n\nContact: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
+                    "Carson (<@773670346921476166>)",
+                    "Kira's Art (<@207023257512181760>)\n\nContact: https://twitter.com/kiratokioArt"
+                ]
+            }
+        },
+        "generic": {
+            "linkr": "[%s](%s)"
+        },
+        "config": {
+            "description": "Lists my main info"
+        }
+    },
+    "calculator": {
+        "embed": {
+            "error": {
+                "description1": "You must enter the calculation to be done.",
+                "description2": "Sorry, but I was unable to perform the calculation. Try inserting another one."
+            },
+            "sucess": {
+                "title": "Calculator",
+                "field1": "[emoji] Input",
+                "field2": "[emoji] Saída"
+            }
+        },
+        "config": {
+            "description": "Allows you to perform complex calculations in a simple way"
+        }
+    },
+    "clear": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the `[manageMessages]` permission!",
+                "description2": "I don't have the `[manageMessages]` permission!",
+                "description3": "You must insert the quantity of messages to be deleted!",
+                "description4": "I can only delete between 2 and 100 messages."
+            }
+        },
+        "sucess": {
+            "message1": " `[messages]` messages were deleted by [user]",
+            "message2": "[user] deleted only `[messages]` messages of `[request] requests` for not existing or being older than 2 weeks."
+        },
+        "config": {
+            "description": "Allows you to delete massively until 100 messages with age equal to or less than 2 weeks"
+        }
+    },
+    "config": {
+        "embed": {
+            "sucess": {
+                "description1": "The `[COMMAND]` command was activated successfully!",
+                "description2": "The `[COMMAND]` command was deactivated successfully!",
+                "prefix": {
+                    "description1": "Prefix redefined to `[prefix]` with success!",
+                    "description2": "Prefix defined to `[prefix]` with success!"
+                },
+                "language": {
+                    "description1": "Server language defined successfully! From now on, I will always try to speak in `[LANGUAGE]` here. :)",
+                    "description2": "Your language was defined successfully! Now, every time you use a command of mine, I will speak in `[LANGUAGE]`, regardless of the server. :)"
+                }
+            },
+            "error": {
+                "noperm": "You don't have the `[manageGuild]` permission",
+                "description1": "Please, utilize one of the following options along with the command: [OPTIONS]",
+                "description2": "This command cannot be configured at the moment. :(",
+                "invalidaction": "Please, utilize one of the following actions after the selecting the option: [OPTIONS]",
+                "prefix": {
+                    "description1": "You must insert the desired prefix!",
+                    "description2": "This is already the current prefix!",
+                    "description3": "The current prefix is already the default prefix!"
+                },
+                "language": {
+                    "description1": "Sorry, I don't know that language :( My teacher only taught me these: [LANGUAGES]",
+                    "description2": "The language you chose is already the default in this server...",
+                    "description3": "I'm already speaking the language you chose..."
+                }
+            },
+            "generic": {
+                "no": "At the moment, the command [COMMAND] is deactivated. To activate it, use ``[PREFIX]config[COMMAND] enable``.",
+                "yes": "At the moment, the command [COMMAND] is activated. To deactivate it, use ``[PREFIX]config[COMMAND] disable``."
+            }
+        },
+        "config": {
+            "description": "Do you need to alter any of my configurations? Then you're in the right place!"
+        }
+    },
+    "dice": {
+        "embed": {
+            "error": {
+                "description1": "You should insert the type of die that I should roll!",
+                "description2": "I can only roll the 100 sides dice. More than that is impossible, I guess...",
+                "description3": "I can't roll that much dice at once!",
+                "description4": "Something isn't right. No way that that's a number...",
+                "description5": "I didn't quite understand what you want. Please, use something like 1d6 as an argument.",
+                "description6": "I think we all know that the result of a die with 0 sides is always 0!",
+                "description7": "Ok, I won't roll any dice.",
+                "description8": "We all know that the result of a [NUMBER] [diceString] of 1 side is [NUMBER]!"
+            },
+            "sucess": {
+                "1": {
+                    "title": "Result from the [NUMBER] dice of [DICE] sides rolled by [username]",
+                    "description": "Dice: `[DICES]`\nTotal sum: `[TOTAL]`"
+                },
+                "2": {
+                    "title": "Result from die of [DICE] sides rolled by [username]",
+                    "description": "Die: `[DICES]`"
+                }
+            },
+            "generic": {
+                "dice": "die",
+                "dices": "dice"
+            }
+        },
+        "config": {
+            "description": "Are you playing an RPG and do you need to roll a 1d8? Perfect\" Just use this command and your problem will be solved."
+        }
+    },
+    "flip": {
+        "heads": "Heads!",
+        "tails": "Tails!",
+        "config": {
+            "description": "Flip a coin! What will it be?"
+        }
+    },
+    "github": {
+        "embed": {
+            "error": {
+                "description": "It seems that my creator didn´t define my GitHub link :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "I´m happy that you liked me and wanted to contribute with my development :)",
+                    "line2": "In order for you to see my repository and help, just click [here] ([url]), \"fork\" the repository, edit my \"Unstable\" branch , make a pull request on my main repository and that´s it! You would´ve contributed with my development :)",
+                    "line3": "Again, thanks for the interest and we´ll see eachother on GitHub!"
+                }
+            }
+        },
+        "config": {
+            "description": "See my GitHub link with a nice little message along with it :)"
+        }
+    },
+    "help": {
+        "embed": {
+            "error": {
+                "description": "Check if I have permission to send you private messages, since that is where I send the commands."
+            },
+            "sucess": {
+                "description": "The commands were sent to your DMs successfully!"
+            }
+        },
+        "config": {
+            "description": "Look at all the commands you can use!"
+        }
+    },
+    "invite": {
+        "embed": {
+            "error": {
+                "description": "It seems that my creator didn't define an invite link for me :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "I'm happy that you liked me and wanted to add me :)",
+                    "line2": "To do that, just click [here]([link]), select the guild on the list, confirm the reCaptcha and that's it! I'll be on your guild!",
+                    "line3": "Again, thanks for the interest and we´ll see eachother on your guild!"
+                }
+            }
+        },
+        "config": {
+            "description": "My invite link for you, who wants me on your server :)"
+        }
+    },
+    "kick": {
+        "embed": {
+            "error": {
+                "description1": "You don´t have the `[kickMembers]` permission!",
+                "description2": "I don´t have the `[kickMembers]` permission!",
+                "description3": "You must enter a user to be punished!",
+                "description4": "You cannot ban [ownerName] because that's the server owner!",
+                "description5": "You cannot ban that user because your role is equal or lower than [username]'s!",
+                "description6": "I cannot ban that user because my role is equal or lower than [username]'s!"
+            },
+            "sucess": {
+                "title": "Banishment performed successfully!",
+                "description": "Now the user `[username]` will need to be invited to come back.",
+                "field1": {
+                    "title": "User Kicked",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Kicked by",
+                "field3": "Expulsion Date",
+                "field4": "Reason"
+            }
+        },
+        "reason": {
+            "1": "Banned by: [username]",
+            "2": "Punished by: [username] for the reason: [reason]"
+        },
+        "config": {
+            "description": "Kick that annoying user while he thinks you're not responding to what he says."
+        }
+    },
+    "massRemove": {
+        "embed": {
+            "sucess": {
+                "description": "The role `[roleName]` was removed from `[userSize]` users with sucess!"
+            },
+            "error": {
+                "description1": "You don´t have the `[manageRoles]` permission!",
+                "description2": "I don´t have the `[manageRoles]` permission!",
+                "description3": "You must mention a role to remove from members!",
+                "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s is lower than it.",
+                "description5": "You can´t remove the role `[roleName]` because either that´s your role or your´s is lower than it."
+            },
+            "running": {
+                "description": "The role [roleName] is being removed from [userSize] users on this guild. Please, wait a moment."
+            }
+        },
+        "config": {
+            "description": "Did you use massRole with the wrong role? Use this command and your problem will be solved!"
+        }
+    },
+    "massRole": {
+        "embed": {
+            "sucess": {
+                "description": "The role `[roleName]` was applied to `[userSize]` users with sucess!"
+            },
+            "error": {
+                "description1": "You don´t have the `[manageRoles]` permission!",
+                "description2": "I don´t have the `[manageRoles]` permission!",
+                "description3": "You must mention a role to apply it to members!",
+                "description4": "You can´t apply the role `[roleName]` because either that´s my role or mine´s lower than it.",
+                "description5": "You can´t apply the role `[roleName]` because either that´s your role or your´s is lower than it."
+            },
+            "running": {
+                "description": "The role [roleName] is being used for [userSize] users on this guild. Please, wait a moment."
+            }
+        },
+        "config": {
+            "description": "Too lazy to give everyone a role? Use this command and do it easily!"
+        }
+    },
+    "ping": {
+        "embed": {
+            "1": {
+                "title": "[emoji] Please [username], wait!",
+                "description": "Calculating my ping. Please wait for it U-U"
+            },
+            "2": {
+                "description": {
+                    "line1": ":hourglass: | Response time: **[responseTime]** ms",
+                    "line2": ":satellite: | Api: **[apiTime]** ms"
+                }
+            }
+        },
+        "config": {
+            "description": "See my healt- I mean, my ping. I wonder whether I´m fast or slow today?"
+        }
+    },
+    "prefix": {
+        "embed": {
+            "sucess": {
+                "description1": "Prefix redefined to `[prefix]` with success!",
+                "description2": "Prefix defined to `[prefix]` with success!"
+            },
+            "error": {
+                "noperm": "You don't have the `[manageGuild]` permission",
+                "description1": "Enter if you wanna define a prefix (set) or if you wanna go back to default (remove).",
+                "description2": "You must insert the desired prefix!",
+                "description3": "The current prefix is already the default prefix!"
+            }
+        },
+        "config": {
+            "description": "Allows you to change the prefix on this server"
+        },
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <desiredPrefix>"
+    },
+    "rank": {
+        "embed": {
+            "title": "RANK: [username]",
+            "field1": "Level",
+            "field2": "Current XP",
+            "field3": "XP Required"
+        },
+        "config": {
+            "description": "See your rank on this server, or maybe your rival´s"
+        }
+    },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the `[manageMessages]` permission!",
+                "description2": "I don't have the `[manageMessages]` permission!",
+                "description3": "Insert at least one letter so that the bot can write!"
+            }
+        },
+        "config": {
+            "description": "Makes the bot speak a sentence instead of you"
+        }
+    },
+    "servericon": {
+        "embed": {
+            "title": "[emoji] Icon of the server [guild]",
+            "description": "**Click [here]([url]) to download the icon.**"
+        },
+        "config": {
+            "description": "Shows the current server's icon"
+        }
+    },
+    "serverinfo": {
+        "embed": {
+            "field1": {
+                "title": "Guild ID"
+            },
+            "field2": {
+                "title": "Owner"
+            },
+            "field3": {
+                "title": "Region"
+            },
+            "field4": {
+                "title": "Creation Date"
+            },
+            "field5": {
+                "title": "Shard's ID"
+            },
+            "field6": {
+                "title": "Joined In"
+            },
+            "field7": {
+                "title": "%1 Channels (%2) / Categories (%3)",
+                "content": "%1 Text: %2\n%3 Voice: %4\n%5 Announcement: %6"
+            },
+            "field8": {
+                "title": "%1 Members (%2 Being Robots and %3 Being Humans)"
+            },
+            "field9": {
+                "title": "Boost Info",
+                "content": "%1 » Boost's Level %2\n%3 » Quantity of Boosts: %4"
+            },
+            "field10": {
+                "title": "Boost Info",
+                "content": "%1 » Quantity of Boosts: %2"
+            }
+        },
+        "generic": {
+            "region": {
+                "brazil": "Brazil",
+                "europe": "Europe",
+                "hongkong": "Hong Kong",
+                "india": "India",
+                "japan": "Japan",
+                "russia": "Russia",
+                "singapore": "Singapore",
+                "usa": "United States",
+                "undefined": "Unknown Region :("
+            }
+        },
+        "config": {
+            "description": "See all info on this server. Well, at least since the date I joined :)"
+        }
+    },
+    "ship": {
+        "embed": {
+            "error": {
+                "description": "You should mention somebody else so that I can ship you <3"
+            }
+        },
+        "shipStatus": [
+            "%s% [----------] Nothing is impossible, just unlikely.",
+            "%s% [█---------] Someday maybe. ",
+            "%s% [██--------] Well, looking at this perspective...",
+            "%s% [███-------] Possível, é. Difícil? De fato.",
+            "%s% [████------] At a galaxy not so far far away...",
+            "%s% [█████-----] Até que formariam um belo casal.",
+            "%s% [██████----] This couple is close to being very good!",
+            "%s% [███████---] A very good couple! Nobody could set them apart <3",
+            "%s% [████████--] These two could already be married! 💍",
+            "%s% [█████████-] Perfect couple, only death could set them apart!💍",
+            "%s% [██████████] Perfect couple, not even death could do them part!💍"
+        ],
+        "config": {
+            "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando perfeito pra testar a compatibilidade de vocês!"
+        }
+    },
+    "support": {
+        "embed": {
+            "error": {
+                "description": "I think my creator forgot to add a link for my support guild :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "Did you find anything weird with me? Do you have any complaints or suggestions for my creators?",
+                    "line2": "If that´s your case, you´ll be on the right place! My support guild is just a few clicks away. Any questions? Then click [here] ([link])!",
+                    "line3": "Did you click it? Now you just have to click the \"enter\" button that appeared on your screen. Did you see how easy it is?"
+                }
+            }
+        },
+        "config": {
+            "description": "It seems that you need to speak with my creator. If that´s the case, use this command to enter on my support guild!"
+        }
+    },
+    "unban": {
+        "embed": {
+            "error": {
+                "description1": "You don't have the '[banMembers]' permission!",
+                "description2": "I don't have the `[banMembers]` permission!",
+                "description3": "You must enter a user to be unbanned!",
+                "description4": "You can't unban [ownerName] because he's the owner of the server, and as such he/she isn't banned!",
+                "userNotFound": {
+                    "line1": "It seems like I don't know that user :(",
+                    "line2": "Unfortunately, I don't have the permission from Discord to ban unknown users yet. But you can help me get that by pitching in on my GitHub!"
+                }
+            },
+            "sucess": {
+                "title": "The Unban was Effected Sucessfuly!",
+                "description": "Now, the user `[username]` can come back as if nothing ever happened.",
+                "field1": {
+                    "title": "User Unbanned",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Unbanned by",
+                "field3": "Unban date",
+                "field4": "Reason"
+            }
+        },
+        "reason": {
+            "1": "Punishment Revoked by: [username]",
+            "2": "Punishment Revoked by: [username] for the Following Reason: [reason]"
+        },
+        "config": {
+            "description": "Unban an user that was punished unfairly (or by mistake) by your team."
+        }
+    },
+    "userinfo": {
+        "embed": {
+            "field": {
+                "title": [
+                    "User's Info",
+                    "Member's Info"
+                ],
+                "description": [
+                    [
+                        "Name:",
+                        "Complete Tag:",
+                        "ID:",
+                        "Status:",
+                        "Account created in:"
+                    ],
+                    [
+                        "Nickname:",
+                        "Adm?: ",
+                        "Joined In:"
+                    ]
+                ]
+            }
+        },
+        "strings": {
+            "nickname": "Doesn't have",
+            "boosting": "Boosting the Server since:"
+        },
+        "config": {
+            "description": "Show the info on your own nickname or on the person mentioned"
+        }
+    },
+    "generic": {
+        "embed": {
+            "denied": {
+                "title": "Access Denied!",
+                "description": {
+                    "line1": "I´m sorry [username], but the command `[command]` is only available for my creator :(",
+                    "line2": "Ao invés de tentar usar esse comando, porque você não usa um dos meus públicos? Para vê-los, é só usar `[prefix]help` :)"
+                },
+                "footer": "Você não possui permissão para executar essa ação"
+            },
+            "deprecated": {
+                "title": "🚫DEPRECATED FUNCTION🚫",
+                "description1": "**WARNING: THIS IS AN OLD FUNCTION AND IT WILL BE REMOVED SOON.**",
+                "description2": "In order to avoid problems, the usage of `[alternative]` is recommended.",
+                "footer": "Deprecated Command Warning"
+            },
+            "disabled": {
+                "description": "This command isn´t activated on your server. Please, request that an admin activates it using the command `[config]`."
+            },
+            "error": {
+                "title": "Oops, [username]",
+                "description": "An unknown error has happened :(\nPlease, reach out to my creator on my support server.",
+                "footer": "Something went wrong, [username]"
+            },
+            "running": {
+                "title": "[emoji] Wait for it, [username]",
+                "footer": "Operation is being Executed, [username]"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Success!",
+                "footer2": "Operation carried out sucessfully, [username]"
+            },
+            "title": "Hey, [username]",
+            "footer": "Command Requested by [usertag]"
+        },
+        "permissions": {
+            "banMembers": "Ban Members",
+            "embedLinks": "Embed Links",
+            "kickMembers": "Kick Members",
+            "manageGuild": "Manage Guild",
+            "manageMessages": "Manage Messages",
+            "manageRoles": "Manage Roles",
+            "useExternalEmojis": "Use External Emojis"
+        },
+        "status": {
+            "online": "Online",
+            "idle": "Away",
+            "dnd": "Do Not Disturb",
+            "offline": "Offline"
+        },
+        "strings": {
+            "back": "Back",
+            "date": "dd/mm/yyyy \"at\" HH:MM:ss",
+            "day": "Day",
+            "days": "Days",
+            "error": "Error!",
+            "link": "Link",
+            "yes": "Yes",
+            "no": "In"
+        }
+    }
+}
