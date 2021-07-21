@@ -18,13 +18,13 @@
         "start": {
             "errors": {
                 "config": {
-                    "fail": "Failed to load default configs!",
+                    "fail": "Erro ao carregar as configurações padrão!",
                     "folder": "A pasta Config não existe!"
                 }
             },
             "config": {
                 "downloading": "Baixando configurações...",
-                "loading": "Loading default configs..."
+                "loading": "Carregando as configurações padrão..."
             },
             "messages": {
                 "starting": "Iniciando o Instalador da Aruna Core...",
