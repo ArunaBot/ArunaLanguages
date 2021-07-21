@@ -20,8 +20,8 @@
         "launch": "[shard] iniciado(s)",
         "exit": "Foi forçado o encerramento de um processo.",
         "exitCode": "Código de Saída:",
-        "startGeneration": "[logPrefix] Começando a gerar shards...",
-        "finishGeneration": "Finalizando a geração dos Shards!"
+        "startGeneration": "[logPrefix] Iniciando a geração do(s) shards...",
+        "finishGeneration": "Finalizando a geração do(s) Shards..."
     },
     "generic": {
         "base": "Base",
