@@ -20,8 +20,8 @@
         "launch": "[shard] Were initialized",
         "exit": "A process was forced to be closed.",
         "exitCode": "Exit Code:",
-        "startGeneration": "[logPrefix] Iniciando a geração do(s) Shards...",
-        "finishGeneration": "Finalizando a geração do(s) Shards..."
+        "startGeneration": "[logPrefix] Starting Shards generation...",
+        "finishGeneration": "Finishing Shards generation..."
     },
     "generic": {
         "base": "Base",
