@@ -106,7 +106,7 @@
             "sucess": {
                 "title": "Calculadora",
                 "field1": "[emoji] Entrada",
-                "field2": "[emoji] Saida"
+                "field2": "[emoji] Saída"
             }
         },
         "config": {
@@ -454,9 +454,9 @@
             "%s% [----------] Nada é impossível, apenas improvável.",
             "%s% [█---------] Um dia talvez. ",
             "%s% [██--------] Bem, olhando por esse ângulo...",
-            "%s% [███-------] Possível, é. Díficil? De fato.",
+            "%s% [███-------] Possível, é. Difícil? De fato.",
             "%s% [████------] Numa galáxia não tão distante...",
-            "%s% [█████-----] Até que formariam um belo casal. ",
+            "%s% [█████-----] Até que formariam um belo casal.",
             "%s% [██████----] Esse casal está perto de ser muito bom!",
             "%s% [███████---] Casal de primeira! Ninguém vai separar eles <3",
             "%s% [████████--] Esses 2 já poderiam estar até casados! 💍",
@@ -464,7 +464,7 @@
             "%s% [██████████] Casal perfeito, nem mesmo a dona morte separa esses 2! 💍"
         ],
         "config": {
-            "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando pefeito pra testar a compatibilidade de vocês!"
+            "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando perfeito pra testar a compatibilidade de vocês!"
         }
     },
     "support": {
