@@ -29,7 +29,7 @@
             },
             "config": {
                 "downloading": "Baixando configurações...",
-                "loading": "Carregando as configurações padrão..."
+                "loading": "Carregando as configurações padrões..."
             },
             "messages": {
                 "starting": "Iniciando o Instalador da Aruna Core...",
