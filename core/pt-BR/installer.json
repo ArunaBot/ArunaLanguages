@@ -2,34 +2,34 @@
     "class": {
         "download": {
             "file": {
-                "start": "Extracting file in"
+                "start": "Extraindo arquivo em"
             }
         },
         "getUserInput": {
             "error": {
-                "noQuestion": "No question has been passed to be asked to the user!"
+                "noQuestion": "Nenhuma pergunta foi escrita para o usuario!"
             }
         },
         "git": {
             "error": {
-                "fail": "Failed to execute git command!"
+                "fail": "Falha ao executar um comando git!"
             }
         },
         "start": {
             "errors": {
                 "config": {
-                    "fail": "Failed to download configs!",
-                    "folder": "Config folder does not exist!"
+                    "fail": "Falha ao baixar as configurações!",
+                    "folder": "A pasta Config não existe!"
                 }
             },
             "config": {
-                "downloading": "Downloading configs..."
+                "downloading": "Baixando configurações..."
             },
             "messages": {
-                "starting": "Starting Aruna Core Installer...",
-                "OSLanguage": "OS Language",
-                "version": "Aruna Core Version",
-                "installerVersion": "Installer Version"
+                "starting": "Iniciando o Instalador da Aruna Core...",
+                "OSLanguage": "Linguagem do SO",
+                "version": "Versão da Aruna Core",
+                "installerVersion": "Versão do Instalador"
             }
         }
     }
