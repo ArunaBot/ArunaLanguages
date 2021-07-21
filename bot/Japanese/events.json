@@ -1,0 +1,77 @@
+{
+    "guild": {
+        "create": "Entrei no servidor [guildName]! :)",
+        "delete": "Fui removida do servidor [guildName] :("
+    },
+    "memberAdd": {
+        "antifake": {
+            "embed": {
+                "adminwarn": {
+                    "title": "こんにちは、[username] さん",
+                    "description": {
+                        "line1": "O usuário `[fakeTag]` (ID: [fakeId]) foi encontrado com um nick fake, porém não pude kickar pois não tenho permissão para isso.",
+                        "line2": "Caso queira desativar meu módulo Anti-Fake, use o comando `[prefix]config antifake desativar`"
+                    },
+                    "footer": "Solicitação de Kick"
+                },
+                "fakemember": {
+                    "title": "Oops, [username]",
+                    "description": "Esse servidor não aceita fakes. Por favor, altere seu nome de usuário para resolver o problema :)",
+                    "footer": "Algo deu errado, [username]"
+                }
+            },
+            "kickMessage": "Conta Fake Não Autorizada!"
+        },
+        "change": {
+            "embed": {
+                "title": "Oops, [username]",
+                "description": "Olá! No momento estamos trocando de servidor. Por favor, peço que entre no nosso novo servidor clicando **[aqui]([link])** :)",
+                "footer": "Nos Vemos em Breve, [username]!"
+            }
+        },
+        "db": "Novo Membro na Database!"
+    },
+    "message": {
+        "errors": {
+            "emojiError": "Para meu funcionamento, preciso da permissão de `[externalEmojis]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+            "linkError": "Para meu funcionamento, preciso da permissão de `[sendLinks]`. Por favor, solicite para algum administrador que ative isso para que eu possa funcionar :)",
+            "dmError": "Desculpe, mas ainda não funciono em mensagens diretas :(",
+            "commandNotFound": "Oops, não encontrei o comando `[command]`. Você quis dizer algo como `[alt]`?"
+        },
+        "mention": {
+            "title": "Quem me chama?",
+            "line1": "Ah, olá [username], como está? Eu sou a [me].",
+            "line2": "Bom, caso queira saber minha função, ela é ajudar seu servidor de várias formas criativas e diferentes!",
+            "line3": "Talvez você não saiba meu prefixo neste servidor e por isso me chamou. Se essa for sua dúvida, ele é `[prefix]`.",
+            "line4": "Se você tiver alguma sugestão ou tiver encontrado algum parafuso meu perdido por aí, entre no meu [servidor de suporte]([url]) para falar com meu criador.",
+            "line5": "Se quiser me adicionar em seu servidor, basta clicar [aqui]([url])!",
+            "line6": "E por fim, obrigada por me chamar. Foi ótimo te explicar quem sou <3"
+        }
+    },
+    "rank": {
+        "embed": {
+            "newLevel": {
+                "title": "Novo Nível!",
+                "description": "Parabéns [user], agora você está no Nível **[level]**!"
+            }
+        }
+    },
+    "ready": {
+        "databaseAdd": "Database Inicializada!",
+        "dbl": "DBL",
+        "posted": "Contagem de servidores enviada!",
+        "maintenance": "🚫AVISO: MANUTENÇÃO PROGRAMADA PARA [date]! FICAREI INDISPONÍVEL POR [time]!🚫",
+        "status": {
+            "1": "O canal do LoboMetalurgico",
+            "2": "M83 - Midnight City",
+            "3": "Faz [time]",
+            "4": "Alguma coisa Divertida!",
+            "5": "Versão [version]",
+            "6": "Seu Shard é o [shard]",
+            "7": "Sabia que sou OpenSource? Não? Então use o comando \"git\" e ajude meu criador a me deixar melhor ;)",
+            "8": "[USERS] usuários!",
+            "9": "[GUILDS] servidores!",
+            "10": "Preciso de ajuda! Use o comando \"vote\" e vote em mim para me ajudar a ficar grande. Obrigada :)"
+        }
+    }
+}
