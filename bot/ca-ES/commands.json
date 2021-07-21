@@ -1,0 +1,612 @@
+{
+    "avatar": {
+        "embed": {
+            "title": "[emoji] Avatar de [user]",
+            "description": "**Clique [aqui]([url]) para baixar a foto.**"
+        },
+        "config": {
+            "description": "Mostra o seu próprio avatar ou de um usuário"
+        }
+    },
+    "ban": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[banMembers]`!",
+                "description2": "Eu não possuo a permissão de `[banMembers]`!",
+                "description3": "Você deve inserir um usuário para ser punido!",
+                "description4": "Você não pode banir [ownerName] pois este é o(a) dono(a) do servidor!",
+                "description5": "Você não pode banir este usuário pois seu cargo é igual ou inferior ao de [username]!",
+                "description6": "Eu não posso banir este usuário pois meu cargo é igual ou inferior ao de [username]!",
+                "userNotFound": {
+                    "line1": "Parece que eu não conheço este usuário :(",
+                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                }
+            },
+            "sucess": {
+                "title": "Banimento Efetuado com Sucesso!",
+                "description": "Agora, o usuário `[username]` nunca mais será visto por aqui.",
+                "field1": {
+                    "title": "Usuário Banido",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Banido por",
+                "field3": "Data do Banimento",
+                "field4": "Motivo"
+            }
+        },
+        "reason": {
+            "1": "Punido por: [username]",
+            "2": "Punido por: [username] com o Motivo: [reason]"
+        },
+        "config": {
+            "description": "Bana um usuário usando algumas poucas teclas, mesmo que o usuário não esteja mais no server!"
+        }
+    },
+    "bot": {
+        "embed": {
+            "pre": {
+                "title": "%s Por Favor, aguarde!",
+                "description": "Estou pegando todas as minhas informações pra te passar.\nAguenta só um pouquinho 😉"
+            },
+            "basic": {
+                "description": "`Informações Básicas`",
+                "field": [
+                    "%s Nome na Guild",
+                    "%s Versão",
+                    "%s Uptime",
+                    "%s Canais",
+                    "%s Servidores",
+                    "%s Usuários",
+                    "%s Shard Atual",
+                    "%s Total  de Shards",
+                    "%s Ping do Shard",
+                    "Convite",
+                    "Meu Site",
+                    "Servidor de Suporte"
+                ]
+            },
+            "advanced": {
+                "description": "`Informações Avançadas`",
+                "field": [
+                    "Versão do Node",
+                    "Versão do discord.js",
+                    "Informações da Host",
+                    "Criada e Desenvolvida Por",
+                    "Idealizada Por",
+                    "Avatar Por"
+                ],
+                "content": [
+                    null,
+                    null,
+                    [
+                        "Sistema Operacional:",
+                        "Processador:",
+                        "Quantidade de Núcleos:",
+                        "Uso de Ram:"
+                    ],
+                    "Lobo Metalurgico (<@281515925960654848>)\n\nContato: https://youtube.com/LoboMetalurgico | contato@lobometalurgico.tk",
+                    "Carson (<@773670346921476166>)",
+                    "Kira's Art (<@207023257512181760>)\n\nContato: https://twitter.com/kiratokioArt"
+                ]
+            }
+        },
+        "generic": {
+            "linkr": "[%s](%s)"
+        },
+        "config": {
+            "description": "Lista as minhas principais informações"
+        }
+    },
+    "calculator": {
+        "embed": {
+            "error": {
+                "description1": "Você deve inserir o cálculo a ser feito.",
+                "description2": "Desculpe, mas não consegui efetuar o cálculo. Tente inserir outra conta."
+            },
+            "sucess": {
+                "title": "Calculadora",
+                "field1": "[emoji] Entrada",
+                "field2": "[emoji] Saída"
+            }
+        },
+        "config": {
+            "description": "Permite efetuar cálculos complexos de maneira simples"
+        }
+    },
+    "clear": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[manageMessages]`!",
+                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
+                "description3": "Você deve inserir a quantidade de mensagens a ser apagada!",
+                "description4": "Eu só posso apagar entre 2 e 100 mensagens."
+            }
+        },
+        "sucess": {
+            "message1": "Foram deletadas `[messages]` mensagens por [user]",
+            "message2": "[user] deletou apenas `[messages]` mensagens das `[request] requisitadas` por não existirem ou serem anteriores a 2 semanas."
+        },
+        "config": {
+            "description": "Permite você deletar massivamente até 100 mensagens com idade igual ou inferior a 2 semanas"
+        }
+    },
+    "config": {
+        "embed": {
+            "sucess": {
+                "description1": "O comando `[COMMAND]` foi ativado com sucesso!",
+                "description2": "O comando `[COMMAND]` foi desativado com sucesso!",
+                "prefix": {
+                    "description1": "Prefixo redefinido para `[prefix]` com sucesso!",
+                    "description2": "Prefixo definido para `[prefix]` com sucesso!"
+                },
+                "language": {
+                    "description1": "Idioma do servidor definido com sucesso! Apartir de agora, vou tentar sempre falar em `[LANGUAGE]` aqui :)",
+                    "description2": "O seu idioma foi definido com sucesso! Agora, sempre que usar um comando meu, independente do servidor, eu vou falar em `[LANGUAGE]` :)"
+                }
+            },
+            "error": {
+                "noperm": "Você não possui a permissão de `[manageGuild]`",
+                "description1": "Por Favor, utilize uma das seguintes opções junto ao comando: [OPTIONS]",
+                "description2": "Esse comando não pode ser configurado no momento :(",
+                "invalidaction": "Por Favor, utilize uma das seguintes ações após a seleção da opção: [OPTIONS]",
+                "prefix": {
+                    "description1": "Você deve inserir o prefixo desejado!",
+                    "description2": "Esse já é o prefixo atual!",
+                    "description3": "O prefixo atual já é o prefixo padrão!"
+                },
+                "language": {
+                    "description1": "Desculpe, eu não conheço esse idioma :( Minha professora só me ensinou esses idiomas: [LANGUAGES]",
+                    "description2": "O idioma que você escolheu já é o padrão no servidor...",
+                    "description3": "O idioma que você escolheu já é o que estou falando..."
+                }
+            },
+            "generic": {
+                "no": "Neste momento, o comando [COMMAND] está desativado. Para ativar, use ``[PREFIX]config [COMMAND] ativar``.",
+                "yes": "Neste momento, o comando [COMMAND] está ativado. Para desativar, use ``[PREFIX]config [COMMAND] desativar``."
+            }
+        },
+        "config": {
+            "description": "Precisa alterar alguma configuração minha? Então você está no lugar certo!"
+        }
+    },
+    "dice": {
+        "embed": {
+            "error": {
+                "description1": "Você deve inserir o tipo do dado que devo rolar!",
+                "description2": "Eu só consigo rolar até o dados de 100 lados. Mais que isso é impossível, eu acho...",
+                "description3": "Eu não consigo rolar tantos dados de uma vez!",
+                "description4": "Acho que algo não deu muito certo. Não é possível que isso seja um número...",
+                "description5": "Eu não entendi muito bem o que você quer. Por favor, use algo como 1d6 como argumento.",
+                "description6": "Acho que todos sabemos que o resultado de um dado de 0 lados é 0!",
+                "description7": "Ok, não vou rolar dado algum.",
+                "description8": "Todos sabemos que o resultado de [NUMBER] [diceString] de 1 lado é [NUMBER]!"
+            },
+            "sucess": {
+                "1": {
+                    "title": "Resultado dos [NUMBER] dados de [DICE] lados girados por [username]",
+                    "description": "Dados: `[DICES]`\nTotal da soma: `[TOTAL]`"
+                },
+                "2": {
+                    "title": "Resultado do dado de [DICE] lados girados por [username]",
+                    "description": "Dado: `[DICES]`"
+                }
+            },
+            "generic": {
+                "dice": "dado",
+                "dices": "dados"
+            }
+        },
+        "config": {
+            "description": "Está jogando RPG e precisa girar 1d8? Perfeito! Basta usar esse comando que tudo está resolvido."
+        }
+    },
+    "flip": {
+        "heads": "Cara!",
+        "tails": "Corôa!",
+        "config": {
+            "description": "Gire uma moeda! O que vai sair?"
+        }
+    },
+    "github": {
+        "embed": {
+            "error": {
+                "description": "Parece que meu criador não definiu o link do meu GitHub :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "Fico feliz que tenha gostado de mim e que queira contribuir com meu desenvolvimento :)",
+                    "line2": "Para ver meu repositório e poder ajudar, basta clicar [aqui]([url]), dar \"fork\" no repositório, editar minha branch \"Unstable\", fazer um pull request no meu repositório principal e pronto! Você já terá contriubuído comigo :)",
+                    "line3": "Novamente, obrigado pelo interesse e nos vemos no GitHub!"
+                }
+            }
+        },
+        "config": {
+            "description": "Veja o link do meu GitHub com uma mensagem bonitinha junto :)"
+        }
+    },
+    "help": {
+        "embed": {
+            "error": {
+                "description": "Verifique se tenho permissão para lhe enviar mensagens no privado pois, é por lá que envio os comandos."
+            },
+            "sucess": {
+                "description": "Os comandos foram enviados em seu privado com sucesso!"
+            }
+        },
+        "config": {
+            "description": "Veja todos os comandos que você pode usar!"
+        }
+    },
+    "invite": {
+        "embed": {
+            "error": {
+                "description": "Parece que meu criador não definiu um link de convite para mim :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "Fico feliz que tenha gostado de mim e queira me adicionar :)",
+                    "line2": "Para isso, basta clicar [aqui]([link]), selecionar o servidor na lista, confirmar o reCaptcha e pronto! Eu estarei em seu servidor!",
+                    "line3": "Novamente, obrigado pelo interesse e nos vemos em seu servidor!"
+                }
+            }
+        },
+        "config": {
+            "description": "Meu link de convite para você que me quer em seu servidor :)"
+        }
+    },
+    "kick": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[kickMembers]`!",
+                "description2": "Eu não possuo a permissão de `[kickMembers]`!",
+                "description3": "Você deve inserir um usuário para ser punido!",
+                "description4": "Você não pode expulsar [ownerName] pois este é o(a) dono(a) do servidor!",
+                "description5": "Você não pode expulsar este usuário pois seu cargo é igual ou inferior ao de [username]!",
+                "description6": "Eu não posso expulsar este usuário pois meu cargo é igual ou inferior ao de [username]!"
+            },
+            "sucess": {
+                "title": "Expulsão Efetuada com Sucesso!",
+                "description": "Agora, o usuário `[username]` vai precisar ser convidado para poder voltar.",
+                "field1": {
+                    "title": "Usuário Expulso",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Expulso por",
+                "field3": "Data de Expulsão",
+                "field4": "Motivo"
+            }
+        },
+        "reason": {
+            "1": "Punido por: [username]",
+            "2": "Punido por: [username] com o Motivo: [reason]"
+        },
+        "config": {
+            "description": "Expulse aquele usuário chato enquanto ele pensa que você está respondendo o que ele tá falando."
+        }
+    },
+    "massRemove": {
+        "embed": {
+            "sucess": {
+                "description": "O cargo `[roleName]` foi removido de `[userSize] usuários` com sucesso!"
+            },
+            "error": {
+                "description1": "Você não possui a permissão de `[manageRoles]`!",
+                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description3": "Você deve mencionar um cargo para remover dos membros!",
+                "description4": "Você não pode remover o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
+                "description5": "Você não pode remover o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+            },
+            "running": {
+                "description": "O cargo [roleName] está sendo removido de [userSize] usuários no servidor. Por favor, aguarde um momento."
+            }
+        },
+        "config": {
+            "description": "Usou o massRole com o cargo errado? Use esse comando que seu problema desaparecerá dos usuários!"
+        }
+    },
+    "massRole": {
+        "embed": {
+            "sucess": {
+                "description": "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!"
+            },
+            "error": {
+                "description1": "Você não possui a permissão de `[manageRoles]`!",
+                "description2": "Eu não possuo a permissão de `[manageRoles]`!",
+                "description3": "Você deve mencionar um cargo para aplicar aos membros!",
+                "description4": "Você não pode aplicar o cargo `[roleName]` pois esse é meu cargo ou sou inferior a ele.",
+                "description5": "Você não pode aplicar o cargo `[roleName]` pois esse é seu cargo ou você é inferior a ele."
+            },
+            "running": {
+                "description": "O cargo [roleName] está sendo aplicado para [userSize] usuários no servidor. Por favor, aguarde um momento."
+            }
+        },
+        "config": {
+            "description": "Com preguiça de dar um cargo para todos? Use esse comando que seu problema estará resolvido!"
+        }
+    },
+    "ping": {
+        "embed": {
+            "1": {
+                "title": "[emoji] Por Favor [username], aguarde!",
+                "description": "Calculando meu ping. Por Favor, aguarde U-U"
+            },
+            "2": {
+                "description": {
+                    "line1": ":hourglass: | Tempo de resposta: **[responseTime]** ms",
+                    "line2": ":satellite: | Api: **[apiTime]** ms"
+                }
+            }
+        },
+        "config": {
+            "description": "Veja minha saúde, digo, ping. Será que hoje estou mais rápida ou lentinha?"
+        }
+    },
+    "prefix": {
+        "embed": {
+            "sucess": {
+                "description1": "Prefixo redefinido para `[prefix]` com sucesso!",
+                "description2": "Prefixo definido para `[prefix]` com sucesso!"
+            },
+            "error": {
+                "noperm": "Você não possui a permissão de `[manageGuild]`",
+                "description1": "Insira se você deseja definir um prefixo (set) ou se deseja voltar ao padrão (remove).",
+                "description2": "Você deve inserir o prefixo desejado!",
+                "description3": "O prefixo atual já é o prefixo padrão!"
+            }
+        },
+        "config": {
+            "description": "Permite alterar o prefixo neste servidor"
+        },
+        "deprecatedAlternative": "[prefix]config prefix <set/remove> <prefixoDesejado>"
+    },
+    "rank": {
+        "embed": {
+            "title": "RANK: [username]",
+            "field1": "Nível",
+            "field2": "XP Atual",
+            "field3": "XP Necessário"
+        },
+        "config": {
+            "description": "Veja seu rank neste servidor, ou quem sabe, o do seu rival"
+        }
+    },
+    "say": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[manageMessages]`!",
+                "description2": "Eu não possuo a permissão de `[manageMessages]`!",
+                "description3": "Insira ao menos uma letra para que o bot possa falar!"
+            }
+        },
+        "config": {
+            "description": "Faz o bot falar uma frase ao invés de você"
+        }
+    },
+    "servericon": {
+        "embed": {
+            "title": "[emoji] Ícone do servidor [guild]",
+            "description": "**Clique [aqui]([url]) para baixar o ícone.**"
+        },
+        "config": {
+            "description": "Mostra o ícone do servidor atual"
+        }
+    },
+    "serverinfo": {
+        "embed": {
+            "field1": {
+                "title": "ID do Servidor"
+            },
+            "field2": {
+                "title": "Dono"
+            },
+            "field3": {
+                "title": "Região"
+            },
+            "field4": {
+                "title": "Data de Criação"
+            },
+            "field5": {
+                "title": "ID do Shard"
+            },
+            "field6": {
+                "title": "Entrei Em"
+            },
+            "field7": {
+                "title": "%1 Canais (%2) / Categorias (%3)",
+                "content": "%1 Texto: %2\n%3 Voz: %4\n%5 Anúncio: %6"
+            },
+            "field8": {
+                "title": "%1 Membros (Sendo %2 Robôs e %3 Humanos)"
+            },
+            "field9": {
+                "title": "Informações do Boost",
+                "content": "%1 » Nível do Boost %2\n%3 » Quantitade de Impulsos: %4"
+            },
+            "field10": {
+                "title": "Informações do Boost",
+                "content": "%1 » Quantitade de Impulsos: %2"
+            }
+        },
+        "generic": {
+            "region": {
+                "brazil": "Brasil",
+                "europe": "Europa",
+                "hongkong": "Hong Kong",
+                "india": "Índia",
+                "japan": "Japão",
+                "russia": "Rússia",
+                "singapore": "Singapura",
+                "usa": "Estados Unidos",
+                "undefined": "Região Desconhecida :("
+            }
+        },
+        "config": {
+            "description": "Veja todas as informações desse servidor. Até a data de quando eu entrei :)"
+        }
+    },
+    "ship": {
+        "embed": {
+            "error": {
+                "description": "Você deve mencionar outro alguém pra poder te shipar <3"
+            }
+        },
+        "shipStatus": [
+            "%s% [----------] Nada é impossível, apenas improvável.",
+            "%s% [█---------] Um dia talvez. ",
+            "%s% [██--------] Bem, olhando por esse ângulo...",
+            "%s% [███-------] Possível, é. Difícil? De fato.",
+            "%s% [████------] Numa galáxia não tão distante...",
+            "%s% [█████-----] Até que formariam um belo casal.",
+            "%s% [██████----] Esse casal está perto de ser muito bom!",
+            "%s% [███████---] Casal de primeira! Ninguém vai separar eles <3",
+            "%s% [████████--] Esses 2 já poderiam estar até casados! 💍",
+            "%s% [█████████-] Casal perfeito, só a morte os separa! 💍",
+            "%s% [██████████] Casal perfeito, nem mesmo a dona morte separa esses 2! 💍"
+        ],
+        "config": {
+            "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando perfeito pra testar a compatibilidade de vocês!"
+        }
+    },
+    "support": {
+        "embed": {
+            "error": {
+                "description": "Acho que meu criador se esqueceu de adicionar um link para meu servidor de suporte :("
+            },
+            "sucess": {
+                "description": {
+                    "line1": "Encontrou alguma coisa esquisita em mim? Tem alguma reclamação ou sugestões para meus criadores?",
+                    "line2": "Se esse é o seu caso, você está no lugar certo! O meu servidor de suporte fica a poucos cliques de distância. Dúvida? Então clique [aqui]([link])!",
+                    "line3": "Clicou? Agora é só apertar o botão de \"entrar\" que apareceu na sua tela. Viu como foi fácil?"
+                }
+            }
+        },
+        "config": {
+            "description": "Parece que você precisa falar com meu criador. Se sim, use esse comando para entrar em meu servidor de suporte!"
+        }
+    },
+    "unban": {
+        "embed": {
+            "error": {
+                "description1": "Você não possui a permissão de `[banMembers]`!",
+                "description2": "Eu não possuo a permissão de `[banMembers]`!",
+                "description3": "Você deve inserir um usuário para poder desbanir!",
+                "description4": "Não tem como desbanir [ownerName], pois este é o(a) dono(a) do servidor e portanto, não está banido!",
+                "userNotFound": {
+                    "line1": "Parece que eu não conheço este usuário :(",
+                    "line2": "Infelizmente eu não possuo suporte oficial para banir usuários desconhecidos no momento. Mas você pode me ajudar a ter essa função contribuindo em meu github!"
+                }
+            },
+            "sucess": {
+                "title": "Desbanimento Efetuado com Sucesso!",
+                "description": "Agora, o usuário `[username]` poderá voltar como se nada tivesse acontecido.",
+                "field1": {
+                    "title": "Usuário Desbanido",
+                    "content": "[username] (ID: [userId])"
+                },
+                "field2": "Desbanido por",
+                "field3": "Data do Desbanimento",
+                "field4": "Motivo"
+            }
+        },
+        "reason": {
+            "1": "Punição Revogada por: [username]",
+            "2": "Punição Revogada por: [username] com o Motivo: [reason]"
+        },
+        "config": {
+            "description": "Desbana um usuário que foi punido injustamente (ou por engano) pela sua equipe."
+        }
+    },
+    "userinfo": {
+        "embed": {
+            "field": {
+                "title": [
+                    "Informações do Usuário",
+                    "Informações do Membro"
+                ],
+                "description": [
+                    [
+                        "Nome:",
+                        "Tag Completa:",
+                        "ID:",
+                        "Status:",
+                        "Criou a Conta em:"
+                    ],
+                    [
+                        "Apelido:",
+                        "Adm?: ",
+                        "Entrou Em:"
+                    ]
+                ]
+            }
+        },
+        "strings": {
+            "nickname": "Não tem",
+            "boosting": "Impulsionando o Servidor desde:"
+        },
+        "config": {
+            "description": "Mostra as informações do seu próprio usuário ou os da pessoa mencionada"
+        }
+    },
+    "generic": {
+        "embed": {
+            "denied": {
+                "title": "Acesso Negado!",
+                "description": {
+                    "line1": "Sinto muito [username], mas o comando `[command]` está disponível apenas para meu criador :(",
+                    "line2": "Ao invés de tentar usar esse comando, porque você não usa um dos meus públicos? Para vê-los, é só usar `[prefix]help` :)"
+                },
+                "footer": "Você não possui permissão para executar essa ação"
+            },
+            "deprecated": {
+                "title": "🚫FUNÇÃO OBSOLETA🚫",
+                "description1": "**AVISO: ESSA É UMA FUNÇÃO ANTIGA E SERÁ REMOVIDA EM BREVE.**",
+                "description2": "Para evitar transtornos, é recomendado usar `[alternative]`.",
+                "footer": "Aviso de Comando Obsoleto"
+            },
+            "disabled": {
+                "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
+            },
+            "error": {
+                "title": "Oops, [username]",
+                "description": "Ocorreu um erro desconhecido :(\nPor favor, entre em contato com meu criador em meu servidor de suporte.",
+                "footer": "Algo deu errado, [username]"
+            },
+            "running": {
+                "title": "[emoji] Aguarde, [username]",
+                "footer": "Operação em Execução, [username]"
+            },
+            "sucess": {
+                "title": "Yay, [username]",
+                "footer": "Sucesso!",
+                "footer2": "Operação efetuada com sucesso, [username]"
+            },
+            "title": "Olá, [username]",
+            "footer": "Comando Solicitado por [usertag]"
+        },
+        "permissions": {
+            "banMembers": "Banir Membros",
+            "embedLinks": "Enviar Links",
+            "kickMembers": "Expulsar Membros",
+            "manageGuild": "Gerenciar Servidor",
+            "manageMessages": "Gerenciar Mensagens",
+            "manageRoles": "Gerenciar Cargos",
+            "useExternalEmojis": "Usar Emojis Externos"
+        },
+        "status": {
+            "online": "Online",
+            "idle": "Ausente",
+            "dnd": "Não Perturbe",
+            "offline": "Offline"
+        },
+        "strings": {
+            "back": "Atrás",
+            "date": "dd/mm/yyyy \"às\" HH:MM:ss",
+            "day": "Dia",
+            "days": "Dias",
+            "error": "Erro!",
+            "link": "Link",
+            "yes": "Sim",
+            "no": "No"
+        }
+    }
+}
