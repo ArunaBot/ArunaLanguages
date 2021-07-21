@@ -25,9 +25,9 @@
     },
     "generic": {
         "base": "Base",
-        "connected": "==> Ligado!",
+        "connected": "=> Conectado!",
         "core": "Núcleo",
-        "languageName": "Português Portugal",
+        "languageName": "Português Brasil",
         "notFound": "Não Encontrado!",
         "shard": "Shard"
     }
