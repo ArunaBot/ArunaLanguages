@@ -2,10 +2,10 @@
     "avatar": {
         "embed": {
             "title": "[emoji] Avatar de [user]",
-            "description": "**Clique [aqui]([url]) para baixar a foto.**"
+            "description": "**Clique [aqui]([url]) para descarregar a fotografia.**"
         },
         "config": {
-            "description": "Mostra o seu próprio avatar ou de um usuário"
+            "description": "Mostra o seu próprio avatar ou de um utilizador"
         }
     },
     "ban": {
@@ -567,7 +567,7 @@
                 "description": "Este comando não está ativado em seu servidor. Por favor, solicite a um ADM que ative-o usando o comando `[config]`."
             },
             "error": {
-                "title": "Oops, [username]",
+                "title": "Ups, [username]",
                 "description": "Ocorreu um erro desconhecido :(\nPor favor, entre em contato com meu criador em meu servidor de suporte.",
                 "footer": "Algo deu errado, [username]"
             },
