@@ -10,7 +10,7 @@
                 "noQuestion": "No question has been passed to be asked to the user!"
             },
             "messages": {
-                "result": "Your Input:"
+                "result": "Your Input"
             }
         },
         "git": {
