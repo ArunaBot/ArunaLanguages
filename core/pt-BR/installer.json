@@ -8,6 +8,9 @@
         "getUserInput": {
             "error": {
                 "noQuestion": "Nenhuma pergunta foi escrita para o usuario!"
+            },
+            "messages": {
+                "result": "Your Input:"
             }
         },
         "git": {
@@ -36,7 +39,23 @@
                 "OSLanguage": "Linguagem do SO",
                 "version": "Versão da Aruna Core",
                 "installerVersion": "Versão do Instalador"
+            },
+            "questions": {
+                "arunacore": {
+                    "debug": {
+                        "question": "Do you want enable ArunaCore debug? (ArunaCore debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "prefix": {
+                        "question": "Prefix for ArunaCore. Change this can breake some modules, be carrefull."
+                    }
+                }
             }
         }
+    },
+    "generic": {
+        "yes": "yes",
+        "no": "no",
+        "question": "question"
     }
 }
