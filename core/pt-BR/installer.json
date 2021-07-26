@@ -10,7 +10,7 @@
                 "noQuestion": "Nenhuma pergunta foi escrita para o usuario!"
             },
             "messages": {
-                "result": "Your Input:"
+                "result": "Your Input"
             }
         },
         "git": {
@@ -54,8 +54,8 @@
         }
     },
     "generic": {
-        "yes": "yes",
-        "no": "no",
+        "yes": "sim",
+        "no": "não",
         "question": "question"
     }
 }
