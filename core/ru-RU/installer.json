@@ -27,7 +27,10 @@
             "errors": {
                 "config": {
                     "fail": "Failed to load default configs!",
-                    "folder": "Config folder does not exist!"
+                    "folder": "Config folder does not exist!",
+                    "fatal": {
+                        "invalidQuestionNumber": "Expected %s questions, but only had %s. The installer will terminate, please contact the creator of ArunaCore to check the error."
+                    }
                 }
             },
             "config": {
@@ -85,7 +88,16 @@
                     "host": {
                         "question": "HTTP Server host. Change this can breake some modules, be carrefull."
                     }
+                },
+                "modules": {
+                    "debug": {
+                        "question": "Do you want enable Modules debug? (ALL Modules debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    }
                 }
+            },
+            "sucess": {
+                "message": "Aruna Core has been sucessfully installed!"
             }
         }
     },
