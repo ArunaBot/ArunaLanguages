@@ -96,8 +96,8 @@
                     }
                 }
             },
-            "sucess": {
-                "message": "Aruna Core has been sucessfully installed!"
+            "success": {
+                "message": "Aruna Core has been successfully installed!"
             }
         }
     },
