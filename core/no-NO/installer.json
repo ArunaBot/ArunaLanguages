@@ -65,6 +65,26 @@
                     "host": {
                         "question": "Websocket host. Change this can breake some modules, be carrefull."
                     }
+                },
+                "http": {
+                    "enable": {
+                        "question": "Do you want enable Native HTTP Server?",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "debug": {
+                        "question": "Do you want enable HTTP Server debug? (HTTP Server debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "prefix": {
+                        "question": "Prefix for HTTP Server. Change this can breake some modules, be carrefull."
+                    },
+                    "port": {
+                        "question": "HTTP Server port. This value need to be something between 1 and 65535 and different from Websocket port. Change this can breake some modules, be carrefull. (keeping this port open to the public is recommended)",
+                        "warn": "Use only numbers between 1 and 65535 for this answer."
+                    },
+                    "host": {
+                        "question": "HTTP Server host. Change this can breake some modules, be carrefull."
+                    }
                 }
             }
         }
