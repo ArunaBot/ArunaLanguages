@@ -49,6 +49,22 @@
                     "prefix": {
                         "question": "Prefix for ArunaCore. Change this can breake some modules, be carrefull."
                     }
+                },
+                "websocket": {
+                    "debug": {
+                        "question": "Do you want enable Internal Websocket debug? (Websocket debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "prefix": {
+                        "question": "Prefix for Websocket. Change this can breake some modules, be carrefull."
+                    },
+                    "port": {
+                        "question": "Websocket port. This value need to be something between 1 and 65535. Change this can breake some modules, be carrefull.",
+                        "warn": "Use only numbers between 1 and 65535 for this answer."
+                    },
+                    "host": {
+                        "question": "Websocket host. Change this can breake some modules, be carrefull."
+                    }
                 }
             }
         }
