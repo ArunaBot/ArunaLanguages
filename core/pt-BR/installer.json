@@ -59,7 +59,7 @@
                         "question": "Prefix for Websocket. Change this can breake some modules, be carrefull."
                     },
                     "port": {
-                        "question": "Websocket port. This value need to be something between 1 and 65535. Change this can breake some modules, be carrefull.",
+                        "question": "Websocket port. This value need to be something between 1 and 65535. Change this can breake some modules, be carrefull. (Keep this port PRIVATE!)",
                         "warn": "Use only numbers between 1 and 65535 for this answer."
                     },
                     "host": {
