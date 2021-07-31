@@ -30,7 +30,8 @@
                     "folder": "Config folder does not exist!"
                 },
                 "fatal": {
-                    "invalidQuestionNumber": "Expected %s questions, but only had %s. The installer will terminate, please contact the creator of ArunaCore to check the error."
+                    "invalidQuestionNumber": "Expected %s questions, but only had %s. The installer will terminate, please contact the creator of ArunaCore to check the error.",
+                    "writeConfigFile": "Failed to write config file in %s!\nError: %s"
                 }
             },
             "config": {
@@ -41,7 +42,8 @@
                 "starting": "Starting Aruna Core Installer...",
                 "OSLanguage": "OS Language",
                 "version": "Aruna Core Version",
-                "installerVersion": "Installer Version"
+                "installerVersion": "Installer Version",
+                "generating": "Generating ArunaCore Configs..."
             },
             "questions": {
                 "arunacore": {
@@ -97,6 +99,7 @@
                 }
             },
             "success": {
+                "configFileWritten": "Config file written in %s!",
                 "message": "Aruna Core has been successfully installed!"
             }
         }
