@@ -1,0 +1,112 @@
+{
+    "class": {
+        "download": {
+            "file": {
+                "start": "Extraindo arquivo em"
+            }
+        },
+        "getUserInput": {
+            "error": {
+                "noQuestion": "Nenhuma pergunta foi escrita para o usuario!"
+            },
+            "messages": {
+                "result": "Your Input"
+            }
+        },
+        "git": {
+            "error": {
+                "fail": "Falha ao executar um comando git!"
+            }
+        },
+        "loadConfig": {
+            "error": {
+                "noPath": "No valid path has been provide to load the configuration from!"
+            }
+        },
+        "start": {
+            "errors": {
+                "config": {
+                    "fail": "Erro ao carregar as configurações padrão!",
+                    "folder": "A pasta Config não existe!"
+                },
+                "fatal": {
+                    "invalidQuestionNumber": "Expected %s questions, but only had %s. The installer will terminate, please contact the creator of ArunaCore to check the error.",
+                    "writeConfigFile": "Failed to write config file in %s!\nError: %s"
+                }
+            },
+            "config": {
+                "downloading": "Baixando configurações...",
+                "loading": "Carregando as configurações padrões..."
+            },
+            "messages": {
+                "starting": "Iniciando o Instalador da Aruna Core...",
+                "OSLanguage": "Linguagem do SO",
+                "version": "Versão da Aruna Core",
+                "installerVersion": "Versão do Instalador",
+                "generating": "Generating ArunaCore Configs..."
+            },
+            "questions": {
+                "arunacore": {
+                    "debug": {
+                        "question": "Do you want enable ArunaCore debug? (ArunaCore debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "prefix": {
+                        "question": "Prefix for ArunaCore. Change this can breake some modules, be carrefull."
+                    }
+                },
+                "websocket": {
+                    "debug": {
+                        "question": "Do you want enable Internal Websocket debug? (Websocket debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "prefix": {
+                        "question": "Prefix for Websocket. Change this can breake some modules, be carrefull."
+                    },
+                    "port": {
+                        "question": "Websocket port. This value need to be something between 1 and 65535. Change this can breake some modules, be carrefull. (Keep this port PRIVATE!)",
+                        "warn": "Use only numbers between 1 and 65535 for this answer."
+                    },
+                    "host": {
+                        "question": "Websocket host. Change this can breake some modules, be carrefull."
+                    }
+                },
+                "http": {
+                    "enable": {
+                        "question": "Do you want enable Native HTTP Server?",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "debug": {
+                        "question": "Do you want enable HTTP Server debug? (HTTP Server debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    },
+                    "prefix": {
+                        "question": "Prefix for HTTP Server. Change this can breake some modules, be carrefull."
+                    },
+                    "port": {
+                        "question": "HTTP Server port. This value need to be something between 1 and 65535 and different from Websocket port. Change this can breake some modules, be carrefull. (keeping this port open to the public is recommended)",
+                        "warn": "Use only numbers between 1 and 65535 for this answer."
+                    },
+                    "host": {
+                        "question": "HTTP Server host. Change this can breake some modules, be carrefull."
+                    }
+                },
+                "modules": {
+                    "debug": {
+                        "question": "Do you want enable Modules debug? (ALL Modules debug messages will be shown in console)",
+                        "warn": "Use only yes/no for this answer."
+                    }
+                }
+            },
+            "success": {
+                "configFileWritten": "Config file written in %s!",
+                "message": "Aruna Core has been successfully installed!"
+            }
+        }
+    },
+    "generic": {
+        "yes": "sim",
+        "no": "não",
+        "question": "question"
+    }
+}
