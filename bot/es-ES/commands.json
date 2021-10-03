@@ -518,25 +518,30 @@
     },
     "userinfo": {
         "embed": {
-            "field": {
-                "title": [
-                    "Informações do Usuário",
-                    "Informações do Membro"
-                ],
-                "description": [
-                    [
-                        "Nombre:",
-                        "Tag Completa:",
-                        "ID:",
-                        "Estado:",
-                        "Criou a Conta em:"
+            "error": {
+                "description": "Não foi possível encontrar o usuário %s.\n\nPossíveis Soluções:\n1 - Verifique o ID ou menção e tente novamente\n2 - Pode ser que eu não conheça o usuário, nesse caso, verifique se o mesmo se encontra nessa ou tem outra guild que eu participe."
+            },
+            "sucess": {
+                "field": {
+                    "title": [
+                        "Informações do Usuário",
+                        "Informações do Membro"
                     ],
-                    [
-                        "Apodo:",
-                        "Adm?: ",
-                        "Entrou Em:"
+                    "description": [
+                        [
+                            "Nome:",
+                            "Tag Completa:",
+                            "ID:",
+                            "Status:",
+                            "Criou a Conta em:"
+                        ],
+                        [
+                            "Apelido:",
+                            "Adm?: ",
+                            "Entrou Em:"
+                        ]
                     ]
-                ]
+                }
             }
         },
         "strings": {
