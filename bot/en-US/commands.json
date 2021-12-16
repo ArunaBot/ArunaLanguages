@@ -454,9 +454,9 @@
             "%s% [----------] Nothing is impossible, just unlikely.",
             "%s% [█---------] Someday maybe. ",
             "%s% [██--------] Well, looking at this perspective...",
-            "%s% [███-------] Possível, é. Difícil? De fato.",
+            "%s% [███-------] Well, I guess it's possible. Hard? For sure.",
             "%s% [████------] At a galaxy not so far far away...",
-            "%s% [█████-----] Até que formariam um belo casal.",
+            "%s% [█████-----] They'd kinda be a good couple.",
             "%s% [██████----] This couple is close to being very good!",
             "%s% [███████---] A very good couple! Nobody could set them apart <3",
             "%s% [████████--] These two could already be married! 💍",
@@ -464,7 +464,7 @@
             "%s% [██████████] Perfect couple, not even death could do them part!💍"
         ],
         "config": {
-            "description": "\"Será que eu me dou bem com ele? Eu queria muito saber...\" Se você já se perguntou isso, esse é o comando perfeito pra testar a compatibilidade de vocês!"
+            "description": "\"I wonder if I'd do well with him? I'd like to know...\" If you ever asked yourself this question, this is the perfect command to test the compatibility between you two!"
         }
     },
     "support": {
@@ -560,7 +560,7 @@
                     "line1": "I'm sorry [username], but the command `[command]` is only available for my creator :(",
                     "line2": "Instead of trying to use this command, why don´t you use one my public ones? To see them, just use ` [prefix]help` :)"
                 },
-                "footer": "Você não possui permissão para executar essa ação"
+                "footer": "You don't have permission to perform this action"
             },
             "deprecated": {
                 "title": "🚫DEPRECATED FUNCTION🚫",
