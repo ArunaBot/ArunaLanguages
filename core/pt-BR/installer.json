@@ -100,13 +100,13 @@
             },
             "success": {
                 "configFileWritten": "Arquivo de configurações salvo em %s!",
-                "message": "Aruna Core has been successfully installed!"
+                "message": "O ArunaCore foi instalado com sucesso!"
             }
         }
     },
     "generic": {
         "yes": "sim",
         "no": "não",
-        "question": "question"
+        "question": "pergunta"
     }
 }
