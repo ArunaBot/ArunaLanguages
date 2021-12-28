@@ -1,4 +1,11 @@
 {
+    "antiInvite": {
+        "embed": {
+            "title": "Oops, %s",
+            "description": "Este servidor não permite o envio de convites.\n\nPor conta disso, sua mensagem foi apagada.",
+            "footer": "Algo deu errado, %s"
+        }
+    },
     "guild": {
         "create": "I entered the guild [guildName]! :)",
         "delete": "I was removed from the guild [guildName] :("
