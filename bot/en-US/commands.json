@@ -332,7 +332,11 @@
     "massRole": {
         "embed": {
             "sucess": {
-                "description": "The role `[roleName]` was applied to `[userSize]` users with sucess!"
+                "description": [
+                    "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!",
+                    "O cargo `[roleName]` foi aplicado para `[userSize] membros` com sucesso!",
+                    "O cargo `[roleName]` foi aplicado para `[userSize] bots` com sucesso!"
+                ]
             },
             "error": {
                 "description1": "You don´t have the `[manageRoles]` permission!",
