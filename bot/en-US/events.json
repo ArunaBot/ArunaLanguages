@@ -2,8 +2,8 @@
     "antiInvite": {
         "embed": {
             "title": "Oops, %s",
-            "description": "Este servidor não permite o envio de convites.\n\nPor conta disso, sua mensagem foi apagada.",
-            "footer": "Algo deu errado, %s"
+            "description": "This server doesn't allow sending invites.\n\nBecause of this, your message was deleted.",
+            "footer": "Something went wrong, %s"
         }
     },
     "guild": {
