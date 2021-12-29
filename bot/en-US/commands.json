@@ -333,9 +333,9 @@
         "embed": {
             "sucess": {
                 "description": [
-                    "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!",
-                    "O cargo `[roleName]` foi aplicado para `[userSize] membros` com sucesso!",
-                    "O cargo `[roleName]` foi aplicado para `[userSize] bots` com sucesso!"
+                    "The role `[roleName]` was applied to `[userSize] users` with sucess!",
+                    "The role `[roleName]` was applied to `[userSize] members` with sucess!",
+                    "The role `[roleName]` was applied to `[userSize] bots` with sucess!"
                 ]
             },
             "error": {
