@@ -200,6 +200,31 @@
             "description": "¿Estás jugando a un juego de rol y necesitas tirar 1d8? ¡Perfecto! Simplemente use este comando y todo estará resuelto."
         }
     },
+    "eval": {
+        "embed": {
+            "error": {
+                "description1": "Você precisa ser um dos meus `desenvolvedores` para usar esse comando!",
+                "description2": "Eu não entendi o que você quis dizer. Por favor, tente usar algo como ``%seval [CODE]``."
+            },
+            "sucess": {
+                "title": "Resultado do código:",
+                "fields": [
+                    {
+                        "name": "(%s) Entrada"
+                    },
+                    {
+                        "name": "(%s) Saída"
+                    }
+                ]
+            }
+        },
+        "generic": {
+            "censor": "Erro! Você não pode exibir essa informação!"
+        },
+        "config": {
+            "description": "Precisa testar algo em meu código? Você está no lugar certo!"
+        }
+    },
     "flip": {
         "heads": "Cara!",
         "tails": "Cruz!",
