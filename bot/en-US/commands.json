@@ -203,26 +203,26 @@
     "eval": {
         "embed": {
             "error": {
-                "description1": "Você precisa ser um dos meus `desenvolvedores` para usar esse comando!",
-                "description2": "Eu não entendi o que você quis dizer. Por favor, tente usar algo como ``%seval [CODE]``."
+                "description1": "You must be one of my `developers` to use this command!",
+                "description2": "I don't understand what do you mean. Please try use something like ``%seval [CODE]``."
             },
             "sucess": {
-                "title": "Resultado do código:",
+                "title": "Code Results:",
                 "fields": [
                     {
-                        "name": "(%s) Entrada"
+                        "name": "(%s) Input"
                     },
                     {
-                        "name": "(%s) Saída"
+                        "name": "(%s) Output"
                     }
                 ]
             }
         },
         "generic": {
-            "censor": "Erro! Você não pode exibir essa informação!"
+            "censor": "Error! You can't show this information!"
         },
         "config": {
-            "description": "Precisa testar algo em meu código? Você está no lugar certo!"
+            "description": "Needs to testing something in my code? You are in the right place!"
         }
     },
     "flip": {
