@@ -200,6 +200,31 @@
             "description": "Está jogando RPG e precisa girar 1d8? Perfeito! Basta usar esse comando que tudo está resolvido."
         }
     },
+    "eval": {
+        "embed": {
+            "error": {
+                "description1": "Você precisa ser um dos meus `desenvolvedores` para usar esse comando!",
+                "description2": "Eu não entendi o que você quis dizer. Por favor, tente usar algo como ``%seval [CODE]``."
+            },
+            "sucess": {
+                "title": "Resultado do código:",
+                "fields": [
+                    {
+                        "name": "(%s) Entrada"
+                    },
+                    {
+                        "name": "(%s) Saída"
+                    }
+                ]
+            }
+        },
+        "generic": {
+            "censor": "Erro! Você não pode exibir essa informação!"
+        },
+        "config": {
+            "description": "Precisa testar algo em meu código? Você está no lugar certo!"
+        }
+    },
     "flip": {
         "heads": "Yata!",
         "tails": "Yotôa!",
@@ -307,7 +332,11 @@
     "massRole": {
         "embed": {
             "sucess": {
-                "description": "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!"
+                "description": [
+                    "O cargo `[roleName]` foi aplicado para `[userSize] usuários` com sucesso!",
+                    "O cargo `[roleName]` foi aplicado para `[userSize] membros` com sucesso!",
+                    "O cargo `[roleName]` foi aplicado para `[userSize] bots` com sucesso!"
+                ]
             },
             "error": {
                 "description1": "Você não possui a permissão de `[manageRoles]`!",

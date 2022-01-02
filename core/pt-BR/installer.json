@@ -10,7 +10,7 @@
                 "noQuestion": "Nenhuma pergunta foi escrita para o usuario!"
             },
             "messages": {
-                "result": "Your Input"
+                "result": "Sua Entrada"
             }
         },
         "git": {
@@ -20,7 +20,7 @@
         },
         "loadConfig": {
             "error": {
-                "noPath": "No valid path has been provide to load the configuration from!"
+                "noPath": "Nenhum caminho válido foi provido para carregar as configurações!"
             }
         },
         "start": {
@@ -30,8 +30,8 @@
                     "folder": "A pasta Config não existe!"
                 },
                 "fatal": {
-                    "invalidQuestionNumber": "Expected %s questions, but only had %s. The installer will terminate, please contact the creator of ArunaCore to check the error.",
-                    "writeConfigFile": "Failed to write config file in %s!\nError: %s"
+                    "invalidQuestionNumber": "Experadas %s perguntas, mas existem apenas %s. O instalador será encerrado, por favor, contate o criador da ArunaCore para investigar o erro.",
+                    "writeConfigFile": "Falha ao escrever o arquivo de configurações em %s!\nErro: %s"
                 }
             },
             "config": {
@@ -43,49 +43,49 @@
                 "OSLanguage": "Linguagem do SO",
                 "version": "Versão da Aruna Core",
                 "installerVersion": "Versão do Instalador",
-                "generating": "Generating ArunaCore Configs..."
+                "generating": "Gerando Configurações da ArunaCore..."
             },
             "questions": {
                 "arunacore": {
                     "debug": {
-                        "question": "Do you want enable ArunaCore debug? (ArunaCore debug messages will be shown in console)",
-                        "warn": "Use only yes/no for this answer."
+                        "question": "Deseja ativar o debug do ArunaCore? (Debugs do ArunaCore serão exibidos no console)",
+                        "warn": "Use apenas sim/não para essa pergunta."
                     },
                     "prefix": {
-                        "question": "Prefix for ArunaCore. Change this can breake some modules, be carrefull."
+                        "question": "Prefixo para o ArunaCore. Alterar pode quebrar alguns módulos, tenha cuidado."
                     }
                 },
                 "websocket": {
                     "debug": {
-                        "question": "Do you want enable Internal Websocket debug? (Websocket debug messages will be shown in console)",
-                        "warn": "Use only yes/no for this answer."
+                        "question": "Deseja ativar o debug do WebSocket interno? (Mensagens de debug do WebSocket serão exibidas no console)",
+                        "warn": "Use apenas sim/não para essa pergunta."
                     },
                     "prefix": {
-                        "question": "Prefix for Websocket. Change this can breake some modules, be carrefull."
+                        "question": "Prefixo para o WebSocket. Alterar pode quebrar alguns módulos, tenha cuidado."
                     },
                     "port": {
-                        "question": "Websocket port. This value need to be something between 1 and 65535. Change this can breake some modules, be carrefull. (Keep this port PRIVATE!)",
-                        "warn": "Use only numbers between 1 and 65535 for this answer."
+                        "question": "Porta do WebSocket. Esse valor precisa ser um número entre 1 e 65535. Alterar pode quebrar alguns módulos, tenha cuidado. (Mantenha essa porta PRIVADA!)",
+                        "warn": "Use apenas números inteiros entre 1 e 65535 para essa resposta."
                     },
                     "host": {
-                        "question": "Websocket host. Change this can breake some modules, be carrefull."
+                        "question": "Host do WebSocket. Alterar isso pode quebrar alguns módulos, tenha cuidado."
                     }
                 },
                 "http": {
                     "enable": {
-                        "question": "Do you want enable Native HTTP Server?",
-                        "warn": "Use only yes/no for this answer."
+                        "question": "Deseja ativar o Servidor HTTP nativo?",
+                        "warn": "Use apenas sim/não para essa pergunta."
                     },
                     "debug": {
                         "question": "Do you want enable HTTP Server debug? (HTTP Server debug messages will be shown in console)",
-                        "warn": "Use only yes/no for this answer."
+                        "warn": "Use apenas sim/não para essa pergunta."
                     },
                     "prefix": {
                         "question": "Prefix for HTTP Server. Change this can breake some modules, be carrefull."
                     },
                     "port": {
                         "question": "HTTP Server port. This value need to be something between 1 and 65535 and different from Websocket port. Change this can breake some modules, be carrefull. (keeping this port open to the public is recommended)",
-                        "warn": "Use only numbers between 1 and 65535 for this answer."
+                        "warn": "Use apenas números inteiros entre 1 e 65535 para essa resposta."
                     },
                     "host": {
                         "question": "HTTP Server host. Change this can breake some modules, be carrefull."
@@ -94,19 +94,19 @@
                 "modules": {
                     "debug": {
                         "question": "Do you want enable Modules debug? (ALL Modules debug messages will be shown in console)",
-                        "warn": "Use only yes/no for this answer."
+                        "warn": "Use apenas sim/não para essa pergunta."
                     }
                 }
             },
             "success": {
-                "configFileWritten": "Config file written in %s!",
-                "message": "Aruna Core has been successfully installed!"
+                "configFileWritten": "Arquivo de configurações salvo em %s!",
+                "message": "O ArunaCore foi instalado com sucesso!"
             }
         }
     },
     "generic": {
         "yes": "sim",
         "no": "não",
-        "question": "question"
+        "question": "pergunta"
     }
 }
