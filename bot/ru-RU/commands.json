@@ -513,6 +513,19 @@
             "description": "Parece que você precisa falar com meu criador. Se sim, use esse comando para entrar em meu servidor de suporte!"
         }
     },
+    "tts": {
+        "embed": {
+            "error": {
+                "description": "Sua mensagem deve ter entre 1 e 255 caracteres. Atualmente ela tem %s caracteres."
+            },
+            "success": {
+                "description": "Aqui está sua mensagem em voz alta! Espero que você goste :)"
+            }
+        },
+        "config": {
+            "description": "Gostaria de converter texto em fala? Faça isso de forma rápida e fácil!"
+        }
+    },
     "unban": {
         "embed": {
             "error": {

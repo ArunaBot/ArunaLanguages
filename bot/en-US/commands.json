@@ -513,6 +513,19 @@
             "description": "It seems that you need to speak with my creator. If that´s the case, use this command to enter on my support guild!"
         }
     },
+    "tts": {
+        "embed": {
+            "error": {
+                "description": "Your message must have between 1 and 255 characters. Right now, it has %s characters."
+            },
+            "success": {
+                "description": "Here's your message in text to speech! I hope you like it :)"
+            }
+        },
+        "config": {
+            "description": "Would you like to convert text in to speech? Do that in a fast and easy way!"
+        }
+    },
     "unban": {
         "embed": {
             "error": {
@@ -548,7 +561,7 @@
     "userinfo": {
         "embed": {
             "error": {
-                "description": "Não foi possível encontrar o usuário %s.\n\nPossíveis Soluções:\n1 - Verifique o ID ou menção e tente novamente\n2 - Pode ser que eu não conheça o usuário, nesse caso, verifique se o mesmo se encontra nessa ou em outra guild que eu participe."
+                "description": "Unable to find the user %s.\n\nPossible Solutions:\n1 - Check the ID or the mention and try again.\n2 - It could be that I don't recognize the user, in this case, check if the same is found on this or another guild that I'm in too."
             },
             "sucess": {
                 "field": {

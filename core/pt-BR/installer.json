@@ -77,23 +77,23 @@
                         "warn": "Use apenas sim/não para essa pergunta."
                     },
                     "debug": {
-                        "question": "Do you want enable HTTP Server debug? (HTTP Server debug messages will be shown in console)",
+                        "question": "Deseja ativar o debug do Servidor HTTP? (Debugs do Servidor HTTP serão exibidos no console)",
                         "warn": "Use apenas sim/não para essa pergunta."
                     },
                     "prefix": {
-                        "question": "Prefix for HTTP Server. Change this can breake some modules, be carrefull."
+                        "question": "Prefixo para o Servidor HTTP. Isso pode quebrar alguns módulos, tenha cuidado."
                     },
                     "port": {
-                        "question": "HTTP Server port. This value need to be something between 1 and 65535 and different from Websocket port. Change this can breake some modules, be carrefull. (keeping this port open to the public is recommended)",
+                        "question": "Porta do Servidor HTTP. Esse valor precisa ser um número entre 1 e 65535 e deve ser diferente da porta do WebSocket. Alterar pode quebrar alguns módulos, tenha cuidado. (Manter esta porta aberta é recomendado)",
                         "warn": "Use apenas números inteiros entre 1 e 65535 para essa resposta."
                     },
                     "host": {
-                        "question": "HTTP Server host. Change this can breake some modules, be carrefull."
+                        "question": "Host do Servidor HTTP. Alterar isso pode quebrar alguns módulos, tenha cuidado."
                     }
                 },
                 "modules": {
                     "debug": {
-                        "question": "Do you want enable Modules debug? (ALL Modules debug messages will be shown in console)",
+                        "question": "Deseja ativar o debug dos Módulos? (Debugs de TODOS os Módulos serão exibidos no console)",
                         "warn": "Use apenas sim/não para essa pergunta."
                     }
                 }
