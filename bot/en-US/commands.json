@@ -516,14 +516,14 @@
     "tts": {
         "embed": {
             "error": {
-                "description": "Sua mensagem deve ter entre 1 e 255 caracteres. Atualmente ela tem %s caracteres."
+                "description": "Your message must have between 1 and 255 characters. Right now, it has %s characters."
             },
             "success": {
-                "description": "Aqui está sua mensagem em voz alta! Espero que você goste :)"
+                "description": "Here's your message in text to speech! I hope you like it :)"
             }
         },
         "config": {
-            "description": "Gostaria de converter texto em fala? Faça isso de forma rápida e fácil!"
+            "description": "Would you like to convert text in to speech? Do that in a fast and easy way!"
         }
     },
     "unban": {
