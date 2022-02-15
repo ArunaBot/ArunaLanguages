@@ -561,7 +561,7 @@
     "userinfo": {
         "embed": {
             "error": {
-                "description": "Não foi possível encontrar o usuário %s.\n\nPossíveis Soluções:\n1 - Verifique o ID ou menção e tente novamente\n2 - Pode ser que eu não conheça o usuário, nesse caso, verifique se o mesmo se encontra nessa ou em outra guild que eu participe."
+                "description": "Unable to find the user %s.\n\nPossible Solutions:\n1 - Check the ID or the mention and try again.\n2 - It could be that I don't recognize the user, in this case, check if the same is found on this or another guild that I'm in too."
             },
             "sucess": {
                 "field": {
